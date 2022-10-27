@@ -68,6 +68,7 @@ footer a{
 footer .container .row>div{
 	margin-bottom: 0.8rem;
 }
+
 .cdt-filter__block .filter .form-check a>input,.cdt-filter__block .filter .form-check a>label{
 	cursor: pointer;
 }
