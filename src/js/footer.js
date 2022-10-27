@@ -1,0 +1,116 @@
+const footer =document.querySelector("footer#footer");
+footer.innerHTML =
+        `
+        <footer class="p-3 d-none d-sm-block " style="border-top: 1px solid #e2e2e2;">
+	<div class="container">
+		<div class="row row-md">
+			<div class="col-xl-7">
+				<div class="row row-md">
+					<div class="col-xl-4">
+						<a href="#" title="">Chính sách bảo mật</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Quy chế hoạt động</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Kiểm tra hóa đơn điện tử</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Tra cứu thông tin bảo hành</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Tin tuyển dụng</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Tin khuyến mãi</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Hướng dẫn mua online</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Hướng dẫn mua trả góp</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Chính sách trả góp</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Hệ thống cửa hàng</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Hệ thống bảo hành</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Giới thiệu máy đổi trả</a>
+					</div>
+					<div class="col-xl-4">
+						<a href="#" title="">Chính sách đổi trả</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-5">
+				<div class="row row-md">
+					<div class="col-xl-6">
+						<a href="#" title="">Tư vấn mua hàng (Miễn phí)
+							<br>
+							<span>18006601</span>
+						</a>
+					</div>
+					<div class="col-xl-6">
+						<a href="#" title="">
+							Góp ý , khiếu nại dịch vụ(8h00 - 22h00)
+							<br>
+							<span>18006616</span>
+						</a>
+					</div>
+					<div class="col-xl-5">
+						<a href="#" title="">
+							Hỗ trợ thanh toán :
+							<br>
+							<img src="/src/vendor/images/company.PNG" alt="">
+						</a>
+					</div>
+					<div class="col-xl-7">
+						<a href="#" title="">
+							Chứng nhận :
+							<br>
+							<img src="/src/vendor/images/notification1.PNG" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer><!--footer desktop-->
+<div class="footer-mobile d-block d-sm-none">
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+				<td>
+					<a href="#" title="" class="text-dark">Tư vấn mua hàng</a>
+					<div>
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						1800 6601
+					</div>
+				</td>
+				<td>
+					<a href="#" title="" class="text-dark">Góp ý khiếu nại</a>
+					<div>
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						1800 6616
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="#" title="" class="text-dark">Thông tin khác</a>
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+				</td>
+				<td>
+					<a href="#" title="" class="text-dark">Cửa hàng FPT Shop</a>
+					<i class="fa fa-chevron-right" aria-hidden="true"></i>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div><!--end footer mobile-->
+        `
