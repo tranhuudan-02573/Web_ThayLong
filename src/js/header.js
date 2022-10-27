@@ -1,7 +1,6 @@
 const header =document.querySelector("header#header");
 header.innerHTML =
      `
-     <header>
 		<div class="d-head">
 			<div class="head-top bg-danger">
 				<div class="container">
@@ -342,7 +341,5 @@ header.innerHTML =
 			<!--end head-menu-->
 		</div>
 		<!--end d-head-->
-		<div class="m-head d-block d-sm-none"></div>
 		<!--end m-head-->
-	</header>
      `
