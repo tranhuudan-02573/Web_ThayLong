@@ -55,4 +55,15 @@ a{
 .owl-nav .owl-prev img{
 	transform: rotate(180deg);
 }
-
+.hvr-grow_color:hover>a {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #dc3545 !important;
+}
+footer a{
+	color: #000000;
+	font-size: 1rem !important;
+}
+footer .container .row>div{
+	margin-bottom: 0.8rem;
+}
