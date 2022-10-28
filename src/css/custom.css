@@ -89,12 +89,11 @@ footer .container .row>div {
 	margin-bottom: 0.8rem;
 }
 
-.cdt-filter__block .filter .form-check a>input,
-.cdt-filter__block .filter .form-check a>label {
+
+.cdt-filter__block .filter .form-check a>input,.cdt-filter__block .filter .form-check a>label{
 	cursor: pointer;
 }
-
-.style-product label {
+.style-product label{
 	cursor: pointer;
 	font-size: 0.8rem;
 	font-weight: 600;
@@ -119,3 +118,4 @@ footer#footer a {
 	background-color: #dc3545 !important;
 	color: white !important;
 }
+
