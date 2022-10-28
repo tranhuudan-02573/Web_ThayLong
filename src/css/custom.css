@@ -2,69 +2,120 @@
 	margin-right: -0.25rem;
 	margin-left: -0.25rem;
 }
-.row-sm > .col,
-.row-sm > [class*="col-"] {
+
+.row-sm>.col,
+.row-sm>[class*="col-"] {
 	padding-right: 0.25rem;
-	padding-left:0.25rem;
+	padding-left: 0.25rem;
 }
-.row-nm{
+
+.row-nm {
 	margin-right: -0.5rem;
 	margin-left: -0.5rem;
 }
-.row-nm> .col,
-.row-nm> [class*="col-"] {
+
+.row-nm>.col,
+.row-nm>[class*="col-"] {
 	padding-right: 0.5rem;
-	padding-left:0.5rem;
+	padding-left: 0.5rem;
 }
-.row-md{
+
+.row-md {
 	margin-right: 0.05rem;
-	margin-left:  0.05rem;
+	margin-left: 0.05rem;
 }
-.row-md> .col,
-.row-md> [class*="col-"] {
-	padding-right:  0.05rem;
+
+.row-md>.col,
+.row-md>[class*="col-"] {
+	padding-right: 0.05rem;
 	padding-left: 0.05rem;
 }
-.row-mdd{
+
+.row-mdd {
 	margin-right: 0rem;
-	margin-left:  0rem;
+	margin-left: 0rem;
 }
-.row-mdd> .col,
-.row-mdd> [class*="col-"] {
-	padding-right:  0rem;
+
+.row-mdd>.col,
+.row-mdd>[class*="col-"] {
+	padding-right: 0rem;
 	padding-left: 0rem;
 }
-.fa-star,.fa-star-half-o{
+
+.fa-star,
+.fa-star-half-o {
 	color: #ff7500;
 }
-a{
+
+a {
 	text-decoration: none !important;
 }
-.owl-nav .owl-prev{
+
+.owl-nav .owl-prev {
 	position: absolute;
 	top: 31%;
 	left: -15px;
 
 }
-.owl-nav .owl-next{
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+	background: unset;
+	color: black;
+}
+
+.owl-nav .owl-next {
 	position: absolute;
 	top: 31%;
 	right: -15px;
 
 }
-.owl-nav .owl-prev img{
+
+.owl-nav .owl-prev img {
 	transform: rotate(180deg);
 }
 
 .hvr-grow_color:hover>a {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #dc3545 !important;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	color: #dc3545 !important;
 }
-footer a{
+
+footer a {
 	color: #000000;
 	font-size: 1rem !important;
 }
-footer .container .row>div{
+
+footer .container .row>div {
 	margin-bottom: 0.8rem;
+}
+
+.cdt-filter__block .filter .form-check a>input,
+.cdt-filter__block .filter .form-check a>label {
+	cursor: pointer;
+}
+
+.style-product label {
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-weight: 600;
+
+}
+
+.owl-carousel.owl-drag .owl-item {
+	padding: 15px !important;
+	width: 292px !important;
+	margin-right: 0 !important;
+}
+
+.container {
+	max-width: 1320px;
+}
+
+footer#footer a {
+	color: #dc3545 !important;
+}
+
+.pills-primary .nav-link.active {
+	background-color: #dc3545 !important;
+	color: white !important;
 }
