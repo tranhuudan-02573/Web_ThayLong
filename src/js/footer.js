@@ -1,7 +1,6 @@
 const footer =document.querySelector("footer#footer");
 footer.innerHTML =
         `
-        <footer class="p-3 d-none d-sm-block " style="border-top: 1px solid #e2e2e2;">
 	<div class="container">
 		<div class="row row-md">
 			<div class="col-xl-7">
@@ -80,7 +79,6 @@ footer.innerHTML =
 			</div>
 		</div>
 	</div>
-</footer><!--footer desktop-->
 <div class="footer-mobile d-block d-sm-none">
 	<table class="table table-bordered">
 		<tbody>
