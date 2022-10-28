@@ -5,14 +5,14 @@
 	<title>Document</title>
 
 
-
+<!-- <link rel="stylesheet" href="/src/vendor/resources/md5/css/mdb.min.css"> -->
 		<link rel="stylesheet" href="/src/vendor/resources/md4/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/src/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="/src/vendor/resources/fa6/fontawesome-free-6.2.0-web/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="/src/css/owl.theme.default.min.css">
 	<link rel="stylesheet" type="text/css" href="/src/css/hover-min.css">
 			<link rel="stylesheet" href="/src/vendor/resources/md4/css/mdb.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="/src/css/style.css">
 	<link rel="stylesheet" type="text/css" href="/src/css/custom.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
@@ -26,85 +26,95 @@
 .catetitle h2 a {
 	color: #2e2e2e;
 }
+.carousel-indicators li{
+	opacity: 1	 !important;
+}
+.carousel-indicators .active{
+	font-weight: bold;
+}
+.carousel-indicators{
+	bottom: -0%;
+}
 
 </style>
 <body>
+
 <header id="header"></header>
-	<div class="homecontent mt-2 bg-light">
+	<div class="homecontent bg-white">
 		<div class="container">
-			<section class="homeslider">
-				<div class="row row-sm">
+			<section class="homeslider py-5">
+				<div class="row row-sm h-100 p-1" >
 					<div class="col-xl-8 col-lg-8 col-md-7">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img src="/src/vendor/images/anh1.png" alt="" class="img-fluid">
+									<img src="/src/vendor/images/anh1.png" alt="" class="img-fluid w-100">
 								</div>
 								<div class="carousel-item">
-									<img src="/src/vendor/images/anh2.png" alt="" class="img-fluid">
+									<img src="/src/vendor/images/anh2.png" alt="" class="img-fluid w-100">
 								</div>
 								<div class="carousel-item">
-									<img src="/src/vendor/images/anh3.png" alt="" class="img-fluid">
+									<img src="/src/vendor/images/anh3.png" alt="" class="img-fluid w-100">
 								</div>
 								<div class="carousel-item">
-									<img src="/src/vendor/images/anh4.jpg" alt="" class="img-fluid">
+									<img src="/src/vendor/images/anh4.jpg" alt="" class="img-fluid w-100">
 								</div>
 								<div class="carousel-item">
-									<img src="/src/vendor/images/anh5.jpg" alt="" class="img-fluid">
+									<img src="/src/vendor/images/anh5.jpg" alt="" class="img-fluid w-100">
 								</div>
 								<div class="carousel-item">
-									<img src="/src/vendor/images/anh6.png" alt="" class="img-fluid">
+									<img src="/src/vendor/images/anh6.png" alt="" class="img-fluid w-100">
 								</div>
 							</div>
 							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<i class="fa-solid fa-circle-chevron-left fa-lg"></i>
 								<span class="sr-only">Previous</span>
 							</a>
 							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<i class="fa-solid fa-circle-chevron-right fa-lg"></i>
 								<span class="sr-only">Next</span>
 							</a>
 							<ol class="carousel-indicators m-0">
-								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active w-100 text-center">
-									<div class="d-none d-sm-block">
-										<br>
-										<span>Đặt gạch galaxy Note 10|10+</span>
-										<hr>
+								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active w-100  text-center" style="height: 0;">
+									<div class="d-block d-sm-block">
+<br>
+										<span >Đặt gạch galaxy Note 10|10+</span>
+										<hr class="m-0">
 									</div>
 								</li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="1" class=" w-100 text-center">
+								<li data-target="#carouselExampleIndicators" data-slide-to="1" class=" w-100  text-center" style="height: 0;">
 									<div class="d-none d-sm-block">
 										<br>
 										<span>Xiaomi bộ đôi độc quyền</span>
-										<hr>
+										<hr class="m-0">
 									</div>
 								</li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="2" class=" w-100 text-center">
+								<li data-target="#carouselExampleIndicators" data-slide-to="2" class=" w-100 text-center"style="height: 0;">
 									<div class="d-none d-sm-block">
 										<br>
 										<span>Điểm cao thưởng lớn</span>
-										<hr>
+										<hr class="m-0">
 									</div>
 								</li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="3" class=" w-100 text-center">
+								<li data-target="#carouselExampleIndicators" data-slide-to="3" class=" w-100 text-center"style="height: 0;">
 									<div class="d-none d-sm-block">
 										<br>
 										<span>Toàn bộ iPhone trả góp 0%</span>
-										<hr>
+										<hr class="m-0">
 									</div>
 								</li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="4" class=" w-100 text-center">
+								<li data-target="#carouselExampleIndicators" data-slide-to="4" class=" w-100 text-center"style="height: 0;">
 									<div class="d-none d-sm-block">
 										<br>
 										<span>Oppo F11 Pro 128GB quà hot</span>
-										<hr>
+										<hr class="m-0">
 									</div>
 								</li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="5" class=" w-100 text-center">
+								<li data-target="#carouselExampleIndicators" data-slide-to="5" class=" w-100 text-center"style="height: 0;">
 									<div class="d-none d-sm-block">
 										<br>
 										<span>Mua Vsmart Live quà khủng</span>
-										<hr>
+										<hr class="m-0">
 									</div>
 								</li>
 							</ol>
@@ -112,21 +122,26 @@
 					</div>
 					<div class="col-xl-4 col-lg-4 col-md-5 d-none d-sm-block">
 						<div class="homeslider-right">
-							<a href="#" title=""><img src="/src/vendor/images/anh7.jpg" alt="" class="img-fluid"></a>
-							<a href="#" title=""><img src="/src/vendor/images/anh8.png" alt="" class="mt-3 img-fluid"></a>
-							<div class="news shadow-sm bg-white rounded mt-2 px-3 pt-2">
-								<h2>Tin công nghệ nổi bật<a href="#" title="" class="pull-right">Xem tất cả</a></h2>
-								<ul class="list-unstyled">
-									<li class="media">
-										<img src="/src/vendor/images/anh9.jpg" class="mr-3" alt="...">
-										<div class="media-body">
+							<a href="#" title=""><img src="/src/vendor/images/anh7.jpg" alt="" class="img-fluid w-100"></a>
+							<a href="#" title=""><img src="/src/vendor/images/anh8.png" alt="" class="pt-1 img-fluid w-100"></a>
+							<div class="news pt-1">
+								<div class="d-flex justify-content-between align-items-center"><span class="text-uppercase fw-bold">news</span> <a href="" class="text-danger">xem them</a></div>
+								<ul class="list-unstyled m-0">
+									<li class="media justify-content-center align-items-center  pb-1 ">
+										<div class="bg-white mr-3 h-100">
+										<img src="/src/vendor/images/anh9.jpg" class="" alt="...">
+										</div>
+										<div class="media-body  ">
 											Đánh giá Galaxy Note 10+: Đẳng cấp “át chủ bài” của Samsung .
 										</div>
 									</li>
-									<li>
-										<hr>
+									<li class="media justify-content-center align-items-center pt-1 border-top border-danger pb-1">
+										<img src="/src/vendor/images/anh10.jpg" class="mr-3" alt="...">
+										<div class="media-body">
+											Tech Offline: Khám phá siêu phẩm Samsung Galaxy Note 10 | Note 10+ cùng
+										</div>
 									</li>
-									<li class="media my-2">
+									<li class="media justify-content-center align-items-center pt-1 border-top border-danger ">
 										<img src="/src/vendor/images/anh10.jpg" class="mr-3" alt="...">
 										<div class="media-body">
 											Tech Offline: Khám phá siêu phẩm Samsung Galaxy Note 10 | Note 10+ cùng
@@ -140,7 +155,7 @@
 			</section>
 			<!--end slider-->
 			<div class="homeads my-2">
-				<a href=""><img src="/src/vendor/images/Vui tuu truong.png" class="img-fluid"></a>
+				<a href=""><img src="/src/vendor/images/Vui tuu truong.png" class="img-fluid w-100"></a>
 			</div>
 			<section class="homesale">
 				<div class="catetitle">
@@ -1067,383 +1082,929 @@
 			</section><!--end news-->
 			<section class="homecate d-none d-sm-block">
 				<div class="catetitle">
-					<h2><a href="" >Laptop bán chạy</a></h2>
+					<h2><a href="" >điện thoại bán chạy</a></h2>
 				</div>
 				<div class="catebody">
-					<div class="row row-sm">
-						<div class="col-sm-4">
-							<div class="card">
-								<div class="card-body">
-									<h3 class="card-title"><a href="#" class="text-dark">Samsung Galaxy A80</a></h3>
-									<p class="card-text">
-										14.990.000₫
-									</p>
-									<div class="media">
-										<div class="media-body">
-											<ul class="nav flex-column">
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item mt-3">
-													<a class="nav-link text-white bg-danger rounded-pill text-center sales-pro" href="#" >
-														Khuyến mại
-													</a>
-												</li>
-											</ul>
+					<div class="row row-cols-5">
+						<div class="col border">
+
+											<div class="card-product d-block overflow-hidden  ">
+									<style>
+										.card-product {
+											width: 250px;
+											padding: 10px 15px 20px;
+										}
+
+										p {
+											margin: 0;
+
+										}
+
+										.quote::before {
+											content: '●';
+											margin-right: 2px;
+											left: 0;
+											top: 0;
+											color: #333;
+											font-size: 10px;
+										}
+
+									</style>
+									<div class="d-flex flex-column h-100 w-100  ">
+
+										<div class=" align-items-start">
+											<span class="badge badge-light mr-1">Trả góp 0%</span>
 										</div>
-										<a href="#" title="">
-											<img src="/src/vendor/images/lap9.jpg" class="" alt="...">
-										</a>
+
+										<div class="align-items-start cart-content  h-100">
+											<div class="my-2 d-block overflow-hidden item"><img
+													class="object-cover mw-100"
+													src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+													alt="" /></div>
+											<h3 class="text-ellipsis product-title overflow-hidden  mb-1 fw-normal  text-break " style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;font-size: 14px;">
+                                                iPhone 14 Pro Max 256GB Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iste, maiores.
+                                            </h3>
+
+
+
+											<div class="mb-1">
+												<span class="mr-2 badge badge-light">6.7 incheslor
+												</span>
+
+												<span class="mr-2 badge badge-light">128 GB</span>
+											</div>
+
+											<div class="mb-1">
+												<p class=" d-inline-block text-decoration-line-through price-old">
+													40.000.000đ</p>
+												<span class="d-inline-block price-new">-25%</span>
+											</div>
+											<strong class="fw-bold d-block mb-1">38.990.000đ</strong>
+
+											<div class=" mb-1 d-flex flex-end">
+												<p class=" text-warning " style="font-size: 12px;">
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class="fa-solid fa-star-half-stroke "></i>
+													<i class="fa-regular fa-star "></i>
+												</p>
+												<p class="ms-1 fw-light d-inline-block align-middle "
+													style="font-size: 12px;">54</p>
+											</div>
+
+										</div>
+										<div class="mt-2  d-flex justify-content-between w-100 align-items-end">
+											<a href="" class=" d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
+											</a>
+
+											<a href="" class="d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-heart fa-sm"></i> yêu thích
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
+
 						</div>
-						<div class="col-sm-4">
-							<div class="card">
-								<div class="card-body">
-									<h3 class="card-title"><a href="#" class="text-dark">Samsung Galaxy A80</a></h3>
-									<p class="card-text">
-										14.990.000₫
-									</p>
-									<div class="media">
-										<div class="media-body">
-											<ul class="nav flex-column">
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item mt-3">
-													<a class="nav-link text-white bg-danger rounded-pill text-center sales-pro" href="#" >
-														Khuyến mại
-													</a>
-												</li>
-											</ul>
+						<div class="col border">
+
+											<div class="card-product d-block overflow-hidden  ">
+									<style>
+										.card-product {
+											width: 250px;
+											padding: 10px 15px 20px;
+										}
+
+										p {
+											margin: 0;
+
+										}
+
+										.quote::before {
+											content: '●';
+											margin-right: 2px;
+											left: 0;
+											top: 0;
+											color: #333;
+											font-size: 10px;
+										}
+
+									</style>
+									<div class="d-flex flex-column h-100 w-100  ">
+
+										<div class=" align-items-start">
+											<span class="badge badge-light mr-1">Trả góp 0%</span>
 										</div>
-										<a href="#" title=""> <img src="/src/vendor/images/lap10.jpg" alt="..."></a>
+
+										<div class="align-items-start cart-content  h-100">
+											<div class="my-2 d-block overflow-hidden item"><img
+													class="object-cover mw-100"
+													src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+													alt="" /></div>
+											<h3 class="text-ellipsis product-title overflow-hidden  mb-1 fw-normal  text-break " style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;font-size: 14px;">
+                                                iPhone 14 Pro Max 256GB Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iste, maiores.
+                                            </h3>
+
+
+
+											<div class="mb-1">
+												<span class="mr-2 badge badge-light">6.7 incheslor
+												</span>
+
+												<span class="mr-2 badge badge-light">128 GB</span>
+											</div>
+
+											<div class="mb-1">
+												<p class=" d-inline-block text-decoration-line-through price-old">
+													40.000.000đ</p>
+												<span class="d-inline-block price-new">-25%</span>
+											</div>
+											<strong class="fw-bold d-block mb-1">38.990.000đ</strong>
+
+											<div class=" mb-1 d-flex flex-end">
+												<p class=" text-warning " style="font-size: 12px;">
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class="fa-solid fa-star-half-stroke "></i>
+													<i class="fa-regular fa-star "></i>
+												</p>
+												<p class="ms-1 fw-light d-inline-block align-middle "
+													style="font-size: 12px;">54</p>
+											</div>
+
+										</div>
+										<div class="mt-2  d-flex justify-content-between w-100 align-items-end">
+											<a href="" class=" d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
+											</a>
+
+											<a href="" class="d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-heart fa-sm"></i> yêu thích
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
+
 						</div>
-						<div class="col-sm-4">
-							<div class="card">
-								<div class="card-body">
-									<h3 class="card-title"><a href="#" class="text-dark">Samsung Galaxy A80</a></h3>
-									<p class="card-text">
-										14.990.000₫
-									</p>
-									<div class="media">
-										<div class="media-body">
-											<ul class="nav flex-column">
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item mt-3">
-													<a class="nav-link text-white bg-danger rounded-pill text-center sales-pro" href="#" >
-														Khuyến mại
-													</a>
-												</li>
-											</ul>
+						<div class="col border">
+
+											<div class="card-product d-block overflow-hidden  ">
+									<style>
+										.card-product {
+											width: 250px;
+											padding: 10px 15px 20px;
+										}
+
+										p {
+											margin: 0;
+
+										}
+
+										.quote::before {
+											content: '●';
+											margin-right: 2px;
+											left: 0;
+											top: 0;
+											color: #333;
+											font-size: 10px;
+										}
+
+									</style>
+									<div class="d-flex flex-column h-100 w-100  ">
+
+										<div class=" align-items-start">
+											<span class="badge badge-light mr-1">Trả góp 0%</span>
 										</div>
-										<a href="#" title=""> <img src="/src/vendor/images/lap10.jpg"  alt="..."></a>
+
+										<div class="align-items-start cart-content  h-100">
+											<div class="my-2 d-block overflow-hidden item"><img
+													class="object-cover mw-100"
+													src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+													alt="" /></div>
+											<h3 class="text-ellipsis product-title overflow-hidden  mb-1 fw-normal  text-break " style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;font-size: 14px;">
+                                                iPhone 14 Pro Max 256GB Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iste, maiores.
+                                            </h3>
+
+
+
+											<div class="mb-1">
+												<span class="mr-2 badge badge-light">6.7 incheslor
+												</span>
+
+												<span class="mr-2 badge badge-light">128 GB</span>
+											</div>
+
+											<div class="mb-1">
+												<p class=" d-inline-block text-decoration-line-through price-old">
+													40.000.000đ</p>
+												<span class="d-inline-block price-new">-25%</span>
+											</div>
+											<strong class="fw-bold d-block mb-1">38.990.000đ</strong>
+
+											<div class=" mb-1 d-flex flex-end">
+												<p class=" text-warning " style="font-size: 12px;">
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class="fa-solid fa-star-half-stroke "></i>
+													<i class="fa-regular fa-star "></i>
+												</p>
+												<p class="ms-1 fw-light d-inline-block align-middle "
+													style="font-size: 12px;">54</p>
+											</div>
+
+										</div>
+										<div class="mt-2  d-flex justify-content-between w-100 align-items-end">
+											<a href="" class=" d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
+											</a>
+
+											<a href="" class="d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-heart fa-sm"></i> yêu thích
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
+
 						</div>
-						<div class="col-sm-4 mt-2">
-							<div class="card">
-								<div class="card-body">
-									<h3 class="card-title"><a href="#" class="text-dark">Samsung Galaxy A80</a></h3>
-									<p class="card-text">
-										14.990.000₫
-									</p>
-									<div class="media">
-										<div class="media-body">
-											<ul class="nav flex-column">
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item mt-3">
-													<a class="nav-link text-white bg-danger rounded-pill text-center sales-pro" href="#" >
-														Khuyến mại
-													</a>
-												</li>
-											</ul>
+						<div class="col border">
+
+											<div class="card-product d-block overflow-hidden  ">
+									<style>
+										.card-product {
+											width: 250px;
+											padding: 10px 15px 20px;
+										}
+
+										p {
+											margin: 0;
+
+										}
+
+										.quote::before {
+											content: '●';
+											margin-right: 2px;
+											left: 0;
+											top: 0;
+											color: #333;
+											font-size: 10px;
+										}
+
+									</style>
+									<div class="d-flex flex-column h-100 w-100  ">
+
+										<div class=" align-items-start">
+											<span class="badge badge-light mr-1">Trả góp 0%</span>
 										</div>
-										<a href="#" title=""><img src="/src/vendor/images/lap9.jpg" alt="..."></a>
+
+										<div class="align-items-start cart-content  h-100">
+											<div class="my-2 d-block overflow-hidden item"><img
+													class="object-cover mw-100"
+													src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+													alt="" /></div>
+											<h3 class="text-ellipsis product-title overflow-hidden  mb-1 fw-normal  text-break " style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;font-size: 14px;">
+                                                iPhone 14 Pro Max 256GB Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iste, maiores.
+                                            </h3>
+
+
+
+											<div class="mb-1">
+												<span class="mr-2 badge badge-light">6.7 incheslor
+												</span>
+
+												<span class="mr-2 badge badge-light">128 GB</span>
+											</div>
+
+											<div class="mb-1">
+												<p class=" d-inline-block text-decoration-line-through price-old">
+													40.000.000đ</p>
+												<span class="d-inline-block price-new">-25%</span>
+											</div>
+											<strong class="fw-bold d-block mb-1">38.990.000đ</strong>
+
+											<div class=" mb-1 d-flex flex-end">
+												<p class=" text-warning " style="font-size: 12px;">
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class="fa-solid fa-star-half-stroke "></i>
+													<i class="fa-regular fa-star "></i>
+												</p>
+												<p class="ms-1 fw-light d-inline-block align-middle "
+													style="font-size: 12px;">54</p>
+											</div>
+
+										</div>
+										<div class="mt-2  d-flex justify-content-between w-100 align-items-end">
+											<a href="" class=" d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
+											</a>
+
+											<a href="" class="d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-heart fa-sm"></i> yêu thích
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
+
 						</div>
-						<div class="col-sm-4 mt-2">
-							<div class="card">
-								<div class="card-body">
-									<h3 class="card-title"><a href="#" class="text-dark">Samsung Galaxy A80</a></h3>
-									<p class="card-text">
-										14.990.000₫
-									</p>
-									<div class="media">
-										<div class="media-body">
-											<ul class="nav flex-column">
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item mt-3">
-													<a class="nav-link text-white bg-danger rounded-pill text-center sales-pro" href="#" >
-														Khuyến mại
-													</a>
-												</li>
-											</ul>
+						<div class="col border">
+
+											<div class="card-product d-block overflow-hidden  ">
+									<style>
+										.card-product {
+											width: 250px;
+											padding: 10px 15px 20px;
+										}
+
+										p {
+											margin: 0;
+
+										}
+
+										.quote::before {
+											content: '●';
+											margin-right: 2px;
+											left: 0;
+											top: 0;
+											color: #333;
+											font-size: 10px;
+										}
+
+									</style>
+									<div class="d-flex flex-column h-100 w-100  ">
+
+										<div class=" align-items-start">
+											<span class="badge badge-light mr-1">Trả góp 0%</span>
 										</div>
-										<a href="#" title=""><img src="/src/vendor/images/lap10.jpg" alt="..."></a>
+
+										<div class="align-items-start cart-content  h-100">
+											<div class="my-2 d-block overflow-hidden item"><img
+													class="object-cover mw-100"
+													src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+													alt="" /></div>
+											<h3 class="text-ellipsis product-title overflow-hidden  mb-1 fw-normal  text-break " style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;font-size: 14px;">
+                                                iPhone 14 Pro Max 256GB Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iste, maiores.
+                                            </h3>
+
+
+
+											<div class="mb-1">
+												<span class="mr-2 badge badge-light">6.7 incheslor
+												</span>
+
+												<span class="mr-2 badge badge-light">128 GB</span>
+											</div>
+
+											<div class="mb-1">
+												<p class=" d-inline-block text-decoration-line-through price-old">
+													40.000.000đ</p>
+												<span class="d-inline-block price-new">-25%</span>
+											</div>
+											<strong class="fw-bold d-block mb-1">38.990.000đ</strong>
+
+											<div class=" mb-1 d-flex flex-end">
+												<p class=" text-warning " style="font-size: 12px;">
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class="fa-solid fa-star-half-stroke "></i>
+													<i class="fa-regular fa-star "></i>
+												</p>
+												<p class="ms-1 fw-light d-inline-block align-middle "
+													style="font-size: 12px;">54</p>
+											</div>
+
+										</div>
+										<div class="mt-2  d-flex justify-content-between w-100 align-items-end">
+											<a href="" class=" d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
+											</a>
+
+											<a href="" class="d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-heart fa-sm"></i> yêu thích
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
+
 						</div>
-						<div class="col-sm-4 mt-2">
-							<div class="card">
-								<div class="card-body">
-									<h3 class="card-title"><a href="#" class="text-dark">Samsung Galaxy A80</a></h3>
-									<p class="card-text">
-										14.990.000₫
-									</p>
-									<div class="media">
-										<div class="media-body">
-											<ul class="nav flex-column">
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item">
-													<a class="" href="#">
-														<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-													Camera trượt xoay độc đáo</a>
-												</li>
-												<li class="nav-item mt-3">
-													<a class="nav-link text-white bg-danger rounded-pill text-center sales-pro" href="#" >
-														Khuyến mại
-													</a>
-												</li>
-											</ul>
+						<div class="col border">
+
+											<div class="card-product d-block overflow-hidden  ">
+									<style>
+										.card-product {
+											width: 250px;
+											padding: 10px 15px 20px;
+										}
+
+										p {
+											margin: 0;
+
+										}
+
+										.quote::before {
+											content: '●';
+											margin-right: 2px;
+											left: 0;
+											top: 0;
+											color: #333;
+											font-size: 10px;
+										}
+
+									</style>
+									<div class="d-flex flex-column h-100 w-100  ">
+
+										<div class=" align-items-start">
+											<span class="badge badge-light mr-1">Trả góp 0%</span>
 										</div>
-										<a href="#" title=""> <img src="/src/vendor/images/lap9.jpg" alt="..."></a>
+
+										<div class="align-items-start cart-content  h-100">
+											<div class="my-2 d-block overflow-hidden item"><img
+													class="object-cover mw-100"
+													src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+													alt="" /></div>
+											<h3 class="text-ellipsis product-title overflow-hidden  mb-1 fw-normal  text-break " style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;font-size: 14px;">
+                                                iPhone 14 Pro Max 256GB Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iste, maiores.
+                                            </h3>
+
+
+
+											<div class="mb-1">
+												<span class="mr-2 badge badge-light">6.7 incheslor
+												</span>
+
+												<span class="mr-2 badge badge-light">128 GB</span>
+											</div>
+
+											<div class="mb-1">
+												<p class=" d-inline-block text-decoration-line-through price-old">
+													40.000.000đ</p>
+												<span class="d-inline-block price-new">-25%</span>
+											</div>
+											<strong class="fw-bold d-block mb-1">38.990.000đ</strong>
+
+											<div class=" mb-1 d-flex flex-end">
+												<p class=" text-warning " style="font-size: 12px;">
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class="fa-solid fa-star-half-stroke "></i>
+													<i class="fa-regular fa-star "></i>
+												</p>
+												<p class="ms-1 fw-light d-inline-block align-middle "
+													style="font-size: 12px;">54</p>
+											</div>
+
+										</div>
+										<div class="mt-2  d-flex justify-content-between w-100 align-items-end">
+											<a href="" class=" d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
+											</a>
+
+											<a href="" class="d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-heart fa-sm"></i> yêu thích
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
+
 						</div>
+
 					</div>
 				</div>
 			</section>
 			<!--end section homecate-->
 			<section class="homeaccessories d-none d-sm-block mt-3">
 				<div class="category p-2" align="center">
-					<ul class="nav">
-						<li class="nav-item ">
-							<a class="nav-link active rounded-pill text-dark" href="#">Miếng dán màn hình</a>
+					<ul class="nav align-items-center">
+						<li class="nav-item  mr-2 mb-2">
+						<div class="chip m-0 bg-danger ">
+   <a href="" class="text-white" >John Doe</a>
+</div>
 						</li>
-						<li class="nav-item ">
-							<a class="nav-link rounded-pill text-dark" href="#">Bao da ốp lưng</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link rounded-pill text-dark" href="#">Sạc dự phòng</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link rounded-pill text-dark" href="#">Thẻ nhớ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link rounded-pill text-dark" href="#">Phụ kiện Apple</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link rounded-pill text-dark" href="#">Tai nghe</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link rounded-pill text-dark" href="#">Loa</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link rounded-pill text-dark" href="#">USB-ổ cứng</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link rounded-pill text-dark" href="#">Sạc cáp</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link rounded-pill text-dark" href="#">Chuột</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link rounded-pill text-dark"  href="#">Balo-túi xách</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link rounded-pill text-dark" href="#">TV-BOX</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link rounded-pill text-dark" href="#">Phụ kiện khác</a>
+
+						<li class="nav-item  mr-2  mb-2">
+						<div class="chip m-0 bg-danger ">
+   <a href="" class="text-white" >John Doe</a>
+</div>
 						</li>
 					</ul>
 				</div>
 				<!--end category-->
-				<div class="add-accessories">
+				<div class="add-accessories  	">
 					<ul class="nav">
-						<li class="nav-item">
-							<a class="active" href="#">
-								<div class="card border-0">
-									<img src="/src/vendor/images/accessories.jpg" class="img-fluid" alt="">
-									<div class="p-2">
-										<h3>
-											<a href="#" title="" class="text-dark">
-												Combo Loa
-												<h5>Bluetooth Karaoke</h5>
+						<li class="nav-item flex-fill border">
+										<div class="card-product d-block overflow-hidden  ">
+									<style>
+										.card-product {
+											width: 250px;
+											padding: 10px 15px 20px;
+										}
+
+										p {
+											margin: 0;
+
+										}
+
+										.quote::before {
+											content: '●';
+											margin-right: 2px;
+											left: 0;
+											top: 0;
+											color: #333;
+											font-size: 10px;
+										}
+
+									</style>
+									<div class="d-flex flex-column h-100 w-100  ">
+
+										<div class=" align-items-start">
+											<span class="badge badge-light mr-1">Trả góp 0%</span>
+										</div>
+
+										<div class="align-items-start cart-content  h-100">
+											<div class="my-2 d-block overflow-hidden item"><img
+													class="object-cover mw-100"
+													src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+													alt="" /></div>
+											<h3 class="text-ellipsis product-title overflow-hidden  mb-1 fw-normal  text-break " style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;font-size: 14px;">
+                                                iPhone 14 Pro Max 256GB Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iste, maiores.
+                                            </h3>
+
+
+
+											<div class="mb-1">
+												<span class="mr-2 badge badge-light">6.7 incheslor
+												</span>
+
+												<span class="mr-2 badge badge-light">128 GB</span>
+											</div>
+
+											<div class="mb-1">
+												<p class=" d-inline-block text-decoration-line-through price-old">
+													40.000.000đ</p>
+												<span class="d-inline-block price-new">-25%</span>
+											</div>
+											<strong class="fw-bold d-block mb-1">38.990.000đ</strong>
+
+											<div class=" mb-1 d-flex flex-end">
+												<p class=" text-warning " style="font-size: 12px;">
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class="fa-solid fa-star-half-stroke "></i>
+													<i class="fa-regular fa-star "></i>
+												</p>
+												<p class="ms-1 fw-light d-inline-block align-middle "
+													style="font-size: 12px;">54</p>
+											</div>
+
+										</div>
+										<div class="mt-2  d-flex justify-content-between align-items-end">
+											<a href="" class=" d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 											</a>
-										</h3>
-										<p class="card-text text-dark"><b>6.990.000đ</b></p>
+
+											<a href="" class="d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-heart fa-sm"></i> yêu thích
+											</a>
+										</div>
 									</div>
 								</div>
-							</a>
 						</li>
-						<li class="nav-item">
-							<a class="active" href="#" class="text-dark">
-								<div class="card border-0">
-									<img src="/src/vendor/images/access.jpg" class="img-fluid" alt="">
-									<div class="p-2">
-										<h3>
-											<a href="#" title="" class="text-dark">
-												Combo Loa
-												<h5>Bluetooth Karaoke</h5>
+
+						<li class="nav-item flex-fill border">
+										<div class="card-product d-block overflow-hidden  ">
+									<style>
+										.card-product {
+											width: 250px;
+											padding: 10px 15px 20px;
+										}
+
+										p {
+											margin: 0;
+
+										}
+
+										.quote::before {
+											content: '●';
+											margin-right: 2px;
+											left: 0;
+											top: 0;
+											color: #333;
+											font-size: 10px;
+										}
+
+									</style>
+									<div class="d-flex flex-column h-100 w-100  ">
+
+										<div class=" align-items-start">
+											<span class="badge badge-light mr-1">Trả góp 0%</span>
+										</div>
+
+										<div class="align-items-start cart-content  h-100">
+											<div class="my-2 d-block overflow-hidden item"><img
+													class="object-cover mw-100"
+													src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+													alt="" /></div>
+											<h3 class="text-ellipsis product-title overflow-hidden  mb-1 fw-normal  text-break " style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;font-size: 14px;">
+                                                iPhone 14 Pro Max 256GB Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iste, maiores.
+                                            </h3>
+
+
+
+											<div class="mb-1">
+												<span class="mr-2 badge badge-light">6.7 incheslor
+												</span>
+
+												<span class="mr-2 badge badge-light">128 GB</span>
+											</div>
+
+											<div class="mb-1">
+												<p class=" d-inline-block text-decoration-line-through price-old">
+													40.000.000đ</p>
+												<span class="d-inline-block price-new">-25%</span>
+											</div>
+											<strong class="fw-bold d-block mb-1">38.990.000đ</strong>
+
+											<div class=" mb-1 d-flex flex-end">
+												<p class=" text-warning " style="font-size: 12px;">
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class="fa-solid fa-star-half-stroke "></i>
+													<i class="fa-regular fa-star "></i>
+												</p>
+												<p class="ms-1 fw-light d-inline-block align-middle "
+													style="font-size: 12px;">54</p>
+											</div>
+
+										</div>
+										<div class="mt-2  d-flex justify-content-between align-items-end">
+											<a href="" class=" d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 											</a>
-										</h3>
-										<p class="card-text text-dark"><b>6.990.000đ</b></p>
+
+											<a href="" class="d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-heart fa-sm"></i> yêu thích
+											</a>
+										</div>
 									</div>
 								</div>
-							</a>
 						</li>
-						<li class="nav-item">
-							<a class="active" href="#" class="text-dark">
-								<div class="card border-0">
-									<img src="/src/vendor/images/accessories2.jpg" class="img-fluid" alt="">
-									<div class="p-2">
-										<h3>
-											<a href="#" title="" class="text-dark">
-												Combo Loa
-												<h5>Bluetooth Karaoke</h5>
+						<li class="nav-item flex-fill border">
+										<div class="card-product d-block overflow-hidden  ">
+									<style>
+										.card-product {
+											width: 250px;
+											padding: 10px 15px 20px;
+										}
+
+										p {
+											margin: 0;
+
+										}
+
+										.quote::before {
+											content: '●';
+											margin-right: 2px;
+											left: 0;
+											top: 0;
+											color: #333;
+											font-size: 10px;
+										}
+
+									</style>
+									<div class="d-flex flex-column h-100 w-100  ">
+
+										<div class=" align-items-start">
+											<span class="badge badge-light mr-1">Trả góp 0%</span>
+										</div>
+
+										<div class="align-items-start cart-content  h-100">
+											<div class="my-2 d-block overflow-hidden item"><img
+													class="object-cover mw-100"
+													src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+													alt="" /></div>
+											<h3 class="text-ellipsis product-title overflow-hidden  mb-1 fw-normal  text-break " style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;font-size: 14px;">
+                                                iPhone 14 Pro Max 256GB Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iste, maiores.
+                                            </h3>
+
+
+
+											<div class="mb-1">
+												<span class="mr-2 badge badge-light">6.7 incheslor
+												</span>
+
+												<span class="mr-2 badge badge-light">128 GB</span>
+											</div>
+
+											<div class="mb-1">
+												<p class=" d-inline-block text-decoration-line-through price-old">
+													40.000.000đ</p>
+												<span class="d-inline-block price-new">-25%</span>
+											</div>
+											<strong class="fw-bold d-block mb-1">38.990.000đ</strong>
+
+											<div class=" mb-1 d-flex flex-end">
+												<p class=" text-warning " style="font-size: 12px;">
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class="fa-solid fa-star-half-stroke "></i>
+													<i class="fa-regular fa-star "></i>
+												</p>
+												<p class="ms-1 fw-light d-inline-block align-middle "
+													style="font-size: 12px;">54</p>
+											</div>
+
+										</div>
+										<div class="mt-2  d-flex justify-content-between align-items-end">
+											<a href="" class=" d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 											</a>
-										</h3>
-										<p class="card-text text-dark"><b>6.990.000đ</b></p>
+
+											<a href="" class="d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-heart fa-sm"></i> yêu thích
+											</a>
+										</div>
 									</div>
 								</div>
-							</a>
 						</li>
-						<li class="nav-item">
-							<a class="active" href="#">
-								<div class="card border-0">
-									<img src="/src/vendor/images/accessories1.jpg" class="img-fluid" alt="">
-									<div class="p-2">
-										<h3>
-											<a href="#" title="" class="text-dark">
-												Combo Loa
-												<h5>Bluetooth Karaoke</h5>
+						<li class="nav-item flex-fill border">
+										<div class="card-product d-block overflow-hidden  ">
+									<style>
+										.card-product {
+											width: 250px;
+											padding: 10px 15px 20px;
+										}
+
+										p {
+											margin: 0;
+
+										}
+
+										.quote::before {
+											content: '●';
+											margin-right: 2px;
+											left: 0;
+											top: 0;
+											color: #333;
+											font-size: 10px;
+										}
+
+									</style>
+									<div class="d-flex flex-column h-100 w-100  ">
+
+										<div class=" align-items-start">
+											<span class="badge badge-light mr-1">Trả góp 0%</span>
+										</div>
+
+										<div class="align-items-start cart-content  h-100">
+											<div class="my-2 d-block overflow-hidden item"><img
+													class="object-cover mw-100"
+													src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+													alt="" /></div>
+											<h3 class="text-ellipsis product-title overflow-hidden  mb-1 fw-normal  text-break " style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;font-size: 14px;">
+                                                iPhone 14 Pro Max 256GB Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iste, maiores.
+                                            </h3>
+
+
+
+											<div class="mb-1">
+												<span class="mr-2 badge badge-light">6.7 incheslor
+												</span>
+
+												<span class="mr-2 badge badge-light">128 GB</span>
+											</div>
+
+											<div class="mb-1">
+												<p class=" d-inline-block text-decoration-line-through price-old">
+													40.000.000đ</p>
+												<span class="d-inline-block price-new">-25%</span>
+											</div>
+											<strong class="fw-bold d-block mb-1">38.990.000đ</strong>
+
+											<div class=" mb-1 d-flex flex-end">
+												<p class=" text-warning " style="font-size: 12px;">
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class="fa-solid fa-star-half-stroke "></i>
+													<i class="fa-regular fa-star "></i>
+												</p>
+												<p class="ms-1 fw-light d-inline-block align-middle "
+													style="font-size: 12px;">54</p>
+											</div>
+
+										</div>
+										<div class="mt-2  d-flex justify-content-between align-items-end">
+											<a href="" class=" d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 											</a>
-										</h3>
-										<p class="card-text text-dark"><b>6.990.000đ</b></p>
+
+											<a href="" class="d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-heart fa-sm"></i> yêu thích
+											</a>
+										</div>
 									</div>
 								</div>
-							</a>
 						</li>
-						<li class="nav-item">
-							<a class="active" href="#">
-								<div class="card border-0">
-									<img src="/src/vendor/images/accessories3.jpg" class="img-fluid" alt="">
-									<div class="p-2">
-										<h3>
-											<a href="#" title="" class="text-dark">
-												Combo Loa
-												<h5>Bluetooth Karaoke</h5>
+						<li class="nav-item flex-fill border">
+										<div class="card-product d-block overflow-hidden  ">
+									<style>
+										.card-product {
+											width: 250px;
+											padding: 10px 15px 20px;
+										}
+
+										p {
+											margin: 0;
+
+										}
+
+										.quote::before {
+											content: '●';
+											margin-right: 2px;
+											left: 0;
+											top: 0;
+											color: #333;
+											font-size: 10px;
+										}
+
+									</style>
+									<div class="d-flex flex-column h-100 w-100  ">
+
+										<div class=" align-items-start">
+											<span class="badge badge-light mr-1">Trả góp 0%</span>
+										</div>
+
+										<div class="align-items-start cart-content  h-100">
+											<div class="my-2 d-block overflow-hidden item"><img
+													class="object-cover mw-100"
+													src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+													alt="" /></div>
+											<h3 class="text-ellipsis product-title overflow-hidden  mb-1 fw-normal  text-break " style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;font-size: 14px;">
+                                                iPhone 14 Pro Max 256GB Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iste, maiores.
+                                            </h3>
+
+
+
+											<div class="mb-1">
+												<span class="mr-2 badge badge-light">6.7 incheslor
+												</span>
+
+												<span class="mr-2 badge badge-light">128 GB</span>
+											</div>
+
+											<div class="mb-1">
+												<p class=" d-inline-block text-decoration-line-through price-old">
+													40.000.000đ</p>
+												<span class="d-inline-block price-new">-25%</span>
+											</div>
+											<strong class="fw-bold d-block mb-1">38.990.000đ</strong>
+
+											<div class=" mb-1 d-flex flex-end">
+												<p class=" text-warning " style="font-size: 12px;">
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class=" fa-solid fa-star "></i>
+													<i class="fa-solid fa-star-half-stroke "></i>
+													<i class="fa-regular fa-star "></i>
+												</p>
+												<p class="ms-1 fw-light d-inline-block align-middle "
+													style="font-size: 12px;">54</p>
+											</div>
+
+										</div>
+										<div class="mt-2  d-flex justify-content-between align-items-end">
+											<a href="" class=" d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 											</a>
-										</h3>
-										<p class="card-text text-dark"><b>6.990.000đ</b></p>
+
+											<a href="" class="d-block  align-middle" style="font-size:14px ;">
+												<i class="fa-regular fa-heart fa-sm"></i> yêu thích
+											</a>
+										</div>
 									</div>
 								</div>
-							</a>
 						</li>
-						<li class="nav-item">
-							<a class="active" href="#">
-								<div class="card border-0">
-									<img src="/src/vendor/images/accessories4.jpg" class="img-fluid" alt="">
-									<div class="p-2">
-										<h3>
-											<a href="#" title="" class="text-dark">
-												Combo Loa
-												<h5>Bluetooth Karaoke</h5>
-											</a>
-										</h3>
-										<p class="card-text text-dark"><b>6.990.000đ</b></p>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="active" href="#">
-								<div class="card border-0">
-									<img src="/src/vendor/images/accessories5.jpg" class="img-fluid" alt="">
-									<div class="p-2">
-										<h3>
-											<a href="#" title="" class="text-dark">
-												Combo Loa
-												<h5>Bluetooth Karaoke</h5>
-											</a>
-										</h3>
-										<p class="card-text text-dark"><b>6.990.000đ</b></p>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="active" href="#">
-								<div class="card border-0">
-									<img src="/src/vendor/images/accessories1.jpg" class="img-fluid" alt="">
-									<div class="p-2">
-										<h3>
-											<a href="#" title="" class="text-dark">
-												Combo Loa
-												<h5>Bluetooth Karaoke</h5>
-											</a>
-										</h3>
-										<p class="card-text text-dark"><b>6.990.000đ</b></p>
-									</div>
-								</div>
-							</a>
-						</li>
+
+
 					</ul>
 				</div>
 				<!--end add-accessories-->
@@ -1466,9 +2027,10 @@
 		<!--end card-mobile-->
 	</div>
 </div>
-<footer id="footer"></footer>
+<footer id="footer" class="p-4 border-top  bg-light"></footer>
  <script src="/src/js/header.js"></script>
     <script src="/src/js/footer.js"></script>
+		<script src="/src/vendor/resources/md4/js/mdb.min.js"></script>
     <script type="text/javascript" src="/src/vendor/resources/md4/js/jquery.min.js"></script>
 	<script src="/src/vendor/resources/md4/js/popper.min.js"></script>
 	<script src="/src/vendor/resources/md4/js/bootstrap.min.js"></script>
