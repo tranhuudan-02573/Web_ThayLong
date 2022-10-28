@@ -1,12 +1,12 @@
 const footer =document.querySelector("footer#footer");
 footer.innerHTML =
         `
-	<div class="container">
-		<div class="row row-md">
+	<div class="container ">
+		<div class="row row-md ">
 			<div class="col-xl-7">
 				<div class="row row-md">
-					<div class="col-xl-4">
-						<a href="#" title="">Chính sách bảo mật</a>
+					<div class="col-xl-4 ">
+						<a href="#" title="" >Chính sách bảo mật</a>
 					</div>
 					<div class="col-xl-4">
 						<a href="#" title="">Quy chế hoạt động</a>
@@ -47,32 +47,32 @@ footer.innerHTML =
 				</div>
 			</div>
 			<div class="col-xl-5">
-				<div class="row row-md">
-					<div class="col-xl-6">
+				<div class="row row-md row-cols-2">
+					<div class="col">
 						<a href="#" title="">Tư vấn mua hàng (Miễn phí)
 							<br>
 							<span>18006601</span>
 						</a>
 					</div>
-					<div class="col-xl-6">
+					<div class="col">
 						<a href="#" title="">
 							Góp ý , khiếu nại dịch vụ(8h00 - 22h00)
 							<br>
 							<span>18006616</span>
 						</a>
 					</div>
-					<div class="col-xl-5">
+					<div class="col">
 						<a href="#" title="">
 							Hỗ trợ thanh toán :
 							<br>
 							<img src="/src/vendor/images/company.PNG" alt="">
 						</a>
 					</div>
-					<div class="col-xl-7">
+					<div class="col	">
 						<a href="#" title="">
 							Chứng nhận :
 							<br>
-							<img src="/src/vendor/images/notification1.PNG" alt="">
+							<img src="/src/vendor/images/notification1.PNG" alt="" class="img-fluid w-100">
 						</a>
 					</div>
 				</div>

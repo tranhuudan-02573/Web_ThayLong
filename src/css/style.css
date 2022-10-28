@@ -99,6 +99,7 @@ header .overplay{
 .homesale .owl-nav span{
 	font-size: 80px;
 }
+
 .homesale .owl-nav .owl-next{
 	position: absolute;
 	background: red;
@@ -108,13 +109,7 @@ header .overplay{
 .homesale .item:hover{
 	border: 1px solid #D6D6D6;
 }
-.homeaccessories .category a{
-	font-size: 14px;
-	margin: 4px;
-	padding: 4px;
-	border: 1px solid white;
-	background: white;
-}
+
 .homeaccessories .category{
 	background: #e5e5e5;
 }
@@ -153,14 +148,7 @@ footer a{
 .sale-mobile .card>a{
 	margin: 0 auto
 }
-.catebody img{
-	width: 160px;
-	height: 120px;
-}
-.category ul li a:hover{
-	background-color: black;
-	color: white !important;
-}
+
 .accessories-mobile .col-3{
 	background-color: white;
 }
