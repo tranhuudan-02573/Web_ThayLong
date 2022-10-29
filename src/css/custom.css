@@ -108,3 +108,9 @@ footer#footer a{
 	background-color: #dc3545 !important;
 	color: white !important;
 }
+ul.stepper>.step-after:not(:last-of-type):after{
+	background-color: #4285f4;
+}
+.form{
+	/* top:0rem */
+}
