@@ -64,7 +64,7 @@ header .overplay{
 }
 .name-products{
 	font-size: 24px;
-	opacity: 0.9;	
+	opacity: 0.9;
 }
 .name-product ul li{
 	margin: 1px;
@@ -101,12 +101,10 @@ header .overplay{
 .introduce-products ul li .active{
 	border-bottom: 2px solid red;
 }
-#pills-home-tab{
+#pills-home-tab,#pills-profile-tab,#pills-recent-tab{
 	font-size: 18px;
 }
-#pills-profile-tab{
-	font-size: 18px;
-}
+
 .title-details{
 	font-size: 20px;
 	margin-top: 40px;

@@ -71,14 +71,7 @@ header .overplay{
 .products-mobile .col-xl-3:hover >.card{
 	box-shadow: 1px 2px 7px  rgba(0,0,0,.21);
 }
-.products-seen .item a{
-	margin: 0 auto;
 
-}
-.products-seen .item .card{
-	height: 340px;
-	width: 240px;
-}
 .products-mobile .images-pro{
 	margin: 0 auto;
 

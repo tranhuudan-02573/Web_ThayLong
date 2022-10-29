@@ -11,7 +11,7 @@
   position: relative;
   &:not(.md-outline) .select-dropdown {
     &:focus {
-      border-bottom: 1px solid $input-md-focus-color; 
+      border-bottom: 1px solid $input-md-focus-color;
       box-shadow: 0 1px 0 0 $input-md-focus-color;
     }
   }
@@ -25,7 +25,7 @@
       color: $primary;
     }
   }
-  
+
   input {
 
     &.select-dropdown {
@@ -92,7 +92,7 @@
         border: none;
         border-bottom: 1px solid #ced4da;
         border-radius: 0;
-      
+
         &:focus {
           box-shadow: none !important;
           box-shadow: 0 1px 0 0 #4285f4 !important;
@@ -291,7 +291,7 @@ select {
   &.browser-default {
     display: block !important;
   }
-  
+
   &:disabled {
     color: $material-select-wrapper-input-dropdown-disabled-color;
   }
