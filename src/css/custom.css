@@ -25,11 +25,7 @@
 	margin-left: 0.05rem;
 }
 
-.row-md>.col,
-.row-md>[class*="col-"] {
-	padding-right: 0.05rem;
-	padding-left: 0.05rem;
-}
+
 
 .row-mdd {
 	margin-right: 0rem;
@@ -57,12 +53,13 @@ a {
 	left: -15px;
 
 }
-.owl-theme .owl-nav [class*=owl-]:hover{
+
+.owl-theme .owl-nav [class*=owl-]:hover {
 	background: unset;
 	color: black;
 }
 
-.owl-nav .owl-next{
+.owl-nav .owl-next {
 	position: absolute;
 	top: 31%;
 	right: -15px;
@@ -89,22 +86,29 @@ footer .container .row>div {
 }
 
 
-.cdt-filter__block .filter .form-check a>input,.cdt-filter__block .filter .form-check a>label{
+.cdt-filter__block .filter .form-check a>input,
+.cdt-filter__block .filter .form-check a>label {
 	cursor: pointer;
 }
-.owl-carousel.owl-drag .owl-item {
-	padding: 15px !important;
-	width: 292px !important;
-	margin-right: 0 !important;
+ .tab-pane .owl-item{
+	margin: 0 auto !important;
+	width: 245px !important;
+}
+.products-seen .owl-item {
+	margin: 0 auto !important;
+	width: 252px !important;
 }
 
+
 .container{
-	max-width: 1320px;
+max-width: 1320px !important;
 }
-footer#footer a{
+
+footer#footer a {
 	color: #dc3545 !important;
 }
-.pills-primary .nav-link.active{
+
+.pills-primary .nav-link.active {
 	background-color: #dc3545 !important;
 	color: white !important;
 }
@@ -113,4 +117,15 @@ ul.stepper>.step-after:not(:last-of-type):after{
 }
 .form{
 	/* top:0rem */
+}
+.owl-stage{
+width: 1620px !important;
+}
+.tab-content{
+	padding-top: 1rem !important;
+}
+.products-iphone .owl-item {
+	margin: 0 auto !important;
+	width: 400px !important;
+	height: 400px !important;
 }
