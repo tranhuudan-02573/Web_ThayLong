@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/src/vendor/resources/md4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/src/vendor/resources/md4/css/mdb.min.css">
+    <link rel="stylesheet" href="/src/vendor/resources/mdb4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/vendor/resources/mdb4/css/mdb.min.css">
     <link rel="stylesheet" type="text/css" href="/src/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/src/vendor/resources/fa6/fontawesome-free-6.2.0-web/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/src/css/owl.theme.default.min.css">
@@ -19,6 +19,51 @@
   <body>
 
 
+<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold text-uppercase">doi mat khau</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix grey-text text-danger"></i>
+          <input type="email" id="defaultForm-email" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+        </div>
+          <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix grey-text text-danger"></i>
+          <input type="email" id="defaultForm-email" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+        </div>
+
+        <div class="md-form mb-4">
+          <i class="fas fa-lock prefix grey-text text-danger"></i>
+          <input type="password" id="defaultForm-pass" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+
+        </div>
+		<div class="d-flex justify-content-between">
+		<!-- Material checked -->
+<!-- Material checked -->
+<div class="form-check p-0">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div>
+        <a href="html/resetpass.html" class="text-danger">quen mat khau</a>
+      </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-between">
+		<span>ban muon doi tai khoan? <a href="index.html" class="text-danger">thoat</a></span>
+        <button class="btn btn-danger ">doi</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <header id="header"></header>
 
@@ -53,7 +98,7 @@
                    <div>
                     <h5 class="my-2 h5 d-inline-block">Tran Huu Dan - 0377162712</h5>
 
-                    <a href="" class="float-right">thoat</a>
+                <a href="" class="float-right"> | thoat</a>  <a href="#"data-toggle="modal" data-target="#modalLoginForm" class="float-right">doi mat khau |</a>
                   </div>
                   <div class="card">
                     <div class="card-body">
@@ -108,7 +153,8 @@
                 <div class="tab-pane fade" id="panel22" role="tabpanel">
                   <div>
                     <h5 class="my-2 h5 d-inline-block">ngày mua cuối cùng: 20/12/2022</h5>
-                    <a href="" class="float-right">y kien | phan hoi</a>
+                    <a href="" class="float-right">| phan hoi</a>
+                     <a href="" class="float-right">y kien | </a>
                   </div>
                   <div class="card">
                     <div class="card-body">
@@ -173,10 +219,10 @@
 
     <script src="/src/js/header.js"></script>
     <script src="/src/js/footer.js"></script>
-    <script src="/src/vendor/resources/md4/js/mdb.min.js"></script>
-    <script type="text/javascript" src="/src/vendor/resources/md4/js/jquery.min.js"></script>
-    <script src="/src/vendor/resources/md4/js/popper.min.js"></script>
-    <script src="/src/vendor/resources/md4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/src/vendor/resources/mdb4/js/jquery.min.js"></script>
+    <script src="/src/vendor/resources/mdb4/js/popper.min.js"></script>
+    <script src="/src/vendor/resources/mdb4/js/bootstrap.min.js"></script>
+    <script src="/src/vendor/resources/mdb4/js/mdb.min.js"></script>
     <script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="/src/js/product.js"></script>
   </body>
