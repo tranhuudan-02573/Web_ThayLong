@@ -89,17 +89,10 @@ footer .container .row>div {
 	margin-bottom: 0.8rem;
 }
 
-.cdt-filter__block .filter .form-check a>input,
-.cdt-filter__block .filter .form-check a>label {
-	cursor: pointer;
-}
 
 .cdt-filter__block .filter .form-check a>input,
 .cdt-filter__block .filter .form-check a>label {
 	cursor: pointer;
-	font-size: 0.8rem;
-	font-weight: 600;
-
 }
 
 .owl-carousel.owl-drag .owl-item {

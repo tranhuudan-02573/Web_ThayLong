@@ -12,7 +12,7 @@ $(function(){
 		loop: false,
 		margin: 0,
 		nav:true,
-		navText: ["<img src='images/kiTu.png' width = '30'>","<img src='images/kiTu.png' width='30'>"],
+		navText: ["<img src='/src/vendor/images/kiTu.png' width = '30'>","<img src='/src/vendor/images/kiTu.png' width='30'>"],
 		dots:true,
 		responsive: {
 			0: {

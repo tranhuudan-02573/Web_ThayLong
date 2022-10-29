@@ -1,10 +1,54 @@
 const header =document.querySelector("header#header");
 header.innerHTML =
      `
+
+<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold text-uppercase">Sign in</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix grey-text text-danger"></i>
+          <input type="email" id="defaultForm-email" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+        </div>
+
+        <div class="md-form mb-4">
+          <i class="fas fa-lock prefix grey-text text-danger"></i>
+          <input type="password" id="defaultForm-pass" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+
+        </div>
+		<div class="d-flex justify-content-between">
+		<!-- Material checked -->
+<!-- Material checked -->
+<div class="form-check p-0">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div>
+        <a href="html/resetpass.html" class="text-danger">quen mat khau</a>
+      </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-between">
+		<span>ban chua co tai khoan? <a href="html/signup.html" class="text-danger">sign up</a></span>
+        <button class="btn btn-danger ">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 		<div class="d-head">
 			<div class="head-top bg-danger">
 				<div class="container">
-					<div class="row align-items-center pt-1">
+					<div class="row align-items-center ">
 						<div class="col-1 d-block d-sm-none d-flex align-items-center text-white"><i class="fa fa-bars"></i>
 						</div>
 						<div class="col-9 position-absolute p-2 menu-multi-mobile">
@@ -254,42 +298,77 @@ header.innerHTML =
 						</div>
 						<!--end col-9-->
 						<div class="col-3 position-absolute overplay"></div>
-						<div class="col-xl-2 col-lg-2 col-md-2 col-4  pl-1 pr-1">
+						<div class="col-xl-2 col-lg-2 col-md-2 col-4  pl-1 pr-1 ">
 							<a href="#" title=""><img src="/src/vendor/images/fptshop-logo.png" class="img-fluid"></a>
 						</div>
 						<div class="col-7 pull-right d-flex justify-content-end align-items-center d-sm-none text-white"><i class="fa fa-shopping-cart"></i></div>
-						<div class="col-xl-4 col-lg-5 col-md-5 col-12 pt-3 pl-1 pr-1">
-							<div class="input-group mb-3">
-								<input type="text" class="form-control rounded-0 border-0" placeholder="Tìm kiếm sản phẩm" aria-label="Recipient's username" aria-describedby="basic-addon2">
-								<div class="input-group-append">
-									<span class="input-group-text bg-dark text-white border-0" id="basic-addon2"><i class="fa fa-search"></i></span>
+						<div class="col-xl-5 col-lg-5 col-md-5 col-12 ">
+							<div class="input-group ">
+								<input type="text" class="form-control " placeholder="Tìm kiếm sản phẩm" aria-label="Recipient's username" aria-describedby="basic-addon2">
+								<div class="input-group-append " >
+									<a class="input-group-text bg-dark text-white  border-0 " id="basic-addon2"><i class="fa fa-search"></i></a>
 								</div>
 							</div>
 						</div>
 						<!--end col-6-->
-						<div class="col-xl-6 col-lg-5 col-md-5 col-12 d-none d-sm-block pl-1 pr-1">
+						<div class="col-xl-5 col-lg-5 col-md-5 col-12 d-none d-sm-block pl-1 pr-1">
 							<ul class="nav justify-content-end">
 
+<li class="nav-item">
+									<a class="nav-link text-center text-white " href="#"><div><i class="fa-solid fa-clock-rotate-left"></i></div>   lịch sử mua hàng</a>
+								</li>
 
 								<li class="nav-item">
-									<a class="nav-link text-center text-white pl-2 pr-2" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><br>Giỏ hàng</a>
+									<a class="nav-link text-center text-white " href="#"> <div> <i class="fa fa-shopping-cart" aria-hidden="true"></i></div>Giỏ hàng</a>
+								</li>
+
+								  <li class="nav-item">
+									<a class="nav-link text-center text-white " href=""><div><i class="fa fa-heart" aria-hidden="true"></i></div> Sẩn phẩm đã thích</a>
 								</li>
 								<li class="nav-item">
-									<a href="" class="nav-link text-center text-white text-center pl-2 pr-2" target="_blank">
-									   <div class="position-relative text-center">
-									 <i class="fa fa-heart" aria-hidden="true"></i>
-									  <span class="badge badge-danger bg-white position-absolute " style="color: #cd1818;top: -5px;font-size: 0.7rem;">4</span></div>
-										  <span>Sẩn phẩm đã thích</span>
-									</a>
-								  </li>
-								<li class="nav-item">
-									<a class="nav-link text-center text-white pl-2 pr-2" href="#">
-										<i class="fa fa-user"aria-hidden="true"></i>
-										<br>Tài khoản
+									<a class="nav-link text-center text-white " href="#" data-toggle="modal" data-target="#modalLoginForm">
+										<div><i class="fa fa-user"aria-hidden="true"></i></div>
+										Tài khoản
 									</a>
 								</li>
 
 							</ul>
+					<!-- <ul class="d ml-auto justify-content-center">
+
+
+ <li class="nav-item">
+              <a href="" class="nav-link waves-effect text-center" target="_blank">
+                 <div class="text-center">
+               <i class="fa-regular fa-heart fa-lg"></i>
+                </div>
+                    <span>yeu thich</span>
+              </a>
+            </li>
+
+
+<li class="nav-item">
+ <a href="" class="nav-link waves-effect text-center " target="_blank">
+           <div class="text-center"> <i class="fa-solid fa-cart-arrow-down fa-lg"></i> </div>
+           <span>gio hang</span>
+
+              </a>
+</li>
+
+      <li class="nav-item dropdown">
+            <a class="nav-link  waves-effect text-center" href="#" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+             <div class="text-center"> <i class="fa-regular fa-user fa-lg"></i></div>
+           <span>tai khoan cua toi</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="userDropdown">
+            <a class="dropdown-item waves-effect waves-light" href="#">log in</a>
+            <a class="dropdown-item waves-effect waves-light" href="#">Log Out</a>
+            </div>
+          </li>
+
+
+
+
+          </ul> -->
 						</div>
 					</div>
 				</div>
@@ -341,5 +420,6 @@ header.innerHTML =
 			<!--end head-menu-->
 		</div>
 		<!--end d-head-->
-		<!--end m-head-->
+
+		<div class="m-head d-block d-sm-none"></div>
      `

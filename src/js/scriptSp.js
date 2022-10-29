@@ -4,7 +4,7 @@ $(function(){
 		margin:10,
 		responsiveClass:true,
 		dots:false,
-		navText: ["<img src='images/kiTu.png' width = '30'>","<img src='images/kiTu.png' width='30'>"],
+		navText: ["<img src='/src/vendor/images/kiTu.png' width = '30'>","<img src='/src/vendor/images/kiTu.png' width='30'>"],
 		responsive:{
 			0:{
 				items:2,
@@ -26,7 +26,7 @@ $(function(){
 		margin:10,
 		responsiveClass:true,
 		dots:false,
-		navText: ["<img src='images/kiTu.png' width = '30'>","<img src='images/kiTu.png' width='30'>"],
+		navText: ["<img src='/src/vendor/images/kiTu.png' width = '30'>","<img src='/src/vendor/images/kiTu.png' width='30'>"],
 		responsive:{
 			0:{
 				items:1,
@@ -62,13 +62,13 @@ $(function(){
 		$('.overplay').hide();
 
 	});
-	
+
 	// $(window).resize(function(){
-	// 	var width = 
+	// 	var width =
 
 	// });
 
-	
+
 
 	// $('.items-select').removeClass('flex-column');
 });

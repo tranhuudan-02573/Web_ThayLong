@@ -23,7 +23,7 @@ $(function(){
 		margin:10,
 		nav:true,
 		dots:true,
-		navText: ["<img src='images/kiTu.png' width = '30'>","<img src='images/kiTu.png' width='30'>"],
+		navText: ["<img src='/src/vendor/images/kiTu.png' width = '30'>","<img src='/src/vendor/images/kiTu.png' width='30'>"],
 		responsive:{
 			0:{
 				items:1
@@ -41,7 +41,7 @@ $(function(){
 		margin:10,
 		nav:true,
 		dots:false,
-		navText: ["<img src='images/kiTu.png' width = '30'>","<img src='images/kiTu.png' width='30'>"],
+		navText: ["<img src='/src/vendor/images/kiTu.png' width = '30'>","<img src='/src/vendor/images/kiTu.png' width='30'>"],
 		responsive:{
 			0:{
 				items:1
@@ -58,7 +58,7 @@ $(function(){
 		loop:false,
 		margin:10,
 		nav:true,
-		navText: ["<img src='images/kiTu.png' width = '30'>","<img src='images/kiTu.png' width='30'>"],
+		navText: ["<i class='fa-solid fa-circle-chevron-left fa-lg'></i>","<i class='fa-solid fa-circle-chevron-right fa-lg'></i>"],
 		responsive:{
 			0:{
 				items:1
@@ -76,7 +76,7 @@ $(function(){
 		margin:10,
 		nav:true,
 		dots:false,
-		navText: ["<img src='images/kiTu.png' width = '30'>","<img src='images/kiTu.png' width='30'>"],
+		navText: ["<i class='fa-solid fa-circle-chevron-left fa-lg'></i>","<i class='fa-solid fa-circle-chevron-right fa-lg'></i>"],
 		responsive:{
 			0:{
 				items:1
@@ -113,5 +113,5 @@ $(function(){
 	$(window).scroll(function(){
 		if($(this).scrollTop() > 1300) $("#navbar-example3").css('position','fixed').css('display','block');
 		else $("#navbar-example3").css('display','none');
-	});  
+	});
 });
