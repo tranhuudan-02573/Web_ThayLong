@@ -94,7 +94,8 @@ footer .container .row>div {
 	cursor: pointer;
 }
 
-.style-product label {
+.cdt-filter__block .filter .form-check a>input,
+.cdt-filter__block .filter .form-check a>label {
 	cursor: pointer;
 	font-size: 0.8rem;
 	font-weight: 600;
