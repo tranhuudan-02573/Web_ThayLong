@@ -57,12 +57,13 @@ a {
 	left: -15px;
 
 }
-.owl-theme .owl-nav [class*=owl-]:hover{
+
+.owl-theme .owl-nav [class*=owl-]:hover {
 	background: unset;
 	color: black;
 }
 
-.owl-nav .owl-next{
+.owl-nav .owl-next {
 	position: absolute;
 	top: 31%;
 	right: -15px;
@@ -89,22 +90,26 @@ footer .container .row>div {
 }
 
 
-.cdt-filter__block .filter .form-check a>input,.cdt-filter__block .filter .form-check a>label{
+.cdt-filter__block .filter .form-check a>input,
+.cdt-filter__block .filter .form-check a>label {
 	cursor: pointer;
 }
+
 .owl-carousel.owl-drag .owl-item {
 	padding: 15px !important;
 	width: 292px !important;
 	margin-right: 0 !important;
 }
 
-.container{
+.container {
 	max-width: 1320px;
 }
-footer#footer a{
+
+footer#footer a {
 	color: #dc3545 !important;
 }
-.pills-primary .nav-link.active{
+
+.pills-primary .nav-link.active {
 	background-color: #dc3545 !important;
 	color: white !important;
 }
