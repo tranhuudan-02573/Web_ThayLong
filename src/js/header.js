@@ -42,10 +42,7 @@ header.innerHTML =
     </div>
   </div>
 </div>
-
-
-
-		<div class="d-head">
+		<div class="d-head ">
 			<div class="head-top bg-danger">
 				<div class="container">
 					<div class="row align-items-center ">
@@ -68,7 +65,7 @@ header.innerHTML =
 										<div class="card border-0">
 											<div class=" p-2" id="headingOne">
 												<a href="#" title="" class="text-dark">
-													<i class="fa fa-mobile" aria-hidden="true"></i>
+												<i class="fa-solid fa-mobile"></i>
 													Điện thoại
 												</a>
 												<h2 class="mb-0 pull-right">
@@ -315,15 +312,15 @@ header.innerHTML =
 							<ul class="nav justify-content-end">
 
 <li class="nav-item">
-									<a class="nav-link text-center text-white " href="#"><div><i class="fa-solid fa-clock-rotate-left"></i></div>   lịch sử mua hàng</a>
+									<a class="nav-link text-center text-white " href="html/user.html"><div><i class="fa-solid fa-clock-rotate-left"></i></div>   lịch sử mua hàng</a>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link text-center text-white " href="#"> <div> <i class="fa fa-shopping-cart" aria-hidden="true"></i></div>Giỏ hàng</a>
+									<a class="nav-link text-center text-white " href="html/cart.html"> <div> <i class="fa fa-shopping-cart" aria-hidden="true"></i></div>Giỏ hàng</a>
 								</li>
 
 								  <li class="nav-item">
-									<a class="nav-link text-center text-white " href=""><div><i class="fa fa-heart" aria-hidden="true"></i></div> Sẩn phẩm đã thích</a>
+									<a class="nav-link text-center text-white " href="html/wishlist.html"><div><i class="fa fa-heart" aria-hidden="true"></i></div> Sản phẩm đã thích</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link text-center text-white " href="#" data-toggle="modal" data-target="#modalLoginForm">
@@ -331,7 +328,6 @@ header.innerHTML =
 										Tài khoản
 									</a>
 								</li>
-
 							</ul>
 					<!-- <ul class="d ml-auto justify-content-center">
 
@@ -347,7 +343,7 @@ header.innerHTML =
 
 
 <li class="nav-item">
- <a href="" class="nav-link waves-effect text-center " target="_blank">
+ <a href="html/cart.html" class="nav-link waves-effect text-center " target="_blank">
            <div class="text-center"> <i class="fa-solid fa-cart-arrow-down fa-lg"></i> </div>
            <span>gio hang</span>
 
