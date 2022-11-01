@@ -114,4 +114,5 @@ footer.innerHTML =
 		</tbody>
 	</table>
 </div><!--end footer mobile-->
+
         `
