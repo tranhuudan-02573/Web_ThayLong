@@ -19,6 +19,17 @@
 		<link rel="stylesheet" href="/src/vendor/resources/fa6/fontawesome-free-6.2.0-web/css/all.css">
 	</head>
 	<style type="text/css">
+
+	 #btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+
+
+
 		.catetitle h2 {
 			text-transform: uppercase;
 			font-size: 22px;
@@ -1136,8 +1147,10 @@
 				<!--end news-->
 				<section class="homecate d-none d-sm-block">
 					<div class="card">
-					<div class="card-header white-text danger-color ">
-                <h4 class="font-weight-500 my-1 text-uppercase">điện thoại bán chạy</h4>
+					<div class="card-header white-text danger-color d-flex justify-content-between align-items-center">
+                <h4 class="font-weight-500 my-1 text-uppercase align-middle">điện thoại bán chạy</h4>
+<div class="btn red-text btn-white">xem tat ca</div></div>
+
               </div>
 					<div class="catebody">
 						<div class="row row-cols-5 w-100 mx-auto">
@@ -1738,8 +1751,7 @@
 
 						</div>
 					</div>
-							<div class="text-center"><div class="btn btn-danger">xem tat ca</div></div>
-							</div>
+
 				</section>
 				<!--end section homecate-->
 				<section class="homeaccessories d-none d-sm-block mt-3">
@@ -2320,14 +2332,55 @@
 			</div>
 		</div>
 		<footer id="footer" class="p-4 border-top  bg-white"></footer>
+
+<button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+  <i class="fas fa-arrow-up"></i>
+</button>
+
 		<script src="/src/js/header.js"></script>
 		<script src="/src/js/footer.js"></script>
-		<script src="/src/vendor/resources/mdb4/js/mdb.min.js"></script>
 		<script type="text/javascript" src="/src/vendor/resources/mdb4/js/jquery.min.js"></script>
 		<script src="/src/vendor/resources/mdb4/js/popper.min.js"></script>
 		<script src="/src/vendor/resources/mdb4/js/bootstrap.min.js"></script>
+		<script src="/src/vendor/resources/mdb4/js/mdb.min.js"></script>
 		<script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
 		<script type="text/javascript" src="/src/js/product.js"></script>
+
+
+<script src="">
+
+
+//Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", ()=>{
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
+
+</script>
+
 	</body>
 
 </html>
