@@ -1033,11 +1033,12 @@
 														<div class="card text-center border-0 rounded-0 mt-4">
 															<div class="card-body">
 																<p>Bạn đã dùng sản phẩm này?</p>
-																<a class="card-text bg-danger w-100 "
+																<a class="card-text bg-danger w-100 p-1 rounded " href="#" data-toggle="modal" data-target="#modalStarRating"
 																	style="margin: 0 auto">
-																	<small class="p-2 text-white size">Gửi đánh giá của
+																	<small class="text-white size">Gửi đánh giá của
 																		bạn</small>
 																</a>
+																
 															</div>
 														</div>
 													</div>
@@ -1142,9 +1143,76 @@
 										</div>
 									</div>
 								</div>
-
-							
-
+								<div class="modal fade show" id="modalStarRating" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-modal="true" style="padding-right: 17px; display: none;">
+									<div class="modal-dialog" role="document">
+									  <div class="modal-content">
+										<div class="modal-header text-center pt-1 pb-1" >
+										  <h4 class="modal-title w-100 font-weight-bold text-uppercase">Đánh giá sản phẩm</h4>
+										  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">×</span>
+										  </button>
+										</div>
+										<div class="modal-body mx-3 ">
+											<div class="text-center">
+												<img class="form_img-prod" src="https://images.fpt.shop/unsafe/fit-in/96x96/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/19/637859778843241685_iphone-13-pro-max-vang-1.jpg" alt="alt">
+												<div class="mt-2">
+													<span class="font-weight-bold">iPhone 13 Pro Max 512GB</span>
+												</div>	
+												<div class="group-star">
+													<div class="custom-control custom-radio custom-control-inline">
+														<input type="radio" class="custom-control-input" id="defaultInline1" value="1" name="inlineDefaultRadiosExample">
+														<label class="custom-control-label" for="defaultInline1">Tệ</label>
+													  </div>
+													  
+													  <!-- Default inline 2-->
+													  <div class="custom-control custom-radio custom-control-inline">
+														<input type="radio" class="custom-control-input" id="defaultInline2" value="2" name="inlineDefaultRadiosExample">
+														<label class="custom-control-label" for="defaultInline2">Trung bình</label>
+													  </div>
+													  
+													  <!-- Default inline 3-->
+													  <div class="custom-control custom-radio custom-control-inline">
+														<input type="radio" class="custom-control-input" id="defaultInline3" value="3" name="inlineDefaultRadiosExample">
+														<label class="custom-control-label" for="defaultInline3">Khá Tốt</label>
+													  </div>
+													  <div class="custom-control custom-radio custom-control-inline">
+														<input type="radio" class="custom-control-input" id="defaultInline4" value="4" name="inlineDefaultRadiosExample">
+														<label class="custom-control-label" for="defaultInline4">Tốt</label>
+													  </div>
+													  <div class="custom-control custom-radio custom-control-inline">
+														<input type="radio" class="custom-control-input" id="defaultInline5" value="5" name="inlineDefaultRadiosExample">
+														<label class="custom-control-label" for="defaultInline5">Tuyệt vời</label>
+													  </div>
+												</div>				
+											</div>
+											<div class="md-form  pink-textarea active-pink-textarea mb-0">
+												<textarea id="form18" class="md-textarea form-control validate mb-0 pb-0" style="padding-top: 30px;" rows="3"></textarea>
+												<label for="form18">Cãm nhận của bạn về sản phẩm</label>
+											</div>	
+												<div class="pr-0">
+													<div class="md-form col-12 pl-0 pr-0">
+														<input id="name-horizontal" type="text" class="validate form-control m-0" required="">
+														<label id="name-label" class="" for="name-horizontal">Nhập họ tên</label>
+													</div>	
+												</div>
+											<div class=" pr-0">
+												<div class="md-form col-12 pl-0 pr-0">
+													<input id="phone-horizontal" type="text" class="validate form-control m-0" required="">
+													<label id="phone-label" class="" for="phone-horizontal">Nhập số điện thoại</label>
+												</div>	
+											</div>
+											<div class="md-form mb-2 mt-2">
+												<input type="email" id="email-horizontal" class="form-control validate m-0">
+												<label data-error="wrong" data-success="right" for="email-horizontal">Nhập email</label>
+											  </div>
+										</div>
+						
+										<div class="modal-footer d-flex justify-content-center pt-1 pb-1">
+										  <button class="btn btn-danger ">Gửi</button>
+										</div>
+									  </div>
+									</div>
+								  </div>
 
 							<div class="card my-4">
 								<div class="card-body">
@@ -3166,8 +3234,8 @@ Thân mến!</p>
 		<script src="/src/js/footer.js"></script>
 		<script src="/src/js/header.js"></script>
 
-		<script src="/src/vendor/resources/mdb4/js/mdb.min.js"></script>
 		<script type="text/javascript" src="/src/vendor/resources/mdb4/js/jquery.min.js"></script>
+		<script src="/src/vendor/resources/mdb4/js/mdb.min.js"></script>
 		<script src="/src/vendor/resources/mdb4/js/popper.min.js"></script>
 		<script src="/src/vendor/resources/mdb4/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
