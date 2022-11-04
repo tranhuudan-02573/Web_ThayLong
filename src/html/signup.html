@@ -6,8 +6,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Document</title>
-		<link rel="stylesheet" href="/src/vendor/resources/md4/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/src/vendor/resources/md4/css/mdb.min.css">
+		<link rel="stylesheet" href="/src/vendor/resources/mdb4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/src/vendor/resources/mdb4/css/mdb.min.css">
 		<link rel="stylesheet" type="text/css" href="/src/css/owl.carousel.min.css">
 		<link rel="stylesheet" href="/src/vendor/resources/fa6/fontawesome-free-6.2.0-web/css/all.min.css">
 		<link rel="stylesheet" type="text/css" href="/src/css/owl.theme.default.min.css">
@@ -19,7 +19,16 @@
 	<body>
 
 
-
+<button
+        type="button"
+        class="btn btn-danger btn-floating "
+        id="btn-back-to-top"
+       style=" position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;" >
+  <i class="fas fa-arrow-up"></i>
+</button>
 
 		<header id="header"></header>
 		<main class="">
@@ -29,18 +38,14 @@
 					<div class="row justify-content-md-center">
 						<div class="col-xl-6 p-4 ">
 
-
-							<div class="card">
-								<div class="card-body  bg-white">
-
-
-									<div class="text-center ">
-
-										<img src="https://cellphones.com.vn/smember/_nuxt/img/Shipper_CPS3.0251fdd.png"
-											alt="" class="img-fluid shadow-2-strong mb-4 " style="height: 200px; ">
-										<h3 class=" text-uppercase font-weight-bold">sign up</h3>
-									</div>
-									<form action="">
+	 <div class="card">
+            <div class="card-body">
+              <!-- Header -->
+              <div class="form-header red ">
+                <h3 class="mt-2"> sign up</h3>
+              </div>
+              <!-- Body -->
+             <form action=" ">
 										<div class="md-form mb-5">
 											<i class="fas fa-user prefix text-danger"></i>
 											<input type="text" id="name" class="form-control validate " required>
@@ -87,11 +92,12 @@
 											<span>ban da co tai khoan? <a href="/src/index.html" target="_blank"
 													class="text-danger">sign
 													in</a></span>
-											<button class="btn btn-danger">Sign up</button>
+											<button class="btn btn-outline-danger waves-effect">Sign up</button>
 										</div>
 									</form>
-							</div>
-							</div>
+            </div>
+          </div>
+
 
 
 
@@ -116,12 +122,13 @@
 
 		<script src="/src/js/header.js"></script>
 		<script src="/src/js/footer.js"></script>
-		<script type="text/javascript" src="/src/vendor/resources/md4/js/jquery.min.js"></script>
-		<script src="/src/vendor/resources/md4/js/mdb.min.js"></script>
-		<script src="/src/vendor/resources/md4/js/popper.min.js"></script>
-		<script src="/src/vendor/resources/md4/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/src/vendor/resources/mdb4/js/jquery.min.js"></script>
+		<script src="/src/vendor/resources/mdb4/js/popper.min.js"></script>
+		<script src="/src/vendor/resources/mdb4/js/mdb.min.js"></script>
+		<script src="/src/vendor/resources/mdb4/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
 		<script type="text/javascript" src="/src/js/product.js"></script>
+		<script src="/src/js/backtop.js"></script>
 	</body>
 
 </html>

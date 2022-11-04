@@ -47,35 +47,38 @@ footer.innerHTML =
 				</div>
 			</div>
 			<div class="col-xl-5">
-				<div class="row row-md row-cols-2">
-					<div class="col">
+				<div class="row row-cols-xl-2">
+					<div class="col  ">
 						<a href="#" title="">Tư vấn mua hàng (Miễn phí)
 							<br>
 							<span>18006601</span>
 						</a>
 					</div>
-					<div class="col">
+					<div class="col ">
 						<a href="#" title="">
 							Góp ý , khiếu nại dịch vụ(8h00 - 22h00)
 							<br>
 							<span>18006616</span>
 						</a>
 					</div>
-					<div class="col">
+
+				</div>
+					<div class="row row-cols-xl-2">
+				<div class="col ">
 						<a href="#" title="">
 							Hỗ trợ thanh toán :
 							<br>
 							<img src="/src/vendor/images/company.PNG" alt="">
 						</a>
 					</div>
-					<div class="col	">
+					<div class="col">
 						<a href="#" title="">
 							Chứng nhận :
 							<br>
 							<img src="/src/vendor/images/notification1.PNG" alt="" class="img-fluid w-100">
 						</a>
 					</div>
-				</div>
+					</div>
 			</div>
 		</div>
 	</div>
@@ -111,4 +114,5 @@ footer.innerHTML =
 		</tbody>
 	</table>
 </div><!--end footer mobile-->
+
         `

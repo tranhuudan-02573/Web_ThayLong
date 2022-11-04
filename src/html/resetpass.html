@@ -1,123 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-	<link rel="stylesheet" href="/src/vendor/resources/md4/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/src/vendor/resources/md4/css/mdb.min.css">
-		<link rel="stylesheet" type="text/css" href="/src/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="/src/vendor/resources/fa6/fontawesome-free-6.2.0-web/css/all.min.css">
-		<link rel="stylesheet" type="text/css" href="/src/css/owl.theme.default.min.css">
-		<link rel="stylesheet" type="text/css" href="/src/css/hover-min.css">
-		<link rel="stylesheet" type="text/css" href="/src/css/product.css">
-		<link rel="stylesheet" href="/src/vendor/resources/md4/css/addons-pro/steppers.min.css">
-		<link rel="stylesheet" type="text/css" href="/src/css/custom.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/src/vendor/resources/fa6/fontawesome-free-6.2.0-web/css/all.min.css">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/src/vendor/resources/mdb4/css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="/src/vendor/resources/mdb4/css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="/src/vendor/resources/mdb4/css/style.css">
+
+ 	<!-- <link rel="stylesheet" type="text/css" href="/src/css/owl.theme.default.min.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="/src/css/hover-min.css"> -->
+	<link rel="stylesheet" type="text/css" href="/src/css/product.css">
+	<link rel="stylesheet" type="text/css" href="/src/css/custom.css">
+  </head>
+
+  <body>
+<button
+        type="button"
+        class="btn btn-danger btn-floating "
+        id="btn-back-to-top"
+       style=" position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;" >
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+    <header id="header"></header>
 
 
+  <main>
+    <div class="container">
+      <section class="py-5">
+  		<div class="row justify-content-md-center">
+						<div class="col-xl-6 p-4 ">
 
 
+						 <div class="card">
+            <div class="card-body">
+              <!-- Header -->
+              <div class="form-header red ">
+                <h3 class="mt-2">reset pass</h3>
+              </div>
+              <!-- Body -->
+        <form action="">
 
-<header id="header"></header>
 
-<main>
-	<div class="container">
+										<!-- Material input -->
+										<div class="md-form">
+											<i class="fas fa-envelope prefix text-danger"></i>
+											<input type="email" id="email" class="form-control validate" required>
+											<label for="email" data-error="wrong" data-success="right">Type
+												your email</label>
+										</div>
 
-<section class="my-5">
-<ul class="stepper horizontal" id="horizontal-stepper">
-  <li class="step active mb-0 ">
-    <div class="step-title waves-effect waves-dark ">Nhập email</div>
-   
-  </li>
-  <li class="step">
-    <div class="step-title waves-effect waves-dark">Nhập mật khẩu</div>
-   
-  </li>
-  <li class="step">
-    <div class="step-title waves-effect waves-dark">Gửi</div>
-    
-  </li>
-</ul>
-<div class="form text-center">
-     <div class="step-new-content">
-      <div class="row">
-        <div class="md-form col-12 ml-auto">
-          <input id="email-horizontal" type="email" class="validate form-control mb-2" required>
-          <label id="email-label" for="email-horizontal">Email</label>
-        </div>
-      </div>
-      <div class="step-actions">
-        <button class="btn-continue waves-effect waves-dark btn btn-sm btn-primary next-step" data-feedback="someFunction21"><span class="h6">Tiếp tục</span></button>
-      </div>
+										<div class="md-form mb-4">
+											<i class="fas fa-lock prefix text-danger"></i>
+											<input type="password" id="pass" class="form-control validate" required>
+											<label data-error="wrong" data-success="right" for="pass">Your
+												password</label>
+										</div>
+										<div class="md-form mb-4">
+											<i class="fa-solid fa-repeat prefix text-danger"></i>
+											<input type="password" id="repass" class="form-control validate " required>
+											<label data-error="wrong" data-success="right" for="repass">Password
+												confirm</label>
+										</div>
+
+										<div class=" d-flex justify-content-between align-items-center">
+											<span>dang nhap tai khoan khac? <a href="/src/index.html" target="_blank"
+													class="text-danger">sign
+													in</a></span>
+											<button class="btn btn-outline-danger waves-effect">reset</button>
+										</div>
+									</form>
+            </div>
+          </div>
+
+
+						</div>
+
+					</div>
+
+      </section>
     </div>
-    <div class="step-new-content d-none">
-      <div class="row pt-5 mt-4">
-        <div class="md-form col-12 m-0">
-          <input id="password-horizontal" type="password" class="mb-4 form-control" required>
-          <label for="password-horizontal">Your password</label>
-        </div>
-        <p class="font-weight-bolde mb-0 h6 pb-3"><small>Mật khẩu có ích nhất một số (0-9) và một kí tự đặc biệt (!@#$%^&*)</small></p>
-        <div class="md-form col-12 m-0">
-          <input id="new-password" type="password" class="mb-4 form-control" required>
-          <label for="new-password">New Password</label>
-        </div>
-        <div class="md-form col-12 m-0">
-          <input id="confirm-password" type="password" class=" form-control" required>
-          <label for="confirm-password">Confirm password</label>
-        </div>
-      </div>
-      <div class="step-actions">
-        <button class="btn-continue waves-effect waves-dark btn btn-sm btn-primary next-step" data-feedback="someFunction21"><span class="h6">Tiếp tục</span></button>
-        <button class="btn-back waves-effect waves-dark btn btn-sm btn-secondary previous-step"><span class="h6">Trở lại</span></button>
-      </div>
-    </div>
-    <div class="step-new-content d-none">
-      Finish!
-      <div class="step-actions">
-        <button class="waves-effect waves-dark btn-sm btn btn-primary m-0 mt-4" type="submit"><span class="h6">Gửi</span></button>
-      </div>
-    </div>
-</div>
-
-		</section>
-
-	</div>
-
-</main>
+  </main>
 
 <footer id="footer" class="p-4 border-top  bg-white"></footer>
 
-		<script src="/src/js/header.js"></script>
-		<script src="/src/js/footer.js"></script>
+<script src="/src/js/footer.js"></script>
+<script src="/src/js/header.js"></script>
+  <!-- jQuery -->
+  <script type="text/javascript" src="/src/vendor/resources/mdb4/js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="/src/vendor/resources/mdb4/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="/src/vendor/resources/mdb4/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="/src/vendor/resources/mdb4/js/mdb.min.js"></script>
 
-		<script type="text/javascript" src="/src/vendor/resources/md4/js/jquery.min.js"></script>
-		<script src="/src/vendor/resources/md4/js/popper.min.js"></script>
-		<script src="/src/vendor/resources/md4/js/addons-pro/steppers.min.js"></script>
-		<script src="/src/vendor/resources/md4/js/mdb.min.js"></script>
-		<script src="/src/vendor/resources/md4/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
-		<script type="text/javascript" src="/src/js/product.js"></script>
-    <script type="text/javascript" src="/src/js/resetpass.js"></script>
+<script src="/src/js/backtop.js"></script>
+  </body>
 
-</body>
-<style>
- .my-5{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.stepper{
-  width: 50%;
-  margin-bottom: 0;
 
-}
-.form{
-  width: 30%;
-  position: absolute;
-}
-</style>
 </html>
