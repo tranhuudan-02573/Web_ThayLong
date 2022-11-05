@@ -298,7 +298,7 @@ header.innerHTML =
 						<!--end col-9-->
 						<div class="col-3 position-absolute overplay"></div>
 						<div class="col-xl-2 col-lg-2 col-md-2 col-4  pl-1 pr-1 ">
-							<a href="#" title=""><img src="/src/vendor/images/fptshop-logo.png" class="img-fluid"></a>
+							<a href="/src/index.html" title=""><img src="/src/vendor/images/fptshop-logo.png" class="img-fluid"></a>
 						</div>
 						<div class="col-7 pull-right d-flex justify-content-end align-items-center d-sm-none text-white"><i class="fa fa-shopping-cart"></i></div>
 						<div class="col-xl-5 col-lg-5 col-md-5 col-12 ">
@@ -314,18 +314,18 @@ header.innerHTML =
 							<ul class="nav justify-content-end">
 
 <li class="nav-item">
-									<a class="nav-link text-center text-white " href="html/user.html"><div><i class="fa-solid fa-clock-rotate-left"></i></div>   lịch sử mua hàng</a>
+									<a class="nav-link text-center text-white " href="/src/html/user.html"><div><i class="fa-solid fa-clock-rotate-left"></i></div>   lịch sử mua hàng</a>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link text-center text-white " href="html/cart.html"> <div> <i class="fa fa-shopping-cart" aria-hidden="true"></i></div>Giỏ hàng</a>
+									<a class="nav-link text-center text-white " href="/src/html/cart.html"> <div> <i class="fa fa-shopping-cart" aria-hidden="true"></i></div>Giỏ hàng</a>
 								</li>
 
 								  <li class="nav-item">
-									<a class="nav-link text-center text-white " href="html/wishlist.html"><div><i class="fa fa-heart" aria-hidden="true"></i></div> Sản phẩm đã thích</a>
+									<a class="nav-link text-center text-white " href="/src/html/wishlist.html"><div><i class="fa fa-heart" aria-hidden="true"></i></div> Sản phẩm đã thích</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link text-center text-white " href="#" data-toggle="modal" data-target="#modalLoginForm">
+									<a class="nav-link text-center text-white " href="/src/html/user.html" data-toggle="modal" data-target="#modalLoginForm">
 										<div><i class="fa fa-user"aria-hidden="true"></i></div>
 										Tài khoản
 									</a>
