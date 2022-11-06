@@ -107,6 +107,10 @@
 				height: 2rem;
 				color: #495057;
 			}
+			.carousel .carousel-indicators li{
+				width: 0;
+				height: 0;
+			}
 
 			@media not all and (min-resolution:.001dpcm) {
 				@supports (-webkit-appearance: none) and (stroke-color:transparent) {
@@ -172,9 +176,6 @@
 				<!--name-product-->
 				<section class="products-iphone bg-white ">
 					<div class="row w-100 mx-auto">
-
-
-
 						<div class="col-xl-4">
 							<div class="d-flex justify-content-between align-items-center">
 									<a href="" class="d-flex justify-content-center align-items-center ">
@@ -184,30 +185,63 @@
 									<a href="" class="d-flex justify-content-center align-items-center ">
 										<i class="fa-regular fa-heart fa-sm mr-2"></i> yêu thích
 									</a>
-
 						</div>
-							<div class="owl-carousel owl-theme">
-								<div class="item">
-									<a href="#" title=""><img class="object-fit " style="width: 400px;height: 400px;"
-											src="/src/vendor/images/mobile7.jpg"></a>
+							<div id="carouselSlideImg" class="carousel slide pointer-event" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item text-center">
+										<img src="/src/vendor/images/mobile7.jpg" alt="" class="img-fluid" style="width: 300px;height:300;">
+									</div>
+									<div class="carousel-item text-center">
+										<img src="/src/vendor/images/mobile8.jpg" alt="" class="img-fluid" style="width: 300px;height:300px;">
+									</div>
+									<div class="carousel-item active text-center">
+										<img src="/src/vendor/images/mobile9.jpg" alt="" class="img-fluid" style="width: 300px;height:300px;">
+									</div>
+									<div class="carousel-item text-center">
+										<img src="/src/vendor/images/mobile10.jpg" alt="" class="img-fluid" style="width: 300px;height:300px;">
+									</div>
+									
 								</div>
-								<div class="item">
-									<a href="#" title=""><img class="object-fit " style="width: 400px;height: 400px;"
-											src="/src/vendor/images/mobile8.jpg"></a>
-								</div>
-								<div class="item">
-									<a href="#" title=""><img class="object-fit " style="width: 400px;height: 400px;"
-											src="/src/vendor/images/mobile9.jpg"></a>
-								</div>
-								<div class="item">
-									<a href="#" title=""><img class="object-fit " style="width: 400px;height: 400px;"
-											src="/src/vendor/images/mobile10.jpg"></a>
-								</div>
-
-
+								<a class="carousel-control-prev" href="#carouselSlideImg" role="button" data-slide="prev">
+									<i class="fa-solid fa-circle-chevron-left fa-lg text-black-50"></i>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselSlideImg" role="button" data-slide="next">
+									<i class="fa-solid fa-circle-chevron-right fa-lg text-black-50"></i>
+									<span class="sr-only">Next</span>
+								</a>
+								<ol class="carousel-indicators m-0">
+									<li data-target="#carouselSlideImg" data-slide-to="0" class="w-100 h-0 text-center">
+										<div class="d-block d-sm-block">
+											<br>
+											<img class="object-fit " style="width: 55px;height: auto;"
+												src="/src/vendor/images/mobile7.jpg">
+										</div>
+									</li>
+									<li data-target="#carouselSlideImg" data-slide-to="1" class="w-100 text-center">
+										<div class="d-none d-sm-block">
+											<br>
+											<img class="object-fit " style="width: 55px;height: auto;"
+												src="/src/vendor/images/mobile8.jpg">
+										</div>
+									</li>
+									<li data-target="#carouselSlideImg" data-slide-to="2" class="w-100 text-center active">
+										<div class="d-none d-sm-block">
+											<br>
+											<img class="object-fit " style="width: 55px;height: auto;"
+												src="/src/vendor/images/mobile9.jpg">
+										</div>
+									</li>
+									<li data-target="#carouselSlideImg" data-slide-to="3" class="w-100 text-center">
+										<div class="d-none d-sm-block">
+											<br>
+											<img class="object-fit " style="width: 55px;height: auto;"
+												src="/src/vendor/images/mobile10.jpg">
+										</div>
+									</li>
+								</ol>
 							</div>
-
-
+							<div style="height: 70px;"></div> 
 								<div class="card border-0 my-4">
 								<div class="card-header">
 									<i class="fa fa-clock-o text-danger" aria-hidden="true"></i>
@@ -291,7 +325,7 @@
 								<li class="nav-item mr-2 mb-2">
 									<a class="d-inline-block text-dark" href="#">
 										<div class="custom-control custom-radio custom-control-inline  border rounded mb-1 mr-1" style="padding-left: 29px; padding-right: 5px; ">
-											<input type="radio" class="custom-control-input" id="defaultInlineCLR1" name="inlineDefaultRadiosExample1">
+											<input type="radio" class="custom-control-input" id="defaultInlineCLR1" name="inlineDefaultRadiosExample1" checked>
 											<label class="custom-control-label text-center p-1" for="defaultInlineCLR1">
 													<img src="/src/vendor/images/dienthoai.jpg" alt="" class="img-fluid" style="width: 50px;height: 50px;">
 													<span>xanh</span>
