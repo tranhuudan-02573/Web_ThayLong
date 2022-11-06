@@ -130,7 +130,7 @@ width: 1620px !important;
 	height: 400px !important;
 }
 .fnSz,.ip-placeholder::placeholder{
-	font-size: 0.9rem;	
+	font-size: 0.9rem;
 }
 .r4px{
 	border-radius: 4px;
@@ -153,3 +153,4 @@ width: 1620px !important;
 	width: 80px;
 	height: auto;
 }
+
