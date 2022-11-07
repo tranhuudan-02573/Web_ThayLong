@@ -301,7 +301,7 @@ header.innerHTML =
 							<a href="/src/index.html" title=""><img src="/src/vendor/images/fptshop-logo.png" class="img-fluid"></a>
 						</div>
 						<div class="col-7 pull-right d-flex justify-content-end align-items-center d-sm-none text-white"><i class="fa fa-shopping-cart"></i></div>
-						<div class="col-xl-5 col-lg-5 col-md-5 col-12 ">
+						<div class="col-xl-4 col-lg-4 col-md-4 col-12 ">
 							<div class="input-group ">
 								<input type="text" class="form-control " placeholder="Tìm kiếm sản phẩm" aria-label="Recipient's username" aria-describedby="basic-addon2">
 								<div class="input-group-append " >
@@ -310,7 +310,7 @@ header.innerHTML =
 							</div>
 						</div>
 						<!--end col-6-->
-						<div class="col-xl-5 col-lg-5 col-md-5 col-12 d-none d-sm-block pl-1 pr-1">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-12 d-none d-sm-block pl-1 pr-1">
 							<ul class="nav justify-content-end">
 
 <li class="nav-item">
@@ -328,6 +328,12 @@ header.innerHTML =
 									<a class="nav-link text-center text-white " href="/src/html/user.html" data-toggle="modal" data-target="#modalLoginForm">
 										<div><i class="fa fa-user"aria-hidden="true"></i></div>
 										Tài khoản
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-center text-white " href="/src/html/signup.html" >
+										<div><i class="fa-solid fa-user-plus"></i></div>
+										sign up
 									</a>
 								</li>
 							</ul>

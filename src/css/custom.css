@@ -118,9 +118,7 @@ ul.stepper>.step-after:not(:last-of-type):after{
 .form{
 	/* top:0rem */
 }
-.owl-stage{
-width: 1620px !important;
-}
+
 .tab-content{
 	padding-top: 1rem !important;
 }
@@ -153,4 +151,3 @@ width: 1620px !important;
 	width: 80px;
 	height: auto;
 }
-
