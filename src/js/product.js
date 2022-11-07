@@ -19,7 +19,7 @@ $(function(){
 	});
 
 	$('.products-iphone .owl-carousel').owlCarousel({
-		loop:false,
+		loop:true,
 		margin:10,
 		nav:true,
 		dots:true,
@@ -55,7 +55,7 @@ $(function(){
 		}
 	});
 	$('.details-product .owl-carousel').owlCarousel({
-		loop:false,
+		loop:true,
 		margin:10,
 		nav:true,
 		navText: ["<i class='fa-solid fa-circle-chevron-left fa-lg'></i>","<i class='fa-solid fa-circle-chevron-right fa-lg'></i>"],
