@@ -23,7 +23,7 @@ $(function(){
 		margin:10,
 		nav:true,
 		dots:true,
-		navText: ["<img src='/src/vendor/images/kiTu.png' width = '30'>","<img src='/src/vendor/images/kiTu.png' width='30'>"],
+		navText: ["<img src='/src/images/kiTu.png' width = '30'>","<img src='/src/images/kiTu.png' width='30'>"],
 		responsive:{
 			0:{
 				items:1
@@ -41,7 +41,7 @@ $(function(){
 		margin:10,
 		nav:true,
 		dots:false,
-		navText: ["<img src='/src/vendor/images/kiTu.png' width = '30'>","<img src='/src/vendor/images/kiTu.png' width='30'>"],
+		navText: ["<img src='/src/images/kiTu.png' width = '30'>","<img src='/src/images/kiTu.png' width='30'>"],
 		responsive:{
 			0:{
 				items:1

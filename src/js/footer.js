@@ -6,7 +6,7 @@ footer.innerHTML =
 			<div class="col-xl-7">
 				<div class="row row-md">
 					<div class="col-xl-4 ">
-						<a href="policy.html" title="" >Chính sách bảo mật</a>
+						<a href="/src/html/policy.html" title="" >Chính sách bảo mật</a>
 					</div>
 					<div class="col-xl-4">
 						<a href="#" title="">Quy chế hoạt động</a>
@@ -68,14 +68,14 @@ footer.innerHTML =
 						<a href="#" title="">
 							Hỗ trợ thanh toán :
 							<br>
-							<img src="/src/vendor/images/company.PNG" alt="">
+							<img src="/src/images/company.PNG" alt="">
 						</a>
 					</div>
 					<div class="col">
 						<a href="#" title="">
 							Chứng nhận :
 							<br>
-							<img src="/src/vendor/images/notification1.PNG" alt="" class="img-fluid w-100">
+							<img src="/src/images/notification1.PNG" alt="" class="img-fluid w-100">
 						</a>
 					</div>
 					</div>

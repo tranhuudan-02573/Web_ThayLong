@@ -53,7 +53,7 @@ header.innerHTML =
 						<div class="col-9 position-absolute p-2 menu-multi-mobile">
 							<div class="row row-md">
 								<div class="col-8">
-									<a href="#" title="" class=""><img src="/src/vendor/images/fptshop-logo.png" class="img-fluid"></a>
+									<a href="#" title="" class=""><img src="/src/images/fptshop-logo.png" class="img-fluid"></a>
 								</div>
 								<div class="col-4 d-flex justify-content-end">
 									<i class="fa fa-times text-white" aria-hidden="true"></i>
@@ -298,7 +298,7 @@ header.innerHTML =
 						<!--end col-9-->
 						<div class="col-3 position-absolute overplay"></div>
 						<div class="col-xl-2 col-lg-2 col-md-2 col-4  pl-1 pr-1 ">
-							<a href="/src/index.html" title=""><img src="/src/vendor/images/fptshop-logo.png" class="img-fluid"></a>
+							<a href="/src/index.html" title=""><img src="/src/images/fptshop-logo.png" class="img-fluid"></a>
 						</div>
 						<div class="col-7 pull-right d-flex justify-content-end align-items-center d-sm-none text-white"><i class="fa fa-shopping-cart"></i></div>
 						<div class="col-xl-4 col-lg-4 col-md-4 col-12 ">
