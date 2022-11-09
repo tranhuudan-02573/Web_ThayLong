@@ -125,7 +125,42 @@
 					}
 				}
 			}
+			 /* Small devices (landscape phones, 576px and up) */
+			@media (max-width: 576px) { 
+				#pills-home-tab,#pills-profile-tab{
+						font-size: 15px !important;
+						padding: 1px 1.5px; 
+						margin-right: 2px;
+				}
+				.introduce-products ul li .active{
+					border-bottom: 1.5px solid red;
+				}
+				#pills-tabContent .owl-stage{
+					/* cart product width=152px height=410px  */
+					/* visible product 4x2 */
+					width: 608px !important;
+					height: 820px;
+				}
+				#pills-tabContent{
+					padding: 0;
+				}
+				#pills-tabContent .owl-item{
+					width: 145px !important;
+					margin: 3.5px !important;
+				}
+				#pills-tabContent .card-body{
+					padding: 5px;
+				}
+				#pills-tabContent .overflow-hidden{
+					display: none;
+				}
+				#pills-tabContent .flCAL{
+					flex-direction: column;
+					align-items: flex-start !important;
+				}
+			 }
 
+	
 		</style>
 	</head>
 
@@ -135,6 +170,7 @@
         class="btn btn-danger btn-floating "
         id="btn-back-to-top"
        style=" position: fixed;
+  z-index: 9999;		   
   bottom: 20px;
   right: 20px;
   display: none;" >
@@ -144,14 +180,14 @@
 		<div class="homeContent  mb-5">
 			<div class="container">
 				<div id="breadcrumb"></div>
-				<section class="name-product py-3 pr-3 bg-white d-flex justify-content-between align-items-center">
-					<h3 class="mb-0">
+				<section class="row name-product py-3 pr-3 bg-white">
+					<h3 class="mb-0 col-12 col-lg-7 col-xl-8">
 						<a href="#" title="" class="text-dark name-products mb-0">Samsung Galaxy S10+(128GB)
 							<span class="note border-left-0">(No.00543145)</span>
 
 						</a>
 					</h3>
-					<div class="media align-items-center">
+					<div class="media align-items-center col-12 col-lg-5 col-xl-4">
 						<ul class="nav mr-2">
 							<li class="nav-item">
 								<i class="fa fa-star font-text" aria-hidden="true"></i>
@@ -215,29 +251,29 @@
 									<span class="sr-only">Next</span>
 								</a>
 								<ol class="carousel-indicators m-0">
-									<li data-target="#carouselSlideImg" data-slide-to="0" class="w-100 h-0 text-center">
-										<div class="d-block d-sm-block ">
+									<li data-target="#carouselSlideImg" data-slide-to="0" class=" w-100 h-0 text-center">
+										<div class="d-block ">
 											<br>
 											<img class="object-fit " style="width: 55px;height: auto;"
 												src="/src/vendor/images/mobile7.jpg">
 										</div>
 									</li>
 									<li data-target="#carouselSlideImg" data-slide-to="1" class="w-100 text-center">
-										<div class="d-none d-sm-block ">
+										<div class="d-sm-block">
 											<br>
 											<img class="object-fit " style="width: 55px;height: auto;"
 												src="/src/vendor/images/mobile8.jpg">
 										</div>
 									</li>
 									<li data-target="#carouselSlideImg" data-slide-to="2" class="w-100 text-center active">
-										<div class="d-none d-sm-block ">
+										<div class="d-sm-block ">
 											<br>
 											<img class="object-fit " style="width: 55px;height: auto;"
 												src="/src/vendor/images/mobile9.jpg">
 										</div>
 									</li>
 									<li data-target="#carouselSlideImg" data-slide-to="3" class="w-100 text-center">
-										<div class="d-none d-sm-block ">
+										<div class="d-sm-block ">
 											<br>
 											<img class="object-fit " style="width: 55px;height: auto;"
 												src="/src/vendor/images/mobile10.jpg">
@@ -358,7 +394,7 @@
 							</div>
 							<div class="border p-2 my-4">
 								<div class="text-center">
-									<h5>thong tin sp</h5>
+									<h5>Thông tin sản phẩm</h5>
 								</div>
 								<hr> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sequi alias corporis
 								recusandae et optio, debitis dolor earum saepe veniam.
@@ -372,8 +408,8 @@
 									</a>
 								</li>
 
-								<li class="nav-item bg-primary w-100 card-shop hvr-round-corners" style="width: 49%">
-									<a class="nav-link text-white " href="#">
+								<li class="nav-item bg-primary w-100 card-shop hvr-round-corners">
+									<a class="nav-link text-white" href="#">
 										<h6>TRẢ GÓP QUA THẺ</h6>
 										<span class="font-text">Visa , Master card, JCB</span>
 									</a>
@@ -1368,7 +1404,7 @@ Thân mến!</p>
 
 											</div>
 									<div  class="text-center align-middle" >
-											<a href="" data-toggle="modal" data-target="#basicExampleModal">xem chi tiet</a>
+											<a href="" data-toggle="modal" data-target="#basicExampleModal">Xem chi tiết</a>
 											</div>
 										</div>
 									</div>
@@ -1475,7 +1511,7 @@ Thân mến!</p>
 
 									<div class="card-body">
 											 <div class="card-header red-text  text-center">
-                <h5 class="font-weight-500 my-1">sp đã xem gần đây</h5>
+                <h5 class="font-weight-500 my-1">Sản phẩm đã xem gần đây</h5>
               </div>
 									<!-- <h4 class=" titles mb-0 mt-4" id="three"></h4> -->
 									<ul class="list-unstyled bg-white">
@@ -1688,8 +1724,8 @@ Thân mến!</p>
 								<div class="tab-pane fade show active" id="pills-home" role="tabpanel"
 									aria-labelledby="pills-home-tab">
 									<hr>
-									<div class="owl-carousel owl-theme ">
-
+									<div class=" owl-carousel owl-theme">
+ 
 										<div class="item">
 											<div class="card ">
 									<div class="card-body">
@@ -1712,7 +1748,7 @@ Thân mến!</p>
 												}
 
 											</style>
-											<div class="d-flex flex-column h-100 w-100  ">
+											<div class="d-flex flex-column h-100 w-100 ">
 
 												<div class=" align-items-start">
 													<span class="badge badge-danger mr-1">Trả góp 0%</span>
@@ -1772,7 +1808,7 @@ Thân mến!</p>
 														<p class="d-flex quote">Pin 4400 mAh, Sạc 25 W</p>
 													</div>
 												</div>
-												<div class="mt-2  d-flex justify-content-between align-items-end">
+												<div class="flCAL mt-2  d-flex justify-content-between align-items-end">
 													<a href="" class=" d-block  align-middle" style="font-size:14px ;">
 														<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 													</a>
@@ -1808,7 +1844,7 @@ Thân mến!</p>
 												}
 
 											</style>
-											<div class="d-flex flex-column h-100 w-100  ">
+											<div class="d-flex flex-column h-100 w-100 ">
 
 												<div class=" align-items-start">
 													<span class="badge badge-danger mr-1">Trả góp 0%</span>
@@ -1868,7 +1904,7 @@ Thân mến!</p>
 														<p class="d-flex quote">Pin 4400 mAh, Sạc 25 W</p>
 													</div>
 												</div>
-												<div class="mt-2  d-flex justify-content-between align-items-end">
+												<div class="flCAL mt-2  d-flex justify-content-between align-items-end">
 													<a href="" class=" d-block  align-middle" style="font-size:14px ;">
 														<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 													</a>
@@ -1904,7 +1940,7 @@ Thân mến!</p>
 												}
 
 											</style>
-											<div class="d-flex flex-column h-100 w-100  ">
+											<div class="d-flex flex-column h-100 w-100 ">
 
 												<div class=" align-items-start">
 													<span class="badge badge-danger mr-1">Trả góp 0%</span>
@@ -1964,7 +2000,7 @@ Thân mến!</p>
 														<p class="d-flex quote">Pin 4400 mAh, Sạc 25 W</p>
 													</div>
 												</div>
-												<div class="mt-2  d-flex justify-content-between align-items-end">
+												<div class="flCAL mt-2  d-flex justify-content-between align-items-end">
 													<a href="" class=" d-block  align-middle" style="font-size:14px ;">
 														<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 													</a>
@@ -2000,7 +2036,7 @@ Thân mến!</p>
 												}
 
 											</style>
-											<div class="d-flex flex-column h-100 w-100  ">
+											<div class="d-flex flex-column h-100 w-100 ">
 
 												<div class=" align-items-start">
 													<span class="badge badge-danger mr-1">Trả góp 0%</span>
@@ -2060,7 +2096,7 @@ Thân mến!</p>
 														<p class="d-flex quote">Pin 4400 mAh, Sạc 25 W</p>
 													</div>
 												</div>
-												<div class="mt-2  d-flex justify-content-between align-items-end">
+												<div class="flCAL mt-2  d-flex justify-content-between align-items-end">
 													<a href="" class=" d-block  align-middle" style="font-size:14px ;">
 														<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 													</a>
@@ -2096,7 +2132,7 @@ Thân mến!</p>
 												}
 
 											</style>
-											<div class="d-flex flex-column h-100 w-100  ">
+											<div class="d-flex flex-column h-100 w-100 ">
 
 												<div class=" align-items-start">
 													<span class="badge badge-danger mr-1">Trả góp 0%</span>
@@ -2156,7 +2192,7 @@ Thân mến!</p>
 														<p class="d-flex quote">Pin 4400 mAh, Sạc 25 W</p>
 													</div>
 												</div>
-												<div class="mt-2  d-flex justify-content-between align-items-end">
+												<div class="flCAL mt-2  d-flex justify-content-between align-items-end">
 													<a href="" class=" d-block  align-middle" style="font-size:14px ;">
 														<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 													</a>
@@ -2192,7 +2228,7 @@ Thân mến!</p>
 												}
 
 											</style>
-											<div class="d-flex flex-column h-100 w-100  ">
+											<div class="d-flex flex-column h-100 w-100 ">
 
 												<div class=" align-items-start">
 													<span class="badge badge-danger mr-1">Trả góp 0%</span>
@@ -2252,7 +2288,7 @@ Thân mến!</p>
 														<p class="d-flex quote">Pin 4400 mAh, Sạc 25 W</p>
 													</div>
 												</div>
-												<div class="mt-2  d-flex justify-content-between align-items-end">
+												<div class="flCAL mt-2  d-flex justify-content-between align-items-end">
 													<a href="" class=" d-block  align-middle" style="font-size:14px ;">
 														<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 													</a>
@@ -2273,7 +2309,7 @@ Thân mến!</p>
 
 									<hr>
 									<div class="text-center">
-										<div class="btn btn-danger">xem tat ca</div>
+										<div class="btn btn-danger">xem tất cả</div>
 									</div>
 								</div>
 								<div class="tab-pane fade" id="pills-profile" role="tabpanel"
