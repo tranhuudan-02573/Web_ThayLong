@@ -314,25 +314,25 @@ header.innerHTML =
 							<ul class="nav justify-content-end">
 
 <li class="nav-item">
-									<a class="nav-link text-center text-white " href="/src/html/user.html"><div><i class="fa-solid fa-clock-rotate-left"></i></div>   lịch sử mua hàng</a>
+									<a class="nav-link text-center text-white " href="/src/html/user.html"><div><i class="fa-solid fa-clock-rotate-left fa-lg"></i></div>   lịch sử mua hàng</a>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link text-center text-white " href="/src/html/cart.html"> <div> <i class="fa fa-shopping-cart" aria-hidden="true"></i></div>Giỏ hàng</a>
+									<a class="nav-link text-center text-white " href="/src/html/cart.html"> <div> <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></div>Giỏ hàng</a>
 								</li>
 
 								  <li class="nav-item">
-									<a class="nav-link text-center text-white " href="/src/html/wishlist.html"><div><i class="fa fa-heart" aria-hidden="true"></i></div> Sản phẩm đã thích</a>
+									<a class="nav-link text-center text-white " href="/src/html/wishlist.html"><div><i class="fa fa-heart fa-lg" aria-hidden="true"></i></div> Sản phẩm đã thích</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link text-center text-white " href="/src/html/user.html" data-toggle="modal" data-target="#modalLoginForm">
-										<div><i class="fa fa-user"aria-hidden="true"></i></div>
+										<div><i class="fa fa-user fa-lg"aria-hidden="true"></i></div>
 										Tài khoản
 									</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link text-center text-white " href="/src/html/signup.html" >
-										<div><i class="fa-solid fa-user-plus"></i></div>
+										<div><i class="fa-solid fa-user-plus fa-lg"></i></div>
 										sign up
 									</a>
 								</li>
@@ -382,39 +382,39 @@ header.innerHTML =
 				<div class="container">
 					<ul class="nav row row-sm">
 						<li class="nav-item ol-md-4 hvr-grow_color" >
-							<a class="nav-link text-white"href="#"><i class="fa fa-mobile fa-fw" ></i>iPhone
+							<a class="nav-link text-white text-uppercase"href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>iPhone
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white" href="#"><i class="fa fa-mobile fa-fw" ></i>SamSung
+							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>SamSung
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white" href="#"><i class="fa fa-mobile fa-fw" ></i>Oppo
+							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Oppo
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white" href="#"><i class="fa fa-mobile fa-fw" ></i>Xiaomi
+							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Xiaomi
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white" href="#"><i class="fa fa-mobile fa-fw" ></i>Vivo
+							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Vivo
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white" href="#"><i class="fa fa-mobile fa-fw" ></i>Realme
+							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Realme
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white" href="#"><i class="fa fa-mobile fa-fw" ></i>Nokia
+							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Nokia
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white" href="#"><i class="fa fa-mobile fa-fw" ></i>Itel
+							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Itel
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white" href="#"><i class="fa fa-mobile fa-fw" ></i>Msstel
+							<a class="nav-link text-white text-uppercase"  href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Msstel
 							</a>
 						</li>
 
