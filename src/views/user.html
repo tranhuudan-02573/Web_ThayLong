@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/src/lib/fa6/fontawesome-free-6.2.0-web/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/src/css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="/src/css/hover-min.css">
+    <link rel="stylesheet" href="/src/lib/datatable/DataTables/datatables.min.css">
     <link rel="stylesheet" type="text/css" href="/src/css/product.css">
     <link rel="stylesheet" type="text/css" href="/src/css/custom.css">
   </head>
@@ -93,6 +94,12 @@
                 <li class="nav-item ">
                   <a class="nav-link bg-white text-dark   text-left" data-toggle="tab" href="#panel22" role="tab"
                     aria-controls="profile-just" aria-selected="false">lịch sử mua hàng
+                    <i class="fas fa-file-alt ml-2"></i>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link bg-white text-dark   text-left" data-toggle="tab" href="#panel23" role="tab"
+                    aria-controls="profile-just" aria-selected="false">danh sách yêu thích
                     <i class="fas fa-file-alt ml-2"></i>
                   </a>
                 </li>
@@ -212,6 +219,45 @@
                     </div>
                   </div>
                 </div>
+                <div class="tab-pane fade" id="panel23" role="tabpanel">	<div>
+                    <h5 class="my-2 h5 d-inline-block">ngày yêu thích cuối cùng: 20/12/2022</h5>
+                    <a href="" class="float-right">| phan hoi</a>
+                     <a href="" class="float-right">y kien | </a>
+                  </div>		<div class="card">
+								<div class="card-body">
+									<div class="table-responsive text-nowrap">
+
+								<table class="table">
+									<thead>
+										<tr>
+											<th scope="col">#</th>
+											<th scope="col">name</th>
+											<th scope="col">image</th>
+											<th scope="col">price</th>
+											<th scope="col">status</th>
+											<th scope="col">delete</th>
+
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th scope="row">1</th>
+											<td class="align-middle justify-content-center">Ipone14</td>
+											<td><img style="width: 70px; height: 70px;" src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg" alt="" ></td>
+											<td class="justify-content-center align-middle">36000000.VND</td>
+											<td class="justify-content-center align-middle">Còn hàng</td>
+											<td class="justify-content-center align-middle"><button class="btn btn-outline-danger btn-sm btn-rounded">delete</button>
+											<button class="btn  btn-sm btn-rounded btn-outline-info">add to cart</button></td>
+
+										</tr>
+
+
+									</tbody>
+								</table>
+
+									</div>
+								</div>
+							</div></div>
                 <!-- Panel 2 -->
                 <!-- Panel 3 -->
               </div>
@@ -238,6 +284,13 @@
     <script src="/src/lib/mdb4/js/mdb.min.js"></script>
     <script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="/src/js/product.js"></script>
+<script src="/src/lib/datatable/DataTables/datatables.min.js"></script>
+<script>
+			$(document).ready(function () {
+				$('.table').DataTable();
+			});
+</script>
+
     <script src="/src/js/breadcrumb.js"></script>
     <script src="/src/js/backtop.js"></script>
   </body>
