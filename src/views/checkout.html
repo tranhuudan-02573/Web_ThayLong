@@ -47,7 +47,7 @@
 						<div class="col-lg-8">
 							<div class="card">
 								<div class="card-header red-text  text-center">
-                <h5 class="font-weight-500 my-1">thong tin khach hang</h5>
+                <h5 class="font-weight-500 my-1">thông tin khách hàng</h5>
               </div>
 								<div class="card-body">
 
@@ -63,16 +63,16 @@
 													<div class="my-2">
 														<div class="form-check form-check-inline ">
 															<input type="radio" class="form-check-input"
-																id="materialInline1" name="inlineMaterialRadiosExample">
+																id="materialInline1" checked name="inlineMaterialRadiosExample">
 															<label class="form-check-label"
-																for="materialInline1">anh</label>
+																for="materialInline1">nam</label>
 															<!-- Material inline 2 -->
 														</div>
 														<div class="form-check form-check-inline ">
 															<input type="radio" class="form-check-input"
 																id="materialInline2" name="inlineMaterialRadiosExample">
 															<label class="form-check-label"
-																for="materialInline2">chi</label>
+																for="materialInline2">nữ</label>
 														</div>
 													</div>
 												</div>
@@ -81,17 +81,18 @@
 													<div class="col-6 m-0">
 														<!-- Material input -->
 														<div class="md-form m-0">
-															<i class="fas fa-user prefix"></i>
+															<i class="fas fa-user prefix text-danger"></i>
+
 															<input type="text" id="email" class="form-control">
-															<label for="email">E-mail address</label>
+															<label for="email">tên</label>
 														</div>
 													</div>
 													<div class="col-6 m-0">
 														<!-- Material input -->
 														<div class="md-form  m-0">
-															<i class="fas fa-user prefix"></i>
+															<i class="fa-solid fa-phone prefix text-danger"></i>
 															<input type="text" id="phone" class="form-control">
-															<label for="phone">E-mail address</label>
+															<label for="phone">số điện thoại</label>
 														</div>
 													</div>
 												</div>
@@ -99,32 +100,27 @@
 
 												<!--Username-->
 												<div class="md-form">
-													<i class="fas fa-user prefix"></i>
+													<i class="fa-solid fa-address-book prefix text-danger"></i>
 													<input type="text" id="address" class="form-control">
-													<label for="address">E-mail address</label>
+													<label for="address">địa chỉ</label>
 												</div>
 													<div class="md-form">
-													<i class="fas fa-user prefix"></i>
-													<input type="text" id="name" class="form-control">
-													<label for="name">E-mail address</label>
-												</div>
-												<div class="md-form ">
-													<i class="fas fa-user prefix"></i>
-													<input type="text" id="code" class="form-control">
-													<label for="code">E-mail address</label>
+		<i class="fa-solid fa-envelope prefix text-danger"></i>
+													<input type="text" id="email" class="form-control">
+													<label for="email">email</label>
 												</div>
 
+
 												<div class="my-2">
-													<input type="checkbox" class="form-check-input filled-in"
+													<input type="checkbox" class="form-check-input "
 														id="chekboxRules">
-													<label class="form-check-label" for="chekboxRules">I accept the
-														terms and conditions</label>
+
+													<label class="form-check-label" for="chekboxRules">tôi đã đồng ý với các điều khoản và điều kiện</label>
 												</div>
 												<div class="my-2">
-													<input type="checkbox" class="form-check-input filled-in"
+													<input type="checkbox" class="form-check-input "
 														id="safeTheInfo">
-													<label class="form-check-label" for="safeTheInfo">Save this
-														information for next time</label>
+													<label class="form-check-label" for="safeTheInfo">lưu thông tin đơn hàng</label>
 												</div>
 
 
@@ -149,16 +145,24 @@
 						<!--Grid column-->
 						<div class="col-lg-4 mb-4">
 
-
+								<div class="input-group input-group-md mb-4 input-group-lg">
+									<input type="text" class="form-control " placeholder="nhập mã giảm giá" aria-label="code"
+										aria-describedby="button-addon2">
+									<div class="input-group-append">
+										<button
+											class="btn btn-md btn-outline-default m-0 px-3 py-2 z-depth-0 waves-effect"
+											type="button" id="button-addon2">áp dụng</button>
+									</div>
+								</div>
 
 							<!--Card-->
 							<div class="card ">
-
+	<div class="card-header red-text r text-center">
+										<h5 class="font-weight-500 my-1">tóm tắt đơn hàng</h5>
+									</div>
 								<!--Card content-->
 								<div class="card-body">
-									<h4 class="mb-4 mt-1 h5 text-center font-weight-bold red-text">Summary</h4>
 
-									<hr>
 
 									<dl class="row">
 										<dd class="col-sm-8">
@@ -176,13 +180,13 @@
 
 									<dl class="row">
 										<dt class="col-sm-8">
-											Total
+											tổng
 										</dt>
 										<dt class="col-sm-4">
 											$ 2000
 										</dt>
 									</dl>
-									<button class="btn btn-outline-danger waves-effect btn-lg btn-block" type="submit">Place order</button>
+									<button class="btn btn-outline-danger waves-effect btn-lg btn-block" type="submit">thanh toán</button>
 								</div>
 
 							</div>
