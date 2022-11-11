@@ -18,144 +18,161 @@
 	</head>
 
 	<body>
+
+		<button type="button" class="btn btn-danger btn-floating " id="btn-back-to-top" style=" position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;">
+			<i class="fas fa-arrow-up"></i>
+		</button>
 		<header id="header"></header>
- <!--Main Navigation-->
-<header>
+		<!--Main Navigation-->
+		<header>
 
-		<main>
-			<div class="container">
-				<div id="breadcrumb"></div>
-				<section class="my-5">
+			<main>
+				<div class="container">
+					<div id="breadcrumb"></div>
+					<section class="my-5">
 
-					<div class="row">
-<div class="col-12">
-							<div class="card">
-								<div class="card-body">
+						<div class="row">
+							<div class="col-12">
+								<div class="card">
+									<div class="card-body">
 										<div class="table-responsive text-nowrap">
 
-								<table class="table">
-									<thead>
-										<tr>
-											<th scope="col">#</th>
-											<th scope="col">name</th>
-											<th scope="col">image</th>
-											<th scope="col">color</th>
-											<th scope="col">price</th>
-											<th scope="col">amount</th>
-											<th scope="col">status</th>
-											<th scope="col">delete</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<th scope="row">1</th>
-											<td class="align-middle justify-content-center">Ipone14</td>
-											<td><img style="width: 70px; height: 70px;" src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg" alt="" ></td>
-											<td class="align-middle justify-content-center">
+											<table class="table">
+												<thead>
+													<tr>
+														<th scope="col">#</th>
+														<th scope="col">tên sản phẩm</th>
+														<th scope="col">hình ảnh</th>
+														<th scope="col">màu sắc</th>
+														<th scope="col">giá</th>
+														<th scope="col">số lượng</th>
+														<th scope="col">trạng thái</th>
+														<th scope="col">thao tác</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<th scope="row" class="align-middle justify-content-center">1
+														</th>
+														<td class="align-middle justify-content-center"
+															style="max-width: 15%;">Ipone14 dassslorem100</td>
+														<td><img style="width: 70px; height: 70px;"
+																src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+																alt=""></td>
+														<td class="align-middle justify-content-center">
 
-	<select >
-										<option value="1">Red</option>
-										<option value="2">Black</option>
-										<option value="3">Blue</option>
-										<option value="4">Green</option>
-										<option value="5">White</option>
-									</select>
+															<select>
+																<option value="1">đỏ</option>
+																<option value="2">đen</option>
+																<option value="3">xanh</option>
+															</select>
 
-<!--/Blue select--></td>
-											<td class="align-middle justify-content-center">36000000.VND</td>
-											<td class="align-middle justify-content-center"><input type="number" value="1" style="width: 50px;"></td>
-											<td  class="align-middle justify-content-center">Còn hàng</td>
-										<td class="justify-content-center align-middle"><button class="btn btn-outline-danger btn-sm btn-rounded">delete</button>
-										<button class="btn btn-outline-info btn-sm btn-rounded">add to wishlist</button></td>
+															<!--/Blue select-->
+														</td>
+														<td class="align-middle justify-content-center">36000000.VND
+														</td>
+														<td class="align-middle justify-content-center"><input
+																type="number" value="1" style="width: 50px;"></td>
+														<td class="align-middle justify-content-center">Còn hàng</td>
+														<td class="justify-content-center align-middle"><button
+																class="btn btn-outline-danger btn-sm btn-rounded">xóa
+																khỏi giỏ hàng</button>
+															<button class="btn btn-outline-info btn-sm btn-rounded">thêm
+																vào giỏ hàng</button>
+														</td>
 
-										</tr>
+													</tr>
 
 
-									</tbody>
-								</table>
+												</tbody>
+											</table>
 
-							</div>
+										</div>
+									</div>
 								</div>
 							</div>
-</div>
 
 
 
 
-			</div>
+						</div>
 
-			</section>
-			<section class="my-5">
-				<div class="row">
-					<div class="col-4 mr-auto">
-						<h5 class="font-weight-lighter"> nhap mã giam gia neu co</h5>
-							<div class="input-group input-group-md ">
-  <input type="text" class="form-control " placeholder="code discount" aria-label="code"
-    aria-describedby="button-addon2">
-  <div class="input-group-append">
-    <button class="btn btn-md btn-outline-default m-0 px-3 py-2 z-depth-0 waves-effect" type="button" id="button-addon2">áp dụng</button>
-  </div>
-</div></div>
-					<div class="col-4 ml-auto">
+					</section>
+					<section class="my-5">
+						<div class="row">
+
+							<div class="col-4 ml-auto">
 								<div class="card ">
+									<div class="card-header red-text  text-center">
+										<h5 class="font-weight-500 my-1">tổng giỏ hàng</h5>
+									</div>
+									<div class="card-body ">
 
-							<div class="card-body ">
 
-								<h4 class="mb-4 mt-1 h5 text-center font-weight-bold">cart total</h4>
+										<table class="table table-bordered table-striped mb-0">
 
-									<hr>
-								<div class="row     ">
-									<span class="col-8 text-uppercase py-2">tam tinh</span> <span class="col-4 py-2">3123</span>
+											<tbody>
+												<tr>
+													<th scope="row">thuế VAT</th>
+													<td>543</td>
+												</tr>
 
+												<tr>
+													<th scope="row">ship fee</th>
+													<td>432</td>
+												</tr>
+												<tr>
+													<th scope="row">tạm tính</th>
+													<td>132321546312541</td>
+												</tr>
+
+												<tr>
+													<th scope="row">tổng</th>
+													<td>542</td>
+												</tr>
+
+											</tbody>
+										</table>
+										<hr>
+										<button class="btn btn-outline-danger waves-effect btn-lg btn-block"
+											type="submit">đặt hàng</button>
+									</div>
 								</div>
-								<div class="row     ">
-									<span class="col-8 text-uppercase py-2">thue</span> <span class="col-4 py-2">3123</span>
-
-								</div>
-								<div class="row     ">
-									<span class="col-8 text-uppercase py-2">ship</span> <span class="col-4 py-2">3123</span>
-
-								</div>
-								<div class="row     ">
-									<span class="col-8 text-uppercase py-2">tong</span> <span class="col-4 py-2">3123</span>
-
-								</div>
-<hr>
-							<button class="btn btn-outline-danger waves-effect btn-lg btn-block" type="submit">Place order</button>
 							</div>
 						</div>
-						</div>
+					</section>
+
+
 				</div>
-			</section>
+
+			</main>
+
+			<footer id="footer" class="p-4 border-top  bg-white"></footer>
 
 
-			</div>
+			<script src="/src/js/header.js"></script>
+			<script src="/src/js/footer.js"></script>
+			<script type="text/javascript" src="/src/lib/mdb4/js/jquery.min.js"></script>
+			<script src="/src/lib/mdb4/js/popper.min.js"></script>
+			<script src="/src/lib/mdb4/js/bootstrap.min.js"></script>
+			<script src="/src/lib/mdb4/js/mdb.min.js"></script>
+			<script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
+			<script type="text/javascript" src="/src/js/product.js"></script>
+			<script src="/src/js/backtop.js"></script>
 
-		</main>
-
-		<footer id="footer" class="p-4 border-top  bg-white"></footer>
-
-
-		<script src="/src/js/header.js"></script>
-		<script src="/src/js/footer.js"></script>
-		<script type="text/javascript" src="/src/lib/mdb4/js/jquery.min.js"></script>
-		<script src="/src/lib/mdb4/js/popper.min.js"></script>
-		<script src="/src/lib/mdb4/js/bootstrap.min.js"></script>
-		<script src="/src/lib/mdb4/js/mdb.min.js"></script>
-		<script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
-		<script type="text/javascript" src="/src/js/product.js"></script>
-		<script src="/src/js/backtop.js"></script>
-
-		<script src="/src/lib/datatable/DataTables/datatables.min.js"></script>
-		<script>
-			$(document).ready(function () {
-				$('.mdb-select').materialSelect();
-				$('.table').DataTable();
-			});
+			<script src="/src/lib/datatable/DataTables/datatables.min.js"></script>
+			<script>
+				$(document).ready(function () {
+					$('.mdb-select').materialSelect();
+					$('.table').DataTable();
+				});
 
 
-		</script>
-		<script src="/src/js/breadcrumb.js"></script>
+			</script>
+			<script src="/src/js/breadcrumb.js"></script>
 	</body>
 
 </html>
