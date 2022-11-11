@@ -38,8 +38,8 @@ header.innerHTML =
       </div>
       </div>
       <div class="modal-footer d-flex justify-content-between">
-		<span>Bạn chưa có tài khoản? <a href="/src/views/signup.html" class="text-danger">Đăng nhập</a></span>
-        <button class="btn btn-danger ">Đăng ký</button>
+		<span>Bạn chưa có tài khoản? <a href="/src/views/signup.html" class="text-danger">Đăng ký</a></span>
+        <button class="btn btn-danger ">Đăng nhập</button>
       </div>
     </div>
   </div>
