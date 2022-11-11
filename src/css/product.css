@@ -102,7 +102,7 @@ header .overplay{
 	border-bottom: 2px solid red;
 }
 #pills-home-tab,#pills-profile-tab,#pills-recent-tab{
-	font-size: 18px;
+	font-size: 38px;
 }
 
 .title-details{
@@ -204,4 +204,8 @@ footer a{
 	.products-iphone .card-shop{
 		width: 48% !important;
 	}
+}
+
+#myTab .nav-item .active{
+	color: red !important;
 }
