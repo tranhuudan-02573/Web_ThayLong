@@ -151,3 +151,32 @@ ul.stepper>.step-after:not(:last-of-type):after{
 	width: 80px;
 	height: auto;
 }
+@media (max-width: 576px) {
+	#pills-tabContent .owl-stage {
+		/* cart product width=152px height=410px  */
+		/* visible product 4x2 */
+		width: 610px !important;
+		height: 820px;
+
+	}
+	#pills-tabContent {
+		padding: 0;
+	}
+
+	#pills-tabContent .owl-item {
+		width: 23% !important;
+		margin: 3.5px !important;
+	}
+	#pills-tabContent .card-body {
+		padding: 5px;
+	}
+
+	#pills-tabContent .overflow-hidden {
+		display: none;
+	}
+
+	#pills-tabContent .flCAL {
+		flex-direction: column;
+		align-items: flex-start !important;
+	}
+}

@@ -1,6 +1,11 @@
-const footer =document.querySelector("footer#footer");
+const footer = document.querySelector("footer#footer");
 footer.innerHTML =
-        `
+	`
+		<div class="fixed-action-btn smooth-scroll" style="bottom: 45px; right: 24px;">
+			<a href="#header" class="btn-floating btn-large red">
+			  <i class="fa fa-arrow-up"></i>
+			</a>
+		  </div>
 	<div class="container ">
 		<div class="row row-md ">
 			<div class="col-xl-7">
