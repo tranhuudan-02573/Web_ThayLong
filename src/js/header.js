@@ -314,24 +314,24 @@ header.innerHTML =
 							<ul class="nav justify-content-end">
 
 <li class="nav-item">
-									<a class="nav-link text-center text-white " href="/src/html/user.html"><div><i class="fa-solid fa-clock-rotate-left fa-lg"></i></div>   lịch sử mua hàng</a>
+									<a class="nav-link text-center text-white " href="/src/views/user.html"><div><i class="fa-solid fa-clock-rotate-left fa-lg"></i></div>   lịch sử mua hàng</a>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link text-center text-white " href="/src/html/cart.html"> <div> <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></div>Giỏ hàng</a>
+									<a class="nav-link text-center text-white " href="/src/views/cart.html"> <div> <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></div>Giỏ hàng</a>
 								</li>
 
 								  <li class="nav-item">
-									<a class="nav-link text-center text-white " href="/src/html/wishlist.html"><div><i class="fa fa-heart fa-lg" aria-hidden="true"></i></div> Sản phẩm đã thích</a>
+									<a class="nav-link text-center text-white " href="/src/views/user.html"><div><i class="fa fa-heart fa-lg" aria-hidden="true"></i></div> Sản phẩm đã thích</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link text-center text-white " href="/src/html/user.html" data-toggle="modal" data-target="#modalLoginForm">
+									<a class="nav-link text-center text-white " href="/src/views/user.html" data-toggle="modal" data-target="#modalLoginForm">
 										<div><i class="fa fa-user fa-lg"aria-hidden="true"></i></div>
 										Tài khoản
 									</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link text-center text-white " href="/src/html/signup.html" >
+									<a class="nav-link text-center text-white " href="/src/views/signup.html" >
 										<div><i class="fa-solid fa-user-plus fa-lg"></i></div>
 										sign up
 									</a>
