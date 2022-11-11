@@ -107,42 +107,100 @@
     <div class="col-md-6">
       <!-- Material input -->
       <div class="md-form form-group">
-        <input type="email" class="form-control" id="inputEmail4MD" placeholder="Email">
-        <label for="inputEmail4MD">Email</label>
+        <input type="text" class="form-control" id="name" placeholder="name">
+        <label for="name">name</label>
       </div>
     </div>
-
-       <div class="col-md-6">
-      <!-- Material input -->
-      <div class="md-form form-group">
-        <input type="email" class="form-control" id="inputEmail4MD" placeholder="Email">
-        <label for="inputEmail4MD">Email</label>
-      </div>
-    </div>
-       <div class="col-md-6">
-      <!-- Material input -->
-      <div class="md-form form-group">
-        <input type="email" class="form-control" id="inputEmail4MD" placeholder="Email">
-        <label for="inputEmail4MD">Email</label>
-      </div>
-    </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-md-6">
-      <!-- Material input -->
-      <div class="md-form form-group">
-        <input type="password" class="form-control" id="inputPassword4MD" placeholder="Password">
-        <label for="inputPassword4MD">Password</label>
-      </div>
-    </div>
-    <!-- Grid column -->
+     <div class="col-md-6 d-flex align-items-center">
+   <div class="input-group ">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
   </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01"
+      aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
+</div>
+    </div>
+    <div class="col-6">
+        <!-- Material input -->
+<div class="md-form">
+  <input type="number" id="numberExample" class="form-control">
+  <label for="numberExample">price</label>
+</div>
+    </div>
+    <div class="col-6">
+        <!-- Material input -->
+<div class="md-form">
+  <input type="number" id="numberExample" class="form-control">
+  <label for="numberExample">total</label>
+</div>
+    </div>
+     <div class="my-4">
+        <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" checked id="gender"
+                          name="gender">
+                        <label class="form-check-label" for="gender">dang ban </label>
+                      </div>
+
+                      <!-- Material inline 2 -->
+                      <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="gender2"
+                          name="gender">
+                        <label class="form-check-label" for="gender2">chua ban</label>
+                      </div>
+     </div>
+
+ <div class="col-12">
+      <!-- Material input -->
+      <div class="form-group">
+  <label  for="exampleFormControlTextarea3" style="float: left; color: #6c757d;">short Desc</label>
+  <textarea placeholder="Desc" class="form-control" id="exampleFormControlTextarea3" rows="7" style="height: 80px; " ></textarea>
+</div>
+    </div>
+     <div class="col-md-12">
+      <!-- Material input -->
+      <div class="form-group">
+  <label  for="exampleFormControlTextarea3" style="float: left; color: #6c757d;"> Desc</label>
+  <textarea placeholder="Desc" class="form-control" id="exampleFormControlTextarea3" rows="7" style="height: 80px; " ></textarea>
+</div>
+    </div>
+
+<div class="type col-4">
+    <select class="mdb-select md-form" editable="true" searchable="Search and add here...">
+  <option value="" disabled selected>Choose your option</option>
+  <option value="1">Option 1</option>
+  <option value="2">Option 2</option>
+  <option value="3">Option 3</option>
+</select>
+<label class="mdb-main-label" style=" text-align: start  !important;">type</label>
+</div>
+<div class="cap col-4">
+    <select class="mdb-select md-form" editable="true" searchable="Search and add here...">
+  <option value="" disabled selected>Choose your option</option>
+  <option value="1">Option 1</option>
+  <option value="2">Option 2</option>
+  <option value="3">Option 3</option>
+</select>
+<label class="mdb-main-label"style=" text-align: start  !important;">cap</label>
+</div>
+<div class="model col-4">
+    <select class="mdb-select md-form" editable="true" searchable="Search and add here...">
+  <option value="" disabled selected>Choose your option</option>
+  <option value="1">Option 1</option>
+  <option value="2">Option 2</option>
+  <option value="3">Option 3</option>
+</select>
+<label class="mdb-main-label " style=" text-align: start  !important;">model</label>
+</div>
+
+</div>
   <!-- Grid row -->
 
   <div class="action">
     <div class="btn btn-danger btn-md">delete</div>
-    <div class="btn btn-primary btn-md">create</div>
+    <div class="btn btn-default btn-md">create</div>
     <div class="btn btn-warning btn-md">update</div>
     <div class="btn btn-info btn-md">reset</div>
   </div>
@@ -161,20 +219,26 @@
                                             <thead>
                                             <tr>
                                                 <th width="0px">#</th>
-                                                <th>Ngành</th>
-                                                <th>Năm</th>
-                                                <th>Tên</th>
-                                                <th>Thao tác</th>
+                                                <th>thumnail</th>
+                                                <th>name</th>
+                                                <th>cap</th>
+                                                <th>price</th>
+                                                 <th>total</th>
+                                                  <th>status</th>
+                                                   <th>action</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>dsa</td>
-                                                    <td>dsa</td>
-                                                    <td>dsa</td>
-                                                    <td>13</td>
+                                                    <td class="align-middle justify-content-center">123</td>
+                                                   <td class="align-middle justify-content-center"><img src="https://cdn.tgdd.vn/Products/Images/522/222806/lenovo-tab-m8-tb-8505x400x400-600x600.jpg" class="img-fluid " style="width: 60px; height: 60px;" alt=""></td>
+                                                    <td class="align-middle justify-content-center">dsa</td>
+                                                    <td class="align-middle justify-content-center">13</td>
+                                                          <td class="align-middle justify-content-center">13</td>
+                                                                <td class="align-middle justify-content-center">13</td>
+                                                                      <td class="align-middle justify-content-center">dang ban</td>
 
-                                                    <td>
+                                                    <td class="align-middle justify-content-center">
                                                         <i class="fa-solid fa-eye"></i>
                                                         <a href="/src/html/admin/manauser/edit.html" class="fa-solid fa-pencil"
                                                            aria-hidden="true"></a>
@@ -240,12 +304,12 @@
     </div>
   </main>
   <!--Main Layout-->
+  <script src="/src/js/admin/header.js"></script>
   <script src="/src/lib/mdb4/js/jquery.js"></script>
   <script src="/src/lib/mdb4/js/popper.js"></script>
   <script src="/src/lib/mdb4/js/bootstrap.js"></script>
   <script src="/src/lib/mdb4/js/mdb.js"></script>
   <script src="/src/lib/datatable/DataTables/datatables.js"></script>
-  <script src="/src/js/admin/header.js"></script>
   <script>
     $(document).ready(function() {
 
@@ -255,6 +319,8 @@
   new WOW().init();
 
    $('#tableData').DataTable();
+    $('.mdb-select').materialSelect({
+  });
 
 
 })

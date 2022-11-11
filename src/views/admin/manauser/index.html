@@ -34,7 +34,7 @@
             <div class="col col-12 p-0">
                 <div class="card card-cascade narrower ml-2 mr-2 mb-1 ">
                     <div class="view view-cascade gradient-card-header blue-gradient d-flex  ">
-                        <div class="text-center w-100"> DANH SÁCH SẢN PHẨM</div>
+                        <div class="text-center w-100 text-uppercase"> DANH SÁCH nguoi dung</div>
 
                         <div id="action">
                             <div class="modal fade" id="add" role="dialog">
@@ -106,45 +106,113 @@
     <div class="col-md-6">
       <!-- Material input -->
       <div class="md-form form-group">
-        <input type="email" class="form-control" id="inputEmail4MD" placeholder="Email">
-        <label for="inputEmail4MD">Email</label>
+        <input type="text" class="form-control" id="phone" placeholder="phone">
+        <label for="phone">phone</label>
       </div>
     </div>
-
-       <div class="col-md-6">
-      <!-- Material input -->
-      <div class="md-form form-group">
-        <input type="email" class="form-control" id="inputEmail4MD" placeholder="Email">
-        <label for="inputEmail4MD">Email</label>
-      </div>
-    </div>
-       <div class="col-md-6">
-      <!-- Material input -->
-      <div class="md-form form-group">
-        <input type="email" class="form-control" id="inputEmail4MD" placeholder="Email">
-        <label for="inputEmail4MD">Email</label>
-      </div>
-    </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
     <div class="col-md-6">
       <!-- Material input -->
       <div class="md-form form-group">
-        <input type="password" class="form-control" id="inputPassword4MD" placeholder="Password">
-        <label for="inputPassword4MD">Password</label>
+        <input type="text" class="form-control" id="name" placeholder="Name">
+        <label for="name">name</label>
       </div>
     </div>
+
+    <div class="col-md-6">
+      <!-- Material input -->
+      <div class="md-form form-group">
+        <input type="text" class="form-control" id="email" placeholder="email">
+        <label for="email">email</label>
+      </div>
+    </div>
+    <div class="col-md-6 d-flex align-items-center">
+   <div class="input-group ">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01"
+      aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
+</div>
+    </div>
+    <div class="col-md-12">
+      <!-- Material input -->
+      <div class="md-form form-group">
+        <input type="text" class="form-control" id="address" placeholder="address">
+        <label for="address">address</label>
+      </div>
+    </div>
+
+       <div class="col-md-4 my-2">
+        <h6>gender</h6>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" checked id="gender"
+                          name="gender">
+                        <label class="form-check-label" for="gender">nam </label>
+                      </div>
+
+                      <!-- Material inline 2 -->
+                      <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="gender2"
+                          name="gender">
+                        <label class="form-check-label" for="gender2">nu</label>
+                      </div>
+                    </div>
+
+       <div class="col-md-4 my-2">
+           <h6>role</h6>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input"  id="role"
+                        checked  name="role" >
+                        <label class="form-check-label" for="role" >admin </label>
+                      </div>
+
+                      <!-- Material inline 2 -->
+                      <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="role2"
+                          name="role">
+                        <label class="form-check-label" for="role2">user</label>
+                      </div>
+                    </div>
+                     <div class="col-md-4 my-2">
+           <h6>status</h6>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="status"
+                          name="status">
+                        <label class="form-check-label" for="status">hoat dong </label>
+                      </div>
+
+                      <!-- Material inline 2 -->
+                      <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="status2" checked
+                          name="status">
+                        <label class="form-check-label" for="status2">ko hoat dong</label>
+                      </div>
+                    </div>
+
+
+
+
+
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+
+
+
     <!-- Grid column -->
   </div>
   <!-- Grid row -->
-
+  <div class="text-center mt-4">
   <div class="action">
     <div class="btn btn-danger btn-md">delete</div>
-    <div class="btn btn-primary btn-md">create</div>
+    <div class="btn btn-default btn-md">create</div>
     <div class="btn btn-warning btn-md">update</div>
     <div class="btn btn-info btn-md">reset</div>
   </div>
+</div>
 
 </form>
 <!-- Material column sizing form -->
@@ -160,20 +228,21 @@
                                             <thead>
                                             <tr>
                                                 <th width="0px">#</th>
-                                                <th>Ngành</th>
-                                                <th>Năm</th>
-                                                <th>Tên</th>
+                                                <th>name</th>
+                                                <th>phone</th>
+                                                <th>address</th>
+                                                       <th>status</th>
                                                 <th>Thao tác</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>dsa</td>
-                                                    <td>dsa</td>
-                                                    <td>dsa</td>
-                                                    <td>13</td>
-
-                                                    <td>
+                                                    <td  class="align-middle justify-content-center">123</td>
+                                                    <td class="align-middle justify-content-center">dsad</td>
+                                                    <td class="align-middle justify-content-center">21312321</td>
+                                                    <td class="align-middle justify-content-center">dasdadasdasdsad</td>
+          <td class="align-middle justify-content-center">dang hoat dong</td>
+                                                    <td class="align-middle justify-content-center">
                                                         <i class="fa-solid fa-eye"></i>
                                                         <a href="/src/html/admin/manauser/edit.html" class="fa-solid fa-pencil"
                                                            aria-hidden="true"></a>
@@ -238,13 +307,13 @@
 
     </div>
   </main>
+  <script src="/src/js/admin/header.js"></script>
   <!--Main Layout-->
   <script src="/src/lib/mdb4/js/jquery.js"></script>
   <script src="/src/lib/mdb4/js/popper.js"></script>
-  <script src="/src/lib/mdb4/js/bootstrap.js"></script>
   <script src="/src/lib/mdb4/js/mdb.js"></script>
+  <script src="/src/lib/mdb4/js/bootstrap.js"></script>
   <script src="/src/lib/datatable/DataTables/datatables.js"></script>
-  <script src="/src/js/admin/header.js"></script>
   <script>
     $(document).ready(function() {
 

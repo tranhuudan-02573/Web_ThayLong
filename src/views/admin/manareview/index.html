@@ -34,7 +34,7 @@
             <div class="col col-12 p-0">
                 <div class="card card-cascade narrower ml-2 mr-2 mb-1 ">
                     <div class="view view-cascade gradient-card-header blue-gradient d-flex  ">
-                        <div class="text-center w-100 text-uppercase"> DANH SÁCH don hang</div>
+                        <div class="text-center w-100 text-uppercase"> danh sach danh gia </div>
 
                         <div id="action">
                             <div class="modal fade" id="add" role="dialog">
@@ -96,70 +96,42 @@
                         <div id="config_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                             <div class="row">
                                  <div class="col-sm-12">
+                                    <div class="col col-12 col-sm-12 col-md-12 col-lg-10 ml-auto mr-auto">
 <!-- Horizontal material form -->
 <!-- Material column sizing form -->
-<div class="col col-12 col-sm-12 col-md-12 col-lg-10 ml-auto mr-auto">
-
-    <!--Grid row-->
-
-
-    <!--Grid row-->
-    <div class="row w-100 mx-auto">
-
-
-
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-6 mb-4">
-
-        <div class="media white z-depth-1 rounded">
-          <i class="fas fa-chart-bar fa-lg deep-purple z-depth-1  rounded-left text-white mr-3" style="padding: 2rem;"></i>
-          <div class="media-body p-1">
-            <p class="text-uppercase text-muted mb-1"><small>doanh thu</small></p>
-            <h5 class="font-weight-bold mb-0">1 456</h5>
-          </div>
-        </div>
-
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-6 mb-4">
-
-        <div class="media white z-depth-1 rounded">
-          <i class="fas fa-chart-pie fa-lg teal z-depth-1  rounded-left text-white mr-3" style="padding: 2rem;"></i>
-          <div class="media-body p-1">
-            <p class="text-uppercase text-muted mb-1"><small>loi nhuan</small></p>
-            <h5 class="font-weight-bold mb-0">323 540</h5>
-          </div>
-        </div>
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-6 mb-4">
-
-        <div class="media white z-depth-1 rounded">
-          <i class="fas fa-download fa-lg pink z-depth-1 rounded-left text-white mr-3" style="padding: 2rem;"></i>
-          <div class="media-body p-1">
-            <p class="text-uppercase text-muted mb-1"><small>so voi thang truoc</small></p>
-            <h5 class="font-weight-bold mb-0">13 540</h5>
-          </div>
-        </div>
-
-      </div>
-      <!--Grid column-->
-
+<form>
+  <!-- Grid row -->
+<div class="form-row">
+    <!-- Grid column -->
+         <div class="col-md-12">
+      <!-- Material input -->
+      <div class="form-group">
+  <label  for="exampleFormControlTextarea3" style="float: left; color: #6c757d;">question</label>
+  <textarea placeholder="Desc" class="form-control" id="exampleFormControlTextarea3" rows="7" style="height: 80px; " readonly disabled ></textarea>
+</div>
     </div>
+     <div class="col-md-12">
+      <!-- Material input -->
+      <div class="form-group">
+  <label  for="exampleFormControlTextarea3" style="float: left; color: #6c757d;">reply</label>
+  <textarea placeholder="Desc" class="form-control" id="exampleFormControlTextarea3" rows="7" style="height: 80px; " ></textarea>
+</div>
     </div>
-    <!--Grid row-->
+    <!-- Grid column -->
+  </div>
+  <!-- Grid row -->
 
+  <div class="action">
+    <div class="btn btn-danger btn-md">delete</div>
+    <div class="btn btn-primary btn-md">create</div>
+    <div class="btn btn-warning btn-md">update</div>
+    <div class="btn btn-info btn-md">reset</div>
+  </div>
 
-    <!--Grid row-->
-
+</form>
 <!-- Material column sizing form -->
 <!-- Horizontal material form -->
+</div>
 </div>
 
                             </div>
@@ -170,27 +142,28 @@
                                             <thead>
                                             <tr>
                                                 <th width="0px">#</th>
-                                                <th>name</th>
-                                                <th>phone</th>
-                                                <th>total</th>
-                                                 <th>status</th>
+                                                <th>name user</th>
+                                                <th>so sao</th>
+                                                   <th>la cau hoi</th>
+                                                <th>luot thich</th>
+                                                <th>title</th>
                                                 <th>Thao tác</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                       <td class="align-middle justify-content-center">123</td>
-                                                    <td  class="align-middle justify-content-center">nadisahud</td>
-                                                    <td  class="align-middle justify-content-center">3213123</td>
-                                                    <td  class="align-middle justify-content-center">213</td>
-                                                    <td  class="align-middle justify-content-center">da giao</td>
-
-                                                    <td  class="align-middle justify-content-center">
+                                                    <td>3213</td>
+                                                    <td>dasd</td>
+                                                    <td>2</td>
+                                                    <td>yes</td>
+<td>21321</td>
+<td>asdassaaaaaaaaaaaaaaaa</td>
+                                                    <td>
                                                         <i class="fa-solid fa-eye"></i>
                                                         <a href="/src/html/admin/manauser/edit.html" class="fa-solid fa-pencil"
                                                            aria-hidden="true"></a>
                                                        <i class="fa-solid fa-trash">
-                                                            <input type="hidden" id="url"
+                                                           <input type="hidden" id="url"
                                                                    value="">
                                                             <input type="hidden" name="_token" id="_token"
                                                                    value="">
@@ -250,8 +223,8 @@
 
     </div>
   </main>
-  <!--Main Layout-->
   <script src="/src/js/admin/header.js"></script>
+  <!--Main Layout-->
   <script src="/src/lib/mdb4/js/jquery.js"></script>
   <script src="/src/lib/mdb4/js/popper.js"></script>
   <script src="/src/lib/mdb4/js/mdb.js"></script>
