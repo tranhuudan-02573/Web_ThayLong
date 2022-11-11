@@ -19,51 +19,51 @@
 
   <body>
 
-<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold text-uppercase ">đổi mật khẩu</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fas fa-envelope prefix grey-text text-danger"></i>
-          <input type="email" id="defaultForm-email" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-email">email</label>
-        </div>
-          <div class="md-form mb-5">
-          <i class="fas fa-envelope prefix grey-text text-danger"></i>
-          <input type="email" id="defaultForm-email" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-email">mật khẩu</label>
-        </div>
+    <div class="modal fade" id="modalChangePass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold text-uppercase ">đổi mật khẩu</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-5">
+              <i class="fas fa-envelope prefix grey-text text-danger"></i>
+              <input type="email" id="defaultForm-email" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="defaultForm-email">Email</label>
+            </div>
+            <div class="md-form mb-5">
+              <i class="fas fa-envelope prefix grey-text text-danger"></i>
+              <input type="email" id="defaultForm-email" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="defaultForm-email">Mật khẩu</label>
+            </div>
 
-        <div class="md-form mb-4">
-          <i class="fas fa-lock prefix grey-text text-danger"></i>
-          <input type="password" id="defaultForm-pass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-pass">đổi mật khẩu</label>
+            <div class="md-form mb-4">
+              <i class="fas fa-lock prefix grey-text text-danger"></i>
+              <input type="password" id="defaultForm-pass" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="defaultForm-pass">Nhập lại mật khẩu</label>
 
+            </div>
+            <div class="d-flex justify-content-between">
+              <!-- Material checked -->
+              <!-- Material checked -->
+              <div class="form-check p-0">
+                <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+                <label class="form-check-label" for="materialChecked2">Ghi nhớ mật khẩu</label>
+              </div>
+              <a href="html/resetpass.html" class="text-danger">Quên mật khẩu</a>
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-between">
+            <span> Đăng nhập tài khoản khác? <a href="/src/index.html" class="text-danger">Thoát</a></span>
+            <button class="btn btn-outline-danger waves-effect ">Thay đổi</button>
+          </div>
         </div>
-		<div class="d-flex justify-content-between">
-		<!-- Material checked -->
-<!-- Material checked -->
-<div class="form-check p-0">
-  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
-  <label class="form-check-label" for="materialChecked2">Material checked</label>
-</div>
-        <a href="html/resetpass.html" class="text-danger">quên mật khẩu</a>
-      </div>
-      </div>
-      <div class="modal-footer d-flex justify-content-between">
-		<span>bạn muốn đăng nhập bằng tài khoản khác? <a href="/src/index.html" class="text-danger">thoát</a></span>
-        <button class="btn btn-outline-danger waves-effect ">thay đổi</button>
       </div>
     </div>
-  </div>
-</div>
 
     <header id="header"></header>
 
@@ -71,194 +71,196 @@
       <div class="container">
         <div id="breadcrumb"></div>
         <section class="my-5">
-          <div class="row w-100 mx-auto">
-            <div class="col-md-3 pl-0">
-              <ul class="nav md-pills pills-primary flex-column" role="tablist">
-                <li class="nav-item">
-                  <a class="nav-link active  text-dark text-left" data-toggle="tab" href="#panel21" role="tab"
-                    aria-controls="profile-just" aria-selected="false">thông tin người
-                    dùng
-                    <i class="fas fa-download ml-2"></i>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link bg-white text-dark   text-left" data-toggle="tab" href="#panel22" role="tab"
-                    aria-controls="profile-just" aria-selected="false">lịch sử mua hàng
-                    <i class="fas fa-file-alt ml-2"></i>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link bg-white text-dark   text-left" data-toggle="tab" href="#panel23" role="tab"
-                    aria-controls="profile-just" aria-selected="false">danh sách yêu thích
-                    <i class="fas fa-file-alt ml-2"></i>
-                  </a>
-                </li>
 
-              </ul>
+
+
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+
+              <a class="nav-link text-dark active" style="font-size: 15px;" id="" data-toggle="tab" href="#panel21"
+                role="tab" aria-controls="panel21-tab" aria-selected="false">Thông tin người
+                dùng</a>
+            </li>
+            <li class="nav-item">
+
+              <a class="nav-link text-dark" style="font-size: 15px;" id="" data-toggle="tab" href="#panel22"
+                role="tab" aria-controls="panel22-tab" aria-selected="false">lịch sử mua hàng</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-dark" style="font-size: 15px;" id="" data-toggle="tab" href="#panel23"
+                role="tab" aria-controls="panel23-tab" aria-selected="false">Danh sách yêu thích</a>
+            </li>
+          </ul>
+
+
+
+          <div class="tab-content p-0" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="panel21"  aria-labelledby="panel21-tab">
+
+              <h5 class="my-2 h5 d-inline-block">Trần Hữu Dân - 0377162712</h5>
+
+              <a href="" class="float-right"> | Thoát</a>
+              <a href="#" data-toggle="modal" data-target="#modalChangePass" class="float-right">Đổi mật khẩu |</a>
+
+              <div class="card">
+                <div class="card-header red-text  text-center">
+                  <h5 class="font-weight-500 my-1 text-uppercase">Thông tin người dùng</h5>
+                </div>
+                <div class="card-body">
+
+
+                  <div class="my-4">
+                    <div class="form-check form-check-inline">
+                      <input type="radio" class="form-check-input" id="materialInline1"
+                        name="inlineMaterialRadiosExample" checked>
+                      <label class="form-check-label" for="materialInline1">Nam </label>
+                    </div>
+
+                    <!-- Material inline 2 -->
+                    <div class="form-check form-check-inline">
+                      <input type="radio" class="form-check-input" id="materialInline2"
+                        name="inlineMaterialRadiosExample">
+                      <label class="form-check-label" for="materialInline2">Nữ</label>
+                    </div>
+                  </div>
+                  <div class="row my-4">
+                    <div class="col-6">
+                      <!-- Material input -->
+                      <div class="md-form m-0">
+                        <i class="fas fa-user prefix text-danger"></i>
+                        <input type="text" id="name" class="form-control">
+                        <label for="name">Tên đầy đủ</label>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <!-- Material input -->
+                      <div class="md-form m-0">
+                        <i class="fa-solid fa-phone prefix text-danger"></i>
+                        <input type="text" id="email" class="form-control">
+                        <label for="email">Số điện thoại</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="md-form">
+                    <i class="fa-solid fa-envelope prefix text-danger"></i>
+                    <input type="email" id="address" class="form-control">
+                    <label for="address">Email</label>
+                  </div>
+                  <div class="md-form">
+                    <i class="fa-solid fa-address-card prefix text-danger"></i>
+                    <input type="text" id="address" class="form-control">
+                    <label for="address">Địa chỉ</label>
+                  </div>
+                  <div class="text-center">
+                    <div class="btn btn-outline-danger waves-effect">Cập nhật</div>
+                  </div>
+                </div>
+              </div>
+
             </div>
-            <div class="col-md-9 pr-0">
-              <!-- Tab panels -->
-              <div class="tab-content vertical">
-                <!-- Panel 1 -->
-                <div class="tab-pane fade show active" id="panel21" role="tabpanel">
-                   <div>
-                    <h5 class="my-2 h5 d-inline-block">Trần Hữu Dân - 0377162712</h5>
+            <div class="tab-pane fade  " id="panel22" role="panel22" aria-labelledby="panel22-tab">
+              <h5 class="my-2 h5 d-inline-block">Ngày mua cuối cùng: 20/12/2022</h5>
+              <a href="" class="float-right">| Phản hồi</a>
+              <a href="" class="float-right">Ý kiến | </a>
 
-                <a href="" class="float-right"> | thoát</a>
-                 <a href="#"data-toggle="modal" data-target="#modalLoginForm" class="float-right">đổi mật khẩu |</a>
-                  </div>
-                  <div class="card">
-                    <div class="card-header red-text  text-center">
-                <h5 class="font-weight-500 my-1">thông tin người dùng</h5>
-              </div>
-                    <div class="card-body">
+            <div class="card">
+              <div class="card-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Mã đơn hàng</th>
+                      <th scope="col"> Sản phẩm</th>
+                      <th scope="col">Giá</th>
+                      <th scope="col">Ngày đặt mua</th>
+                      <th scope="col"> Trạng thái</th>
+                    </tr>
+                  </thead>
+                  <tbody>
 
 
-                    <div class="my-4">
-                      <div class="form-check form-check-inline">
-                        <input type="radio" class="form-check-input" id="materialInline1"
-                          name="inlineMaterialRadiosExample" checked>
-                        <label class="form-check-label" for="materialInline1">nam </label>
-                      </div>
+                    <tr>
+                      <th scope="row" class="align-middle text-primary">3</th>
+                      <td style="width: 45%;">
+                        <a href="" style="width: 50px;" class="float-left">
+                          <img class="object-fit d-block w-100"
+                            src="https://cdn.tgdd.vn/Products/Images/7077/245579/amazfit-neo-den-600x600.jpg" alt="">
+                        </a>
+                        <div style="margin-left: 60px;">
+                          <a href=""
+                            class="text-truncate w-50 text-truncate text-wrap text-break text-ellipsis overflow-hidden">ahjdbljas</a>
+                          <div class="d-block mb-1 ">
+                            <a href="" class="mt-1 pr-2 d-inline-block text-primary">Xem chi
+                              tiết</a>
+                          </div>
 
-                      <!-- Material inline 2 -->
-                      <div class="form-check form-check-inline">
-                        <input type="radio" class="form-check-input" id="materialInline2"
-                          name="inlineMaterialRadiosExample">
-                        <label class="form-check-label" for="materialInline2">nữ</label>
-                      </div>
-                    </div>
-                    <div class="row my-4">
-                      <div class="col-6">
-                        <!-- Material input -->
-                        <div class="md-form m-0">
-                          <i class="fas fa-user prefix text-danger"></i>
-                          <input type="text" id="name" class="form-control">
-                          <label for="name">tên đầy đủ</label>
                         </div>
-                      </div>
-                      <div class="col-6">
-                        <!-- Material input -->
-                        <div class="md-form m-0">
-                         <i class="fa-solid fa-phone prefix text-danger"></i>
-                          <input type="text" id="email" class="form-control">
-                          <label for="email">số điện thoại</label>
-                        </div>
-                      </div>
-                    </div>
-                     <div class="md-form">
-                      <i class="fa-solid fa-envelope prefix text-danger"></i>
-                      <input type="email" id="address" class="form-control">
-                      <label for="address">Email</label>
-                    </div>
-                    <div class="md-form">
-                      <i class="fa-solid fa-address-card prefix text-danger"></i>
-                      <input type="text" id="address" class="form-control">
-                      <label for="address">địa chỉ</label>
-                    </div>
-                    <div class="text-center">
-                      <div class="btn btn-outline-danger waves-effect">cập nhật</div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Panel 1 -->
-                <!-- Panel 2 -->
-                <div class="tab-pane fade" id="panel22" role="tabpanel">
-                  <div>
-                    <h5 class="my-2 h5 d-inline-block">ngày mua cuối cùng: 20/12/2022</h5>
-                    <a href="" class="float-right">| phản hồi</a>
-                     <a href="" class="float-right">ý kiến | </a>
-                  </div>
-                  <div class="card">
-                    <div class="card-body">
-                      <table class="table">
-                        <thead>
-                          <tr>
-                            <th scope="col">mã đơn hàng</th>
-                            <th scope="col"> Sản phẩm</th>
-                            <th scope="col">Giá</th>
-                            <th scope="col">Ngày đặt mua</th>
-                            <th scope="col"> Trạng thái</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-
-
-                          <tr>
-                            <th scope="row" class="align-middle text-primary">3</th>
-                            <td style="width: 45%;">
-                              <a href="" style="width: 50px;" class="float-left">
-                                <img class="object-fit d-block w-100"
-                                  src="https://cdn.tgdd.vn/Products/Images/7077/245579/amazfit-neo-den-600x600.jpg"
-                                  alt="">
-                              </a>
-                              <div style="margin-left: 60px;">
-                                <a href=""
-                                  class="text-truncate w-50 text-truncate text-wrap text-break text-ellipsis overflow-hidden">ahjdbljas</a>
-                                <div class="d-block mb-1 ">
-                                  <a href="" class="mt-1 pr-2 d-inline-block text-primary">Xem chi
-                                    tiết</a>
-                                </div>
-
-                              </div>
-                            </td>
-                            <td class="text-danger">549.000₫</td>
-                            <td>@24/08/2022</td>
-                            <td class="text-danger">
-                              Đã hủy</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="panel23" role="tabpanel">	<div>
-                    <h5 class="my-2 h5 d-inline-block">ngày yêu thích cuối cùng: 20/12/2022</h5>
-                    <a href="" class="float-right">| phản hồi</a>
-                     <a href="" class="float-right">ý kiến | </a>
-                  </div>		<div class="card">
-								<div class="card-body">
-									<div class="table-responsive text-nowrap">
-
-								<table class="table">
-									<thead>
-										<tr>
-											<th scope="col">#</th>
-											<th scope="col">tên</th>
-											<th scope="col">hình ảnh</th>
-											<th scope="col">giá</th>
-											<th scope="col">trạng thái</th>
-											<th scope="col">thao tác</th>
-
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<th scope="row">1</th>
-											<td class="align-middle justify-content-center">Ipone14</td>
-											<td><img style="width: 70px; height: 70px;" src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg" alt="" ></td>
-											<td class="justify-content-center align-middle">36000000.VND</td>
-											<td class="justify-content-center align-middle">Còn hàng</td>
-											<td class="justify-content-center align-middle"><button class="btn btn-outline-danger btn-sm btn-rounded">xóa khỏi danh sách yêu thích</button>
-											<button class="btn  btn-sm btn-rounded btn-outline-info">thêm vào giỏ hàng</button></td>
-
-										</tr>
-
-
-									</tbody>
-								</table>
-
-									</div>
-								</div>
-							</div></div>
-                <!-- Panel 2 -->
-                <!-- Panel 3 -->
+                      </td>
+                      <td class="text-danger">549.000₫</td>
+                      <td>@24/08/2022</td>
+                      <td class="text-danger">
+                        Đã hủy</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-              <!-- Panel 3 -->
             </div>
           </div>
+          <div class="tab-pane fade  " id="panel23" role="panel23" aria-labelledby="panel23-tab">
+            <div>
+              <h5 class="my-2 h5 d-inline-block">Ngày yêu thích cuối cùng: 20/12/2022</h5>
+              <a href="" class="float-right">| Phản hồi</a>
+              <a href="" class="float-right">Ý kiến | </a>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive text-nowrap">
+
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Tên</th>
+                        <th scope="col">Hình ảnh</th>
+                        <th scope="col">Giá</th>
+                        <th scope="col">Trạng thái</th>
+                        <th scope="col">Thao tác</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td class="align-middle justify-content-center">Ipone14</td>
+                        <td><img style="width: 70px; height: 70px;"
+                            src="https://cdn.tgdd.vn/Products/Images/42/210652/iphone-11-pro-512gb-white-600x600.jpg"
+                            alt=""></td>
+                        <td class="justify-content-center align-middle">36000000.VND</td>
+                        <td class="justify-content-center align-middle">Còn hàng</td>
+                        <td class="justify-content-center align-middle"><button
+                            class="btn btn-outline-danger btn-sm btn-rounded">xóa khỏi danh sách yêu thích</button>
+                          <button class="btn  btn-sm btn-rounded btn-outline-info">thêm vào giỏ hàng</button>
+                        </td>
+
+                      </tr>
+
+
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+
+      <!-- Tab panels -->
+
+      <!-- Panel 3 -->
+
+
       </div>
 
       </section>
@@ -275,19 +277,18 @@
     <script src="/src/js/footer.js"></script>
     <script type="text/javascript" src="/src/lib/mdb4/js/jquery.min.js"></script>
     <script src="/src/lib/mdb4/js/popper.min.js"></script>
-    <script src="/src/lib/mdb4/js/bootstrap.min.js"></script>
     <script src="/src/lib/mdb4/js/mdb.min.js"></script>
+    <script src="/src/lib/mdb4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="/src/js/product.js"></script>
-<script src="/src/lib/datatable/DataTables/datatables.min.js"></script>
-<script>
-			$(document).ready(function () {
-				$('.table').DataTable();
-			});
-</script>
+    <script src="/src/lib/datatable/DataTables/datatables.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.table').DataTable();
+      });
+    </script>
 
     <script src="/src/js/breadcrumb.js"></script>
-    <script src="/src/js/backtop.js"></script>
   </body>
 
 </html>
