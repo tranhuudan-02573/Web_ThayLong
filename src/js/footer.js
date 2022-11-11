@@ -6,7 +6,7 @@ footer.innerHTML =
 			<div class="col-xl-7">
 				<div class="row row-md">
 					<div class="col-xl-4 ">
-						<a href="/src/html/policy.html" title="" >Chính sách bảo mật</a>
+						<a href="/src/views/policy.html" title="" >Chính sách bảo mật</a>
 					</div>
 					<div class="col-xl-4">
 						<a href="#" title="">Quy chế hoạt động</a>
