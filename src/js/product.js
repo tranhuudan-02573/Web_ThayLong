@@ -23,7 +23,7 @@ $(function(){
 		margin:10,
 		nav:true,
 		dots:true,
-		navText: ["<img src='/src/images/kiTu.png' width = '30'>","<img src='/src/images/kiTu.png' width='30'>"],
+		navText: ["<span aria-label='Prev'></span>","<span aria-label='Next'></span>"],
 		responsive:{
 			0:{
 				items:1
@@ -41,7 +41,7 @@ $(function(){
 		margin:10,
 		nav:true,
 		dots:false,
-		navText: ["<img src='/src/images/kiTu.png' width = '30'>","<img src='/src/images/kiTu.png' width='30'>"],
+		navText: ["<span aria-label='Prev'></span>","<span aria-label='Next'></span>"],
 		responsive:{
 			0:{
 				items:1
@@ -58,7 +58,7 @@ $(function(){
 		loop:true,
 		margin:10,
 		nav:true,
-		navText: ["<i class='fa-solid fa-circle-chevron-left fa-lg'></i>","<i class='fa-solid fa-circle-chevron-right fa-lg'></i>"],
+		navText: ["<span aria-label='Prev'></span>","<span aria-label='Next'></span>"],
 		responsive:{
 			0:{
 				items:1
@@ -76,7 +76,7 @@ $(function(){
 		margin:10,
 		nav:true,
 		dots:false,
-		navText: ["<i class='fa-solid fa-circle-chevron-left fa-lg'></i>","<i class='fa-solid fa-circle-chevron-right fa-lg'></i>"],
+		navText: ["<span aria-label='Prev'></span>","<span aria-label='Next'></span>"],
 		responsive:{
 			0:{
 				items:1

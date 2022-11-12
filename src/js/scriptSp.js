@@ -4,7 +4,7 @@ $(function(){
 		margin:10,
 		responsiveClass:true,
 		dots:false,
-		navText: ["<img src='/src/images/kiTu.png' width = '30'>","<img src='/src/images/kiTu.png' width='30'>"],
+		navText: ["<span aria-label='Prev'></span>","<span aria-label='Next'></span>"],
 		responsive:{
 			0:{
 				items:2,
@@ -26,7 +26,7 @@ $(function(){
 		margin:10,
 		responsiveClass:true,
 		dots:false,
-		navText: ["<img src='/src/images/kiTu.png' width = '30'>","<img src='/src/images/kiTu.png' width='30'>"],
+		navText: ["<span aria-label='Prev'></span>","<span aria-label='Next'></span>"],
 		responsive:{
 			0:{
 				items:1,
