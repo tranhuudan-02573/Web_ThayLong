@@ -55,35 +55,37 @@ header.innerHTML =`
         <!-- Side navigation links -->
         <li>
           <ul class="collapsible collapsible-accordion">
-            <li><a class="collapsible-header waves-effect arrow-r active" style="font-size: 16px;"><i class="sv-slim-icon fas fa-chevron-right"></i>Quản lí<i class="fas fa-angle-down rotate-icon"></i></a>
+            <li><a class="collapsible-header waves-effect arrow-r active" style="font-size: 16px;"><i class="sv-slim-icon fas fa-chevron-rightfa-chevron-right fa-angle-double-left"></i>Quản lí<i class="fas fa-angle-down rotate-icon"></i></a>
               <div class="collapsible-body">
                 <ul>
                   <li><a href="/src/views/admin/manauser/index.html" class="waves-effect active">
                     <span class="sv-slim"> SL </span>
-                    <span class="sv-normal" style="font-size: 16px;">quản lí người dùng</span></a>
+                    <span class="sv-normal" style="font-size: 16px;">Quản lí người dùng</span></a>
                   </li>
                   <li><a href="/src/views/admin/manaproduct/index.html" class="waves-effect" >
                     <span class="sv-slim"> RF </span>
-                    <span class="sv-normal" style="font-size: 16px;">quản lí sản phẩm</span></a>
+                    <span class="sv-normal" style="font-size: 16px;">Quản lí sản phẩm</span></a>
                   </li>
                    <li><a href="/src/views/admin/manaorder/index.html" class="waves-effect">
                     <span class="sv-slim"> RF </span>
-                    <span class="sv-normal" style="font-size: 16px;">quản lí đơn hàng</span></a>
+                    <span class="sv-normal" style="font-size: 16px;">Quản lí đơn hàng</span></a>
                   </li>
                    <li><a href="/src/views/admin/manasale/index.html" class="waves-effect">
                     <span class="sv-slim"> RF </span>
-                    <span class="sv-normal" style="font-size: 16px;">quản lí ưu đãi</span></a>
+                    <span class="sv-normal" style="font-size: 16px;">Quản lí ưu đãi</span></a>
                   </li>
                    <li><a href="/src/views/admin/manareview/index.html" class="waves-effect">
                     <span class="sv-slim"> RF </span>
-                    <span class="sv-normal" style="font-size: 16px;">quản lí đánh giá</span></a>
+                    <span class="sv-normal" style="font-size: 16px;">Quản lí đánh giá</span></a>
                   </li>
 
                 </ul>
               </div>
             </li>
 
-            <li><a id="toggle" class="waves-effect"><i class="sv-slim-icon fas fa-angle-double-left" style="font-size: 18px;"></i>thu nhỏ menu</a>
+            <li><a id="toggle" class="waves-effect" >
+            <i class="sv-slim-icon fas fa-angle-double-left" style="font-size: 18px;"></i>
+            <span style="font-size: 17px;">Thu nhỏ menu</span></a>
             </li>
           </ul>
         </li>
@@ -105,16 +107,16 @@ header.innerHTML =`
       <ul class="nav navbar-nav nav-flex-icons ml-auto">
 
           <li class="nav-item">
-          <a class="nav-link" href="/src/views/admin/index.html"><i class="fa-solid fa-house-user mr-1"></i><span class="clearfix d-none d-sm-inline-block">trang chủ</span></a>
+          <a class="nav-link" href="/src/views/admin/index.html"><i class="fa-solid fa-house-user mr-1"></i><span class="clearfix d-none d-sm-inline-block">Trang chủ</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-target="#modal" data-toggle="modal"><i class="fa-solid fa-key"></i> <span class="clearfix d-none d-sm-inline-block">đổi mật khẩu</span></a>
+          <a class="nav-link" data-target="#modal" data-toggle="modal"><i class="fa-solid fa-key"></i> <span class="clearfix d-none d-sm-inline-block">Đổi mật khẩu</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/src/views/admin/profile.html"><i class="fas fa-user"></i> <span class="clearfix d-none d-sm-inline-block">thông tin cá nhân</span></a>
+          <a class="nav-link" href="/src/views/admin/profile.html"><i class="fas fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Thông tin cá nhân</span></a>
         </li>
           <li class="nav-item">
-          <a class="nav-link"><i class="fa-solid fa-right-from-bracket"></i> <span class="clearfix d-none d-sm-inline-block">thoát</span></a>
+          <a class="nav-link"><i class="fa-solid fa-right-from-bracket"></i> <span class="clearfix d-none d-sm-inline-block">Thoát</span></a>
         </li>
 
       </ul>
