@@ -9,7 +9,7 @@ header.innerHTML =
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold text-uppercase">đăng nhập</h4>
+        <h4 class="modal-title w-100 font-weight-bold text-uppercase">đăng nhập tài khoản</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -38,8 +38,8 @@ header.innerHTML =
       </div>
       </div>
       <div class="modal-footer d-flex justify-content-between">
-		<span>Bạn chưa có tài khoản? <a href="/src/views/signup.html" class="text-danger">Đăng nhập</a></span>
-        <button class="btn btn-danger ">Đăng ký</button>
+		<span>Bạn chưa có tài khoản? <a href="/src/views/signup.html" class="text-danger">Đăng ký</a></span>
+        <button class="btn btn-danger ">Đăng nhập</button>
       </div>
     </div>
   </div>
