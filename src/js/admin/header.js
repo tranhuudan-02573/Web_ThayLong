@@ -6,7 +6,7 @@ header.innerHTML =`
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold text-uppercase">Thay đổi mật khẩu tài khoản</h4>
+        <h4 class="modal-title w-100 font-weight-bold text-uppercase">Reset mật khẩu tài khoản</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -15,7 +15,7 @@ header.innerHTML =`
         <div class="md-form mb-4">
           <i class="fas fa-envelope prefix grey-text text-default"></i>
           <input type="email" id="defaultForm-email" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-email">nhập email</label>
+          <label data-error="wrong" data-success="right" for="defaultForm-email">Nhập email</label>
         </div>
 
 
@@ -23,20 +23,20 @@ header.innerHTML =`
         <div class="md-form mb-4">
           <i class="fas fa-lock prefix grey-text text-default"></i>
           <input type="password" id="defaultForm-pass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-pass">nhập mật khẩu</label>
+          <label data-error="wrong" data-success="right" for="defaultForm-pass">Nhập mật khẩu</label>
 
         </div>
          <div class="md-form mb-4">
-          <i class="fas fa-lock prefix grey-text text-default"></i>
+          <i class="fas fa-repeat prefix grey-text text-default"></i>
           <input type="password" id="defaultForm-repass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-repass">nhập lại mật khẩu</label>
+          <label data-error="wrong" data-success="right" for="defaultForm-repass">Nhập lại mật khẩu</label>
         </div>
         </div>
 		<!-- Material checked -->
 <!-- Material checked -->
       <div class="modal-footer d-flex justify-content-between">
-		<span>ban chua co tai khoan? <a href="html/signup.html" class="text-default">đăng kí</a></span>
-        <button class="btn btn-default ">thay đổi</button>
+		<span>Bạn chưa có tài khoản? <a href="/src/views/admin/profile.html" class="text-default">Đăng kí</a></span>
+        <button class="btn btn-default ">Reset</button>
       </div>
     </div>
   </div>
@@ -107,7 +107,7 @@ header.innerHTML =`
       <ul class="nav navbar-nav nav-flex-icons ml-auto">
 
           <li class="nav-item">
-          <a class="nav-link" href="/src/views/admin/index.html"><i class="fa-solid fa-house-user mr-1"></i><span class="clearfix d-none d-sm-inline-block">Trang chủ</span></a>
+          <a class="nav-link" href="/src/views/admin/index.html"><i class="fa-solid fa-house-user mr-1 fa-lg"></i><span class="clearfix d-none d-sm-inline-block">Trang chủ</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" data-target="#modal" data-toggle="modal"><i class="fa-solid fa-key"></i> <span class="clearfix d-none d-sm-inline-block">Đổi mật khẩu</span></a>
