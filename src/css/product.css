@@ -145,7 +145,7 @@ header .overplay{
 	top: -10px;
 	opacity: 0.5;
 }
-.evaluate-people>div>div{
+.evaluate-people .col-xl-3,.evaluate-people .col-xl-4,.evaluate-people .col-xl-5{
 	border: 1px solid rgba(0,0,0,.125);
 }
 .evaluate-people ul li i{

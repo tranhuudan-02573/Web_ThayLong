@@ -7,7 +7,7 @@ breadcrumb.innerHTML =`	<div class="bg-white	 my-4">
       <h6 class="mb-0">
         <a href="" class="text-reset">Home</a>
         <span><i class="fa-solid fa-terminal text-danger"></i></span>
-        <a href="" class="text-reset">Analytics</a>
+        <a href="/src/views/productlist.html" class="text-reset">Analytics</a>
         <span><i class="fa-solid fa-terminal text-danger"></i></span>
         <a href="" class="text-reset "><b> Dashboard</b></a>
       </h6>
