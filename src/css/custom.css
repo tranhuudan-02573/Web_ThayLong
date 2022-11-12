@@ -47,24 +47,13 @@ a {
 	text-decoration: none !important;
 }
 
-.owl-nav .owl-prev {
-	position: absolute;
-	top: 31%;
-	left: -15px;
-
-}
 
 .owl-theme .owl-nav [class*=owl-]:hover {
 	background: unset;
 	color: black;
 }
 
-.owl-nav .owl-next {
-	position: absolute;
-	top: 31%;
-	right: -15px;
 
-}
 
 .owl-nav .owl-prev img {
 	transform: rotate(180deg);
@@ -90,10 +79,7 @@ footer .container .row>div {
 .cdt-filter__block .filter .form-check a>label {
 	cursor: pointer;
 }
- .tab-pane .owl-item{
-	margin: 0 auto !important;
-	width: 259px !important;
-}
+
 .products-seen .owl-item {
 	margin: 0 auto !important;
 	width:259px !important
@@ -181,5 +167,76 @@ ul.stepper>.step-after:not(:last-of-type):after{
 	}
 }
 .owl-stage{
-	width: 2000px;
+	width: 30000px !important;
+}
+
+
+.owl-carousel .owl-item{
+	/* border: 1px solid #f1f1f1; */
+	border-radius: 5px !important;
+}
+
+
+.owl-nav button span::before {
+    content: "";
+    border-top: 3px solid #666;
+    border-right: 3px solid #666;
+    content: '';
+    height: 22px;
+    position: absolute;
+    top: 18px;
+    width: 22px;
+	left: 10px;
+    transform: rotate(-135deg);
+}
+.owl-nav .owl-prev span::before {
+    right:  20px;
+    transform: rotate(-135deg) !important;
+}
+.owl-nav .owl-next span::before {
+    left:  0px;
+transform: rotate(45deg) !important;
+}
+.owl-carousel {
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-nav button {
+    background: rgba(255,255,255,.9) !important;
+    height: 60px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.owl-carousel .owl-next {
+    box-shadow: -6px 0 4px rgb(0 0 0 / 5%), -4px 0 4px rgb(0 0 0 / 9%);
+    border-radius: 4px 0 0 4px !important;
+    right: -25px!important;
+}
+.owl-carousel .owl-prev {
+    box-shadow: -6px 0 4px rgb(0 0 0 / 5%), -4px 0 4px rgb(0 0 0 / 9%);
+    border-radius: 0px 4px 4px 0px !important;
+    left: -25px!important;
+}
+.tab-index .nav-tabs .nav-item .active{
+color: white !important;
+background: red !important;
+border: 0 !important;
+}
+.tab-index .nav-tabs .nav-item a{
+color: red !important;
+background: white !important;
+border: 0 !important;
+}
+.brand .owl-nav button{
+	box-shadow: none !important;
+	color: red !important;
+
 }

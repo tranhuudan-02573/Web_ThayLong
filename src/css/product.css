@@ -205,7 +205,18 @@ footer a{
 		width: 48% !important;
 	}
 }
+#myTabProduct .nav-item a{
+background-color: white !important;
+color: black !important;
+}
 
-#myTab .nav-item .active{
-	color: red !important;
+#myTabProduct .nav-item a.active{
+background-color: red !important;
+color: white !important;
+}
+
+
+#myTabProductList .nav-item a.active{
+background-color: red !important;
+color: white !important;
 }
