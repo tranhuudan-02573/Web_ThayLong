@@ -13,7 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="/src/css/hover-min.css">
 		<link rel="stylesheet" type="text/css" href="/src/css/product.css">
 		<link rel="stylesheet" href="/src/lib/mdb4/css/mdb.min.css">
-		<link rel="stylesheet" href="/src/lib/datatable/DataTables/datatables.min.css">
+		<link rel="stylesheet" href="/src/lib/mdb4/css/addons/datatables.min.css">
 		<link rel="stylesheet" type="text/css" href="/src/css/custom.css">
 	</head>
 
@@ -39,9 +39,8 @@
 							<div class="col-12">
 								<div class="card">
 									<div class="card-body">
-										<div class="table-responsive text-nowrap">
 
-											<table class="table">
+											<table id="dtMaterialDesignExample" class="table table-striped" cellspacing="0" width="100%">
 												<thead>
 													<tr>
 														<th scope="col">#</th>
@@ -78,11 +77,13 @@
 														<td class="align-middle justify-content-center"><input
 																type="number" value="1" style="width: 50px;"></td>
 														<td class="align-middle justify-content-center">Còn hàng</td>
-														<td class="justify-content-center align-middle"><button
+														<td class="justify-content-center align-middle">
+															<div class=""><button
 																class="btn btn-outline-danger btn-sm btn-rounded">xóa
-																khỏi giỏ hàng</button>
-															<button class="btn btn-outline-info btn-sm btn-rounded">thêm
-																vào giỏ hàng</button>
+																khỏi giỏ hàng</button></div>
+															<div class=""><button class="btn btn-outline-info btn-sm btn-rounded">thêm
+																vào yêu thích
+															</button></div>
 														</td>
 
 													</tr>
@@ -91,7 +92,6 @@
 												</tbody>
 											</table>
 
-										</div>
 									</div>
 								</div>
 							</div>
@@ -163,12 +163,27 @@
 			<script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
 			<script type="text/javascript" src="/src/js/product.js"></script>
 
-			<script src="/src/lib/datatable/DataTables/datatables.min.js"></script>
+			<script src="/src/lib/mdb4/js/addons/datatables.min.js"></script>
 			<script>
-				$(document).ready(function () {
-					$('.mdb-select').materialSelect();
-					$('.table').DataTable();
-				});
+				// Material Design example
+$(document).ready(function () {
+  $('#dtMaterialDesignExample').DataTable();
+  $('#dtMaterialDesignExample_wrapper').find('label').each(function () {
+    $(this).parent().append($(this).children());
+  });
+  $('#dtMaterialDesignExample_wrapper .dataTables_filter').find('input').each(function () {
+    const $this = $(this);
+    $this.attr("placeholder", "Search");
+    $this.removeClass('form-control-sm');
+  });
+  $('#dtMaterialDesignExample_wrapper .dataTables_length').addClass('d-flex flex-row');
+  $('#dtMaterialDesignExample_wrapper .dataTables_filter').addClass('md-form');
+  $('#dtMaterialDesignExample_wrapper select').removeClass(
+  'custom-select custom-select-sm form-control form-control-sm');
+  $('#dtMaterialDesignExample_wrapper select').addClass('mdb-select');
+  $('#dtMaterialDesignExample_wrapper .mdb-select').materialSelect();
+  $('#dtMaterialDesignExample_wrapper .dataTables_filter').find('label').remove();
+});
 
 
 			</script>
