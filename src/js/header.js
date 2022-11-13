@@ -377,39 +377,39 @@ header.innerHTML =
 				<div class="container">
 					<ul class="nav row row-sm">
 						<li class="nav-item ol-md-4 hvr-grow_color" >
-							<a class="nav-link text-white text-uppercase"href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>iPhone
+							<a class="nav-link text-white text-uppercase"href="/src/views/productlist.html"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>iPhone
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>SamSung
+							<a class="nav-link text-white text-uppercase" href="/src/views/productlist.html"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>SamSung
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Oppo
+							<a class="nav-link text-white text-uppercase" href="/src/views/productlist.html"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Oppo
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Xiaomi
+							<a class="nav-link text-white text-uppercase" href="/src/views/productlist.html"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Xiaomi
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Vivo
+							<a class="nav-link text-white text-uppercase" href="/src/views/productlist.html"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Vivo
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Realme
+							<a class="nav-link text-white text-uppercase" href="/src/views/productlist.html"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Realme
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Nokia
+							<a class="nav-link text-white text-uppercase" href="/src/views/productlist.html"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Nokia
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white text-uppercase" href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Itel
+							<a class="nav-link text-white text-uppercase" href="/src/views/productlist.html"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Itel
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white text-uppercase"  href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Msstel
+							<a class="nav-link text-white text-uppercase"  href="/src/views/productlist.html"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Msstel
 							</a>
 						</li>
 
