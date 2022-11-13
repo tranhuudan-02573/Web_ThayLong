@@ -73,21 +73,21 @@
         <section class="my-5">
 
           <div class="d-flex justify-content-between align-items-center">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item">
+            <ul class="nav nav-tabs" id="myTabProductList" role="tablist">
+              <li class="nav-item mr-2">
 
-                <a class="nav-link text-dark active" style="font-size: 15px;" id="" data-toggle="tab" href="#panel21"
+                <a class="nav-link text-dark bg-light active" style="font-size: 15px;" id="" data-toggle="tab" href="#panel21"
                   role="tab" aria-controls="panel21-tab" aria-selected="false">Thông tin người
                   dùng</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mr-2">
 
-                <a class="nav-link text-dark" style="font-size: 15px;" id="" data-toggle="tab" href="#panel22"
+                <a class="nav-link text-dark bg-light" style="font-size: 15px;" id="" data-toggle="tab" href="#panel22"
                   role="tab" aria-controls="panel22-tab" aria-selected="false">lịch sử mua hàng</a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link text-dark" style="font-size: 15px;" id="" data-toggle="tab" href="#panel23"
+              <li class="nav-item mr-2">
+                <a class="nav-link text-dark bg-light" style="font-size: 15px;" id="" data-toggle="tab" href="#panel23"
                   role="tab" aria-controls="panel23-tab" aria-selected="false">Danh sách yêu thích</a>
               </li>
             </ul>
@@ -181,7 +181,7 @@
                 </div>
 
                 <div class="card-body">
-                  <table class="table">
+                  <table id="dtMaterialDesignExample" class="table table-striped" cellspacing="0" width="100%">
                     <thead>
                       <tr>
                         <th scope="col">Mã đơn hàng</th>
@@ -301,7 +301,25 @@
     <script src="/src/lib/datatable/DataTables/datatables.min.js"></script>
     <script>
       $(document).ready(function () {
-        $('.table').DataTable();
+        // Material Design example
+$(document).ready(function () {
+  $('#dtMaterialDesignExample').DataTable();
+  $('#dtMaterialDesignExample_wrapper').find('label').each(function () {
+    $(this).parent().append($(this).children());
+  });
+  $('#dtMaterialDesignExample_wrapper .dataTables_filter').find('input').each(function () {
+    const $this = $(this);
+    $this.attr("placeholder", "Search");
+    $this.removeClass('form-control-sm');
+  });
+  $('#dtMaterialDesignExample_wrapper .dataTables_length').addClass('d-flex flex-row');
+  $('#dtMaterialDesignExample_wrapper .dataTables_filter').addClass('md-form');
+  $('#dtMaterialDesignExample_wrapper select').removeClass(
+  'custom-select custom-select-sm form-control form-control-sm');
+  $('#dtMaterialDesignExample_wrapper select').addClass('mdb-select');
+  $('#dtMaterialDesignExample_wrapper .mdb-select').materialSelect();
+  $('#dtMaterialDesignExample_wrapper .dataTables_filter').find('label').remove();
+});
       });
     </script>
 
