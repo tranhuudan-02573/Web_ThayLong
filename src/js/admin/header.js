@@ -66,6 +66,10 @@ header.innerHTML =`
                     <span class="sv-slim"> RF </span>
                     <span class="sv-normal" style="font-size: 16px;">Quản lí sản phẩm</span></a>
                   </li>
+                   <li><a href="/src/views/admin/manapromot/index.html" class="waves-effect" >
+                    <span class="sv-slim"> RF </span>
+                    <span class="sv-normal" style="font-size: 16px;">Quản lí chương trình</span></a>
+                  </li>
                    <li><a href="/src/views/admin/manaorder/index.html" class="waves-effect">
                     <span class="sv-slim"> RF </span>
                     <span class="sv-normal" style="font-size: 16px;">Quản lí đơn hàng</span></a>
