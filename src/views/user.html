@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/src/lib/fa6/fontawesome-free-6.2.0-web/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/src/css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="/src/css/hover-min.css">
-    <link rel="stylesheet" href="/src/lib/datatable/DataTables/datatables.min.css">
+    <link rel="stylesheet" href="/src/lib/mdb4/css/addons/datatables.min.css">
     <link rel="stylesheet" type="text/css" href="/src/css/product.css">
     <link rel="stylesheet" type="text/css" href="/src/css/custom.css">
   </head>
@@ -231,9 +231,8 @@
 
                 </div>
                 <div class="card-body">
-                  <div class="table-responsive text-nowrap">
 
-                    <table class="table">
+                    <table id="dtMaterialDesignExample2" class="table table-striped" cellspacing="0" width="100%">
                       <thead>
                         <tr>
                           <th scope="col">#</th>
@@ -254,9 +253,16 @@
                               alt=""></td>
                           <td class="justify-content-center align-middle">36000000.VND</td>
                           <td class="justify-content-center align-middle">Còn hàng</td>
-                          <td class="justify-content-center align-middle"><button
+                          <td class="justify-content-center align-middle">
+                            <div class="text-center">
+
+                              <button
                               class="btn btn-outline-danger btn-sm btn-rounded">xóa khỏi danh sách yêu thích</button>
-                            <button class="btn  btn-sm btn-rounded btn-outline-info">thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="text-center">
+
+                              <button class="btn  btn-sm btn-rounded btn-outline-info">thêm vào giỏ hàng</button>
+                            </div>
                           </td>
 
                         </tr>
@@ -265,7 +271,6 @@
                       </tbody>
                     </table>
 
-                  </div>
                 </div>
               </div>
             </div>
@@ -298,12 +303,14 @@
     <script src="/src/lib/mdb4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="/src/js/product.js"></script>
-    <script src="/src/lib/datatable/DataTables/datatables.min.js"></script>
+    <script src="/src/lib/mdb4/js/addons/datatables.min.js"></script>
     <script>
-      $(document).ready(function () {
+
         // Material Design example
 $(document).ready(function () {
   $('#dtMaterialDesignExample').DataTable();
+  $('#dtMaterialDesignExample2').DataTable();
+
   $('#dtMaterialDesignExample_wrapper').find('label').each(function () {
     $(this).parent().append($(this).children());
   });
@@ -319,8 +326,27 @@ $(document).ready(function () {
   $('#dtMaterialDesignExample_wrapper select').addClass('mdb-select');
   $('#dtMaterialDesignExample_wrapper .mdb-select').materialSelect();
   $('#dtMaterialDesignExample_wrapper .dataTables_filter').find('label').remove();
+$('#dtMaterialDesignExample_paginate .pagination').addClass('pg-red');
+
+
+  $('#dtMaterialDesignExample2_wrapper').find('label').each(function () {
+    $(this).parent().append($(this).children());
+  });
+  $('#dtMaterialDesignExample2_wrapper .dataTables_filter').find('input').each(function () {
+    const $this = $(this);
+    $this.attr("placeholder", "Search");
+    $this.removeClass('form-control-sm');
+  });
+  $('#dtMaterialDesignExample2_wrapper .dataTables_length').addClass('d-flex flex-row');
+  $('#dtMaterialDesignExample2_wrapper .dataTables_filter').addClass('md-form');
+  $('#dtMaterialDesignExample2_wrapper select').removeClass(
+  'custom-select custom-select-sm form-control form-control-sm');
+  $('#dtMaterialDesignExample2_wrapper select').addClass('mdb-select');
+  $('#dtMaterialDesignExample2_wrapper .mdb-select').materialSelect();
+  $('#dtMaterialDesignExample2_wrapper .dataTables_filter').find('label').remove();
+  $('#dtMaterialDesignExample2_paginate .pagination').addClass('pg-red');
 });
-      });
+
     </script>
 
     <script src="/src/js/breadcrumb.js"></script>
