@@ -15,13 +15,15 @@ $(function(){
 	$('.fa-times').click(function(){
 		$('.menu-multi-mobile').hide();
 		$('.overplay').hide();
-
 	});
 
 	$('.products-iphone .owl-carousel').owlCarousel({
 		loop:true,
 		margin:10,
-		nav:true,
+		nav: true,
+		 autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
 		dots:true,
 		navText: ["<span aria-label='Prev'></span>","<span aria-label='Next'></span>"],
 		responsive:{
@@ -37,8 +39,11 @@ $(function(){
 		}
 	});
 	$('.introduce-products .owl-carousel').owlCarousel({
-		loop:false,
+		loop:true,
 		margin:10,
+		 autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
 		nav:true,
 		dots:false,
 		navText: ["<span aria-label='Prev'></span>","<span aria-label='Next'></span>"],
@@ -57,6 +62,9 @@ $(function(){
 	$('.details-product .owl-carousel').owlCarousel({
 		loop:true,
 		margin:10,
+		 autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
 		nav:true,
 		navText: ["<span aria-label='Prev'></span>","<span aria-label='Next'></span>"],
 		responsive:{
@@ -72,9 +80,12 @@ $(function(){
 		}
 	});
 	$('.productseen .owl-carousel').owlCarousel({
-		loop:false,
+		loop:true,
 		margin:10,
 		nav:true,
+		 autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
 		dots:false,
 		navText: ["<span aria-label='Prev'></span>","<span aria-label='Next'></span>"],
 		responsive:{
