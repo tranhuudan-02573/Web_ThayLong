@@ -66,7 +66,7 @@ header.innerHTML =`
                                             <li>
                                                 <a class="collapsible-header text-white waves-effect arrow-r "
                                                     style="font-size: 16px;"><i
-                                                        class="sv-slim-icon fas fa-chevron-rightfa-chevron-right fa-angle-double-left"></i>user<i
+                                                        class="sv-slim-icon fas fa-solid fa-users "></i>Người dùng<i
                                                         class="fas fa-angle-down rotate-icon"></i></a>
                                                 <div class="collapsible-body">
                                                     <ul class="">
@@ -120,25 +120,25 @@ header.innerHTML =`
                                               <li>
                                                             <a class="collapsible-header text-white waves-effect arrow-r "
                                                                 style="font-size: 16px;"><i
-                                                                    class="sv-slim-icon fas fa-chevron-rightfa-chevron-right fa-angle-double-left"></i>order<i
+                                                                    class="sv-slim-icon fas fa-regular fa-pen-to-square"></i>Đơn hàng<i
                                                                     class="fas fa-angle-down rotate-icon"></i></a>
                                                             <div class="collapsible-body">
                                                                 <ul class="">
                                                                     <li>
-                                                                        <a href="/src/views/admin/manauser/index.html"
+                                                                        <a href="/src/views/admin/manaorder/index.html"
                                                                             class="waves-effect ">
                                                                             <span class="sv-slim"> SL </span>
                                                                             <span class="sv-normal"
-                                                                                style="font-size: 16px;">order
+                                                                                style="font-size: 16px;">Danh sách đơn hàng
                                                                             </span></a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="/src/views/admin/manauser/index.html"
+                                                                        <a href="/src/views/admin/manaorder/orderstate.html"
                                                                             class="waves-effect ">
                                                                             <span class="sv-slim"> SL </span>
                                                                             <span class="sv-normal"
-                                                                                style="font-size: 16px;">order
-                                                                                state</span></a>
+                                                                                style="font-size: 16px;">Trạng thái đơn hàng
+                                                                                </span></a>
                                                                     </li>
 
                                                                     <li>
@@ -171,7 +171,7 @@ header.innerHTML =`
                                                             <li>
                                                 <a class="collapsible-header text-white waves-effect arrow-r "
                                                     style="font-size: 16px;"><i
-                                                        class="sv-slim-icon fas fa-chevron-rightfa-chevron-right fa-angle-double-left"></i>phones<i
+                                                        class="sv-slim-icon fas fa-solid fa-mobile-screen-button "></i>Điện thoại<i
                                                         class="fas fa-angle-down rotate-icon"></i></a>
                                                 <div class="collapsible-body">
                                                     <ul class=" ">
@@ -252,7 +252,7 @@ header.innerHTML =`
                                               <li>
                                                 <a class="collapsible-header text-white waves-effect arrow-r "
                                                     style="font-size: 16px;"><i
-                                                        class="sv-slim-icon fas fa-chevron-rightfa-chevron-right fa-angle-double-left"></i>cart<i
+                                                        class="sv-slim-icon fas fa-brands fa-opencart"></i>Giỏ hàng <i
                                                         class="fas fa-angle-down rotate-icon"></i></a>
                                                 <div class="collapsible-body">
                                                     <ul class=" ">
