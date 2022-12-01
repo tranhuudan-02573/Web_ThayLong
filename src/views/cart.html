@@ -294,4 +294,46 @@
 		<script src="/src/js/breadcrumb.js"></script>
 </body>
 
+			</main>
+
+			<footer id="footer" class="p-4 border-top  bg-white"></footer>
+
+
+			<script src="/src/js/header.js"></script>
+			<script src="/src/js/footer.js"></script>
+			<script type="text/javascript" src="/src/lib/mdb4/js/jquery.min.js"></script>
+			<script src="/src/lib/mdb4/js/popper.min.js"></script>
+			<script src="/src/lib/mdb4/js/bootstrap.min.js"></script>
+			<script src="/src/lib/mdb4/js/mdb.min.js"></script>
+			<script type="text/javascript" src="/src/js/owl.carousel.min.js"></script>
+			<script type="text/javascript" src="/src/js/product.js"></script>
+
+			<script src="/src/lib/mdb4/js/addons/datatables.min.js"></script>
+			<script>
+				// Material Design example
+$(document).ready(function () {
+  $('#dtMaterialDesignExample').DataTable();
+  $('#dtMaterialDesignExample_wrapper').find('label').each(function () {
+    $(this).parent().append($(this).children());
+  });
+  $('#dtMaterialDesignExample_wrapper .dataTables_filter').find('input').each(function () {
+    const $this = $(this);
+    $this.attr("placeholder", "Search");
+    $this.removeClass('form-control-sm');
+  });
+  $('#dtMaterialDesignExample_wrapper .dataTables_length').addClass('d-flex flex-row');
+  $('#dtMaterialDesignExample_wrapper .dataTables_filter').addClass('md-form');
+  $('#dtMaterialDesignExample_wrapper select').removeClass(
+  'custom-select custom-select-sm form-control form-control-sm');
+  $('#dtMaterialDesignExample_wrapper select').addClass('mdb-select');
+  $('#dtMaterialDesignExample_wrapper .mdb-select').materialSelect();
+  $('#dtMaterialDesignExample_wrapper .dataTables_filter').find('label').remove();
+  $('#dtMaterialDesignExample_paginate .pagination').addClass('pg-red');
+});
+
+
+			</script>
+			<script src="/src/js/breadcrumb.js"></script>
+	</body>
+
 </html>
