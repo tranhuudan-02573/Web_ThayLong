@@ -63,12 +63,5 @@ $(function(){
 
 	});
 
-	// $(window).resize(function(){
-	// 	var width =
 
-	// });
-
-
-
-	// $('.items-select').removeClass('flex-column');
 });

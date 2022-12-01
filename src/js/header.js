@@ -409,7 +409,7 @@ header.innerHTML =
 							</a>
 						</li>
 						<li class="nav-item ol-md-4 hvr-grow_color">
-							<a class="nav-link text-white text-uppercase"  href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Msstel
+							<a class="nav-link text-white text-uppercase"  href="#"><i class="fa-solid fa-mobile-screen mr-2"></i></i></i>Asus
 							</a>
 						</li>
 
