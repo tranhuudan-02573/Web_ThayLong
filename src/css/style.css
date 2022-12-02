@@ -1,6 +1,4 @@
-body{
-	background: #f3f3f3;
-}
+
 .container{
 	max-width: 1200px;
 }
@@ -240,7 +238,7 @@ footer a{
 			}
 
 		}
-		@media (max-width: 576px) { 
+		@media (max-width: 576px) {
 			.owl-item{
 				width: 156px !important;
 			}
@@ -260,7 +258,7 @@ footer a{
 			.multiSelect .multiProd{
 				padding-left: 0.6875rem;
 				padding-right: 0.6875rem;
-				
+
 			}
 			.multiSelect .multiProd .owl-item:nth-child(2n+0) {
 				margin-right: 0 !important;
@@ -275,7 +273,7 @@ footer a{
 				font-size: 14px;
 				border-top-left-radius: unset;
 			    border-top-right-radius: unset;
-	 
+
 			}
 			.multiSelect #myTab li a span{
 				height: 34px;
@@ -303,7 +301,7 @@ footer a{
 		.text-homesale{
 			font-size: 12px;
 		}
-		
+
 		.head-menu ul li .sub-menu h3{font-size: 15px;}
 		.head-menu ul li:hover>.sub-menu{
 			visibility: visible;
@@ -318,7 +316,7 @@ footer a{
 			height: 100000px;
 			display: none;
 		}
-		
+
 		header .menu-multi-mobile h2{
 			line-height: 0.2;
 		}
@@ -379,7 +377,7 @@ footer a{
 			position: absolute;
 			top: 35%;
 			left: -15px;
-		
+
 		}
 		.homesale .owl-nav .owl-prev img{
 			transform: rotate(180deg);
@@ -387,7 +385,7 @@ footer a{
 		.homesale .owl-nav span{
 			font-size: 80px;
 		}
-		
+
 		.homesale .owl-nav .owl-next{
 			position: absolute;
 			background: red;
@@ -397,7 +395,7 @@ footer a{
 		.homesale .item:hover{
 			border: 1px solid #D6D6D6;
 		}
-		
+
 		.homeaccessories .category{
 			background: #e5e5e5;
 		}
@@ -407,11 +405,11 @@ footer a{
 		.homeaccessories .add-accessories h3 h5{
 			font-size: 13px;
 		}
-		
-		
+
+
 		.homecate .catebody .media-body ul li{
 			font-size: 13px;
-		
+
 		}
 		.homecate .catebody .media-body ul li a{
 			color: #4f4949ad;
@@ -432,7 +430,7 @@ footer a{
 		.sale-mobile .card>a{
 			margin: 0 auto
 		}
-		
+
 		.accessories-mobile .col-3{
 			background-color: white;
 		}
@@ -453,34 +451,25 @@ footer a{
 			padding-bottom: 23px;
 			padding-left: 20px;
 			padding-right: 20px;
-		
+
 		}
 		.select-event >div,.section-trend .catebody,.section-hot .hot-body{
 			background: linear-gradient(-180deg,#f64655a3,#cd313edb);
 		}
-		.nav-link {
-			padding: 1.5rem 1rem;
-		}
+
 		.section-multi ul li:first-child{
 			padding-left: 0;
 		}
-		.section-multi ul li:last-child{
-			padding-right: 0;
-		}
+
 		.section-multi .products-mobile >div >div:nth-child(5n){
 			margin-right: 0 !important;
 		}
-		.section-multi .products-mobile >div >div{
-			margin-right: 20px !important;
-		
-		}
-		.select-event  .title-image{
-			padding-top: 20px;
-		}
+
+
 		.box-countdown{
 			display: flex;
-			justify-content: end;
-			padding-right: 10px;
+			justify-content: center;
+			align-items: center;
 			color: #ffffff;
 			font-weight: 600;
 			font-size: 23px;
@@ -500,7 +489,7 @@ footer a{
 			 color: black;
 			 background: #ffffff;
 			 border-radius: 4px;
-		
+
 		}
 		.box-countdown .box-time li .separate{
 			margin-right:7px;
@@ -534,7 +523,7 @@ footer a{
 			}
 			footer .col-xl-7{
 				display: none;
-		
+
 			}
 		}
 		@media(max-width: 375px){
@@ -586,9 +575,9 @@ footer a{
 						white-space: nowrap;
 						-webkit-overflow-scrolling: touch;
 					}
-		
+
 				}
-				@media (max-width: 576px) { 
+				@media (max-width: 576px) {
 					.owl-item{
 						width: 156px !important;
 					}
@@ -608,7 +597,7 @@ footer a{
 					.multiSelect .multiProd{
 						padding-left: 0.6875rem;
 						padding-right: 0.6875rem;
-						
+
 					}
 					.multiSelect .multiProd .owl-item:nth-child(2n+0) {
 						margin-right: 0 !important;
@@ -623,12 +612,12 @@ footer a{
 						font-size: 14px;
 						border-top-left-radius: unset;
 						border-top-right-radius: unset;
-			 
+
 					}
 					.multiSelect #myTab li a span{
 						height: 34px;
 						width: 34px;
-		
+
 					}
 					.btn-floating i{
 						font-size: 1.3125rem !important;
