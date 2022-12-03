@@ -8,7 +8,7 @@ $('#modal .modal-content .modal-footer button').click(function(){
     console.log(1);
     if(pass.val()==''){ pass.addClass('invalid');
     hasInvalid=true;
-}   
+}
     const notRePass = (rePass.val()=='')|| rePass.val().search(pass.val())<=-1?true:false;
     if(notRePass){ rePass.addClass('invalid');
     hasInvalid=true;

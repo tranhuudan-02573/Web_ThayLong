@@ -64,202 +64,103 @@ header.innerHTML =`
 
                                         <ul class="collapsible collapsible-accordion">
                                             <li>
-                                                <a class="collapsible-header text-white waves-effect arrow-r "
+                                                <a class="collapsible-header  text-white waves-effect arrow-r "
                                                     style="font-size: 16px;"><i
-                                                        class="sv-slim-icon fas fa-solid fa-users "></i>Người dùng<i
+                                                        class=" fas fa-solid fa-users "></i>Người dùng<i
                                                         class="fas fa-angle-down rotate-icon"></i></a>
                                                 <div class="collapsible-body">
                                                     <ul class="">
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
+                                                         <li>
+                                                            <a href="/src/views/admin/manausers/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal" style="font-size: 16px;">user
                                                                 </span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;">user
-                                                                    state</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal"
-                                                                    style="font-size: 16px;">permission</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal"
-                                                                    style="font-size: 16px;">permission
-                                                                    detail</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal"
-                                                                    style="font-size: 16px;">action</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal"
-                                                                    style="font-size: 16px;">customer</span></a>
                                                         </li>
 
                                                         </ul>
                                                 </div>
                                             </li>
                                               <li>
-                                                            <a class="collapsible-header text-white waves-effect arrow-r "
+                                                            <a class="collapsible-header  text-white waves-effect arrow-r "
                                                                 style="font-size: 16px;"><i
-                                                                    class="sv-slim-icon fas fa-regular fa-pen-to-square"></i>Đơn hàng<i
+                                                                    class=" fas fa-regular fa-pen-to-square"></i>Đơn hàng<i
                                                                     class="fas fa-angle-down rotate-icon"></i></a>
                                                             <div class="collapsible-body">
                                                                 <ul class="">
                                                                     <li>
-                                                                        <a href="/src/views/admin/manaorder/index.html"
+                                                                        <a href="/src/views/admin/manaorders/index.html"
                                                                             class="waves-effect ">
                                                                             <span class="sv-slim"> SL </span>
                                                                             <span class="sv-normal"
                                                                                 style="font-size: 16px;">Danh sách đơn hàng
                                                                             </span></a>
                                                                     </li>
-                                                                    <li>
-                                                                        <a href="/src/views/admin/manaorder/orderstate.html"
-                                                                            class="waves-effect ">
-                                                                            <span class="sv-slim"> SL </span>
-                                                                            <span class="sv-normal"
-                                                                                style="font-size: 16px;">Trạng thái đơn hàng
-                                                                                </span></a>
-                                                                    </li>
 
-                                                                    <li>
-                                                                        <a href="/src/views/admin/manauser/index.html"
-                                                                            class="waves-effect ">
-                                                                            <span class="sv-slim"> SL </span>
-                                                                            <span class="sv-normal"
-                                                                                style="font-size: 16px;">order
-                                                                                state</span></a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="/src/views/admin/manauser/index.html"
-                                                                            class="waves-effect ">
-                                                                            <span class="sv-slim"> SL </span>
-                                                                            <span class="sv-normal"
-                                                                                style="font-size: 16px;">code</span></a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="/src/views/admin/manauser/index.html"
-                                                                            class="waves-effect ">
-                                                                            <span class="sv-slim"> SL </span>
-                                                                            <span class="sv-normal"
-                                                                                style="font-size: 16px;">order
-                                                                                detail</span></a>
-                                                                    </li>
 
                                                                 </ul>
                                                             </div>
                                                         </li>
                                                             <li>
-                                                <a class="collapsible-header text-white waves-effect arrow-r "
+                                                <a class="collapsible-header active text-white waves-effect arrow-r "
                                                     style="font-size: 16px;"><i
-                                                        class="sv-slim-icon fas fa-solid fa-mobile-screen-button "></i>Điện thoại<i
+                                                        class=" fas fa-solid fa-mobile-screen-button "></i>Điện thoại<i
                                                         class="fas fa-angle-down rotate-icon"></i></a>
                                                 <div class="collapsible-body">
                                                     <ul class=" ">
                                                         <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
+                                                            <a href="/src/views/admin/manaimage/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal" style="font-size: 16px;">images
                                                                 </span></a>
                                                         </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;">
-                                                                    state</span></a>
-                                                        </li>
+
 
                                                         <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;">
-                                                                    sale</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
+                                                            <a href="/src/views/admin/manacolor/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal" style="font-size: 16px;">
                                                                     color</span></a>
                                                         </li>
+
                                                         <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;">
-                                                                    type</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;">model
-                                                                </span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal"
-                                                                    style="font-size: 16px;">brands</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
+                                                            <a href="/src/views/admin/manaspec/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal" style="font-size: 16px;">
                                                                     spec</span></a>
                                                         </li>
+
                                                         <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;">spec
-                                                                    type</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
+                                                            <a href="/src/views/admin/manacap/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal"
                                                                     style="font-size: 16px;">cap</span></a>
                                                         </li>
+                                                          <li>
+                                                            <a href="/src/views/admin/manapromot/index.html"
+                                                                class="waves-effect ">
+                                                                <span class="sv-slim"> SL </span>
+                                                                <span class="sv-normal"
+                                                                    style="font-size: 16px;">promot</span></a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </li>
                                               <li>
-                                                <a class="collapsible-header text-white waves-effect arrow-r "
+                                                <a class="collapsible-header active text-white waves-effect arrow-r "
                                                     style="font-size: 16px;"><i
-                                                        class="sv-slim-icon fas fa-brands fa-opencart"></i>Giỏ hàng <i
+                                                        class="sv-slim-icon fas fa-brands fa-opencart"></i>review<i
                                                         class="fas fa-angle-down rotate-icon"></i></a>
                                                 <div class="collapsible-body">
                                                     <ul class=" ">
 <li>
-                                        <a href="/src/views/admin/manasale/index.html" class="waves-effect">
+                                        <a href="/src/views/admin/manareview/index.html" class="waves-effect">
                                             <span class="sv-slim"> RF </span>
-                                            <span class="sv-normal" style="font-size: 16px;">cart</span></a>
+                                            <span class="sv-normal" style="font-size: 16px;">review</span></a>
 
                                     </li>
                                     </ul>

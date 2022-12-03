@@ -1,7 +1,36 @@
 const header =document.querySelector("header#header");
 header.innerHTML =
      `
+	<div class="modal fade show" id="modalStarRating" tabindex="-1" role="dialog"
+									aria-labelledby="myModalLabel" aria-modal="true"
+									style="padding-right: 17px; display: none;">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header text-center pt-1 pb-1">
+												<h4 class="modal-title w-100 font-weight-bold text-uppercase">chon tinh thanh pho</h4>
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Close">
+													<span aria-hidden="true">×</span>
+												</button>
+											</div>
+											<div class="modal-body mx-3 ">
+<select class="mdb-select md-form" searchable="Search here..">
+  <option value="" disabled selected>Choose your country</option>
+  <option value="1">USA</option>
+  <option value="2">Germany</option>
+  <option value="3">France</option>
+  <option value="3">Poland</option>
+  <option value="3">Japan</option>
+</select>
+<label class="mdb-main-label">Label example</label>
+											</div>
 
+											<div class="modal-footer d-flex justify-content-center pt-1 pb-1">
+												<button class="btn btn-danger ">Gửi</button>
+											</div>
+										</div>
+									</div>
+								</div>
 
 
 <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -296,12 +325,17 @@ header.innerHTML =
 							<!--end-row-->
 						</div>
 						<!--end col-9-->
-						<div class="col-3 position-absolute overplay"></div>
-						<div class="col-xl-2 col-lg-2 col-md-2 col-4  pl-1 pr-1 ">
+						<div class="col-2 position-absolute overplay"></div>
+						<div class="col-xl-2 col-lg-2 col-md-2 col-4 p-0 ">
 							<a href="/src/index.html" title=""><img src="/src/images/fptshop-logo.png" class="img-fluid"></a>
 						</div>
 						<div class="col-7 pull-right d-flex justify-content-end align-items-center d-sm-none text-white"><i class="fa fa-shopping-cart"></i></div>
-						<div class="col-xl-4 col-lg-4 col-md-4 col-12 ">
+						<div class="col-1" >
+
+	<a class="nav-link p-0 text-center text-white " href="/src/views/user.html" data-toggle="modal" data-target="#modalStarRating">  <i class="fa-solid fa-location-dot fa-lg mr-2 "></i>xem giá tại</a>
+						</div>
+
+						<div class="col-xl-4 col-lg-4 col-md-4 col-12 p-0 ">
 							<div class="input-group ">
 								<input type="text" class="form-control " placeholder="Tìm kiếm sản phẩm" aria-label="Recipient's username" aria-describedby="basic-addon2">
 								<div class="input-group-append " >
@@ -310,7 +344,7 @@ header.innerHTML =
 							</div>
 						</div>
 						<!--end col-6-->
-						<div class="col-xl-6 col-lg-6 col-md-6 col-12 d-none d-sm-block pl-1 pr-1">
+						<div class="col-xl-5 col-lg-5 col-md-5 col-12 d-none d-sm-block p-0">
 							<ul class="nav justify-content-end">
 
 <li class="nav-item">

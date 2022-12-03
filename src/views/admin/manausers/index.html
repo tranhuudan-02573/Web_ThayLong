@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/src/lib/fa6/fontawesome-free-6.2.0-web/css/all.css">
+        <link rel="stylesheet" href="/src/lib/mdb4/css/bootstrap.css">
+        <link rel="stylesheet" href="/src/lib/mdb4/css/mdb.css">
+        <link rel="stylesheet" href="/src/lib/mdb4/css/addons/datatables.min.css">
+        <style>
+            .double-nav .breadcrumb-dn {
+    color: #fff;
+}
+.side-nav.wide.slim .sn-ad-avatar-wrapper a span {
+  display: none;
+}
+        </style>
+    </head>
+<body class="fixed-sn mdb-skin">
+
+  <!--Double navigation-->
+ <header id="header"></header>
+  <!--/.Double navigation-->
+
+
+ <!-- Central Modal Medium Success -->
+ <div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+   aria-hidden="true">
+   <div class="modal-dialog modal-notify modal-warning" role="document">
+     <!--Content-->
+     <div class="modal-content">
+       <!--Header-->
+       <div class="modal-header">
+         <p class="heading lead">them</p>
+
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true" class="white-text">&times;</span>
+         </button>
+       </div>
+
+       <!--Body-->
+       <div class="modal-body">
+ <table class="table table-hover">
+          <thead>
+
+          </thead>
+          <tbody>
+
+              <tr>
+              <th>phone</th>
+                 <td><!-- Material outline counter input -->
+ <input id="input-char-counter1" type="text" length="10" class="form-control">
+  <label for="input-char-counter1">Input text</label>
+            </tr>
+                 <tr>
+              <th>name</th>
+               <td> <input id="input-char-counter2" type="text" length="10" class="form-control">
+  <label for="input-char-counter1">Input text</label></td>
+               </tr>
+               <tr>
+              <th>address</th>
+               <td> <input id="input-char-counter2" type="text" length="10" class="form-control">
+  <label for="input-char-counter2">Input text</label></td>
+               </tr>
+               <tr>
+              <th>gender</th>
+               <td>
+<!-- Material inline 1 -->
+<div class="form-check form-check-inline">
+  <input type="radio" class="form-check-input" id="materialInline1" name="inlineMaterialRadiosExample">
+  <label class="form-check-label" for="materialInline1">1</label>
+</div>
+
+<!-- Material inline 2 -->
+<div class="form-check form-check-inline">
+  <input type="radio" class="form-check-input" id="materialInline2" name="inlineMaterialRadiosExample">
+  <label class="form-check-label" for="materialInline2">2</label>
+</div>
+
+<!-- Material inline 3 -->
+<div class="form-check form-check-inline">
+  <input type="radio" class="form-check-input" id="materialInline3" name="inlineMaterialRadiosExample">
+  <label class="form-check-label" for="materialInline3">3</label>
+</div>
+
+
+               </td>
+               </tr>
+               <tr>
+               <th>email</th>
+                <td><input id="input-char-counter4" type="text" length="10" class="form-control">
+  <label for="input-char-counter4">Input text</label></td></td>
+                </tr>
+                <tr>
+                <th>active</th>
+                 <td><div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitches">
+  <label class="custom-control-label" for="customSwitches">Toggle this switch element</label>
+</div></td>
+                 </tr>
+                 <tr>
+                 <th>permission</th>
+                  <td><div class="form-check form-check-inline">
+  <input type="radio" class="form-check-input" id="materialInline1" name="inlineMaterialRadiosExample">
+  <label class="form-check-label" for="materialInline1">1</label>
+</div>
+
+<!-- Material inline 2 -->
+<div class="form-check form-check-inline">
+  <input type="radio" class="form-check-input" id="materialInline2" name="inlineMaterialRadiosExample">
+  <label class="form-check-label" for="materialInline2">2</label>
+</div>
+
+<!-- Material inline 3 -->
+<div class="form-check form-check-inline">
+  <input type="radio" class="form-check-input" id="materialInline3" name="inlineMaterialRadiosExample">
+  <label class="form-check-label" for="materialInline3">3</label>
+</div></td>
+                  </tr>
+                  <tr>
+                  <th>status</th>
+                   <td><input id="input-char-counter5" type="text" length="10" class="form-control">
+  <label for="input-char-counter5">Input text</label></td>
+                   </tr>
+
+
+          </tbody>
+        </table>
+       </div>
+
+       <!--Footer-->
+       <div class="modal-footer justify-content-center">
+         <a type="button" data-toggle="modal" data-target="#centralModalSuccess" class="btn btn-warning">Create</a>
+         <a type="button" class="btn btn-outline-warning waves-effect" data-dismiss="modal">cancel</a>
+       </div>
+     </div>
+     <!--/.Content-->
+   </div>
+ </div>
+ <!-- Central Modal Medium Success -->
+ <div class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+   aria-hidden="true">
+   <div class="modal-dialog modal-notify modal-success" role="document">
+     <!--Content-->
+     <div class="modal-content">
+       <!--Header-->
+       <div class="modal-header">
+         <p class="heading lead">Modal Success</p>
+
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true" class="white-text">&times;</span>
+         </button>
+       </div>
+
+       <!--Body-->
+       <div class="modal-body">
+         <div class="text-center">
+           <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis
+             ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
+             ab officiis totam.</p>
+         </div>
+       </div>
+
+       <!--Footer-->
+       <div class="modal-footer justify-content-center">
+         <a type="button" class="btn btn-success">Get it now <i class="far fa-gem ml-1 text-white"></i></a>
+         <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">No, thanks</a>
+       </div>
+     </div>
+     <!--/.Content-->
+   </div>
+ </div>
+ <!-- Central Modal Medium Success-->
+  <!--Main Layout-->
+  <main class="mt-1">
+    <div class="container-fluid panel-scroll">
+
+        <div id="container">
+       <!-- Table with panel -->
+<div class="card card-cascade narrower">
+
+  <!--Card image-->
+  <div
+    class="view view-cascade gradient-card-header blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+
+    <div>
+      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+      <i class="fa-solid fa-arrow-left-long"></i>
+      </button>
+      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+   <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <a href="" class="white-text mx-3">Table name</a>
+
+    <div>
+      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+       <i class="fa-solid fa-rotate-left"></i>
+      </button>
+      <button data-toggle="modal" data-target="#add" type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+     <i class="fa-solid fa-plus"></i>
+      </button>
+      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+       <i class="fa-solid fa-file-arrow-down"></i>
+      </button>
+    </div>
+
+  </div>
+  <!--/Card image-->
+
+<!-- Modal: modalCart -->
+<div class="modal fade" id="modalinfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog-scrollable modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">thông tin chi tiết</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <!--Body-->
+      <div class="modal-body">
+
+        <table  class="table table-hover" >
+          <thead>
+
+          </thead>
+          <tbody>
+
+              <tr>
+              <th>#</th>
+                 <td>da</td>
+            </tr>
+                 <tr>
+              <th>name</th>
+               <td>da</td>
+               </tr>
+               <tr>
+              <th>phone</th>
+               <td>da</td>
+               </tr>
+               <tr>
+              <th>address</th>
+               <td>da</td>
+               </tr>
+               <tr>
+               <th>gender</th>
+                <td>da</td>
+                </tr>
+                <tr>
+                <th>email</th>
+                 <td>da</td>
+                 </tr>
+                 <tr>
+                 <th>avatar</th>
+                  <td>da</td>
+                  </tr>
+                  <tr>
+                  <th>created_at</th>
+                   <td>da</td>
+                   </tr>
+                   <tr>
+                  <th>updated_at</th>
+                   <td>da</td>
+                   </tr>
+                   <tr>
+                  <th>active</th>
+                   <td>da</td>
+                   </tr>
+                  <th>permission</th>
+                   <td>da</td>
+                   </tr>
+                   <tr>
+                  <th>status</th>
+                   <td>da</td>
+                   </tr>
+
+          </tbody>
+        </table>
+
+      </div>
+      <!--Footer-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-default" data-dismiss="modal">xóa</button>
+        <a href="/src/views/admin/manausers/edit.html" class="btn btn-default">chỉnh sửa</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal: modalCart -->
+<!--Modal: modalConfirmDelete-->
+<div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+    <!--Content-->
+    <div class="modal-content text-center">
+      <!--Header-->
+      <div class="modal-header d-flex justify-content-center">
+        <p class="heading">Are you sure?</p>
+      </div>
+
+      <!--Body-->
+      <div class="modal-body">
+
+        <i class="fas fa-times fa-4x animated rotateIn"></i>
+
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer flex-center">
+        <a href="" class="btn  btn-outline-danger">Yes</a>
+        <a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: modalConfirmDelete-->
+  <div class="px-4">
+
+    <div class="table-wrapper">
+      <!--Table-->
+      <table id="detail" class="table table-hover mb-0">
+
+        <!--Table head-->
+        <thead>
+          <tr>
+            <th>
+              <input class="form-check-input" type="checkbox" id="checkbox">
+              <label class="form-check-label" for="checkbox" class="mr-2 label-table"></label>
+            </th>
+            <th class="th-sm">
+                #
+            </th>
+            <th class="th-sm">
+              id
+            </th>
+            <th class="th-lg">
+             name
+            </th>
+            <th class="th-lg">
+             phone
+            </th>
+            <th class="th-lg">
+              permission
+            </th>
+            <th class="th-lg">
+
+               updated_at
+            </th>
+             <th class="th-lg">
+
+               action
+            </th>
+          </tr>
+        </thead>
+        <!--Table head-->
+
+        <!--Table body-->
+        <tbody>
+          <tr>
+            <th scope="row">
+              <input class="form-check-input" type="checkbox" id="checkbox1">
+              <label class="form-check-label" for="checkbox1" class="label-table"></label>
+            </th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>
+              <a href=""data-toggle="modal" data-target="#modalinfo"><i class="fa-regular fa-eye"></i></a>
+              <a href="/src/views/admin/manausers/edit.html"><i class="far fa-edit"></i></a>
+
+              <a href=""data-toggle="modal" data-target="#modalConfirmDelete"><i class="far fa-trash-alt"></i></a>
+            </td>
+
+          </tr>
+
+        </tbody>
+        <!--Table body-->
+      </table>
+      <!--Table-->
+    </div>
+
+  </div>
+
+</div>
+<!-- Table with panel -->
+    </div>
+
+    </div>
+  </main>
+  <script src="/src/js/admin/header.js"></script>
+  <!--Main Layout-->
+  <script src="/src/lib/mdb4/js/jquery.js"></script>
+  <script src="/src/lib/mdb4/js/popper.js"></script>
+  <script src="/src/lib/mdb4/js/mdb.js"></script>
+  <script src="/src/lib/mdb4/js/bootstrap.js"></script>
+  <script src="/src/lib/mdb4/js/addons/datatables.min.js"></script>
+  <script src="/src/js/admin/form.js"></script>
+  <script>
+    $(document).ready(function() {
+  $('table#detail').DataTable({
+    "scrollY": "100vh",
+     "scrollCollapse": true,
+     "paging":true,
+	 "pagingType": "full_numbers"
+  });
+  $('.dataTables_length').addClass('bs-select');
+  // SideNav Initialization
+
+
+
+})
+  </script>
+</body>
+
+</html>
