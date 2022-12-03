@@ -73,10 +73,11 @@ header.innerHTML =`
                                                          <li>
                                                             <a href="/src/views/admin/manausers/index.html"
                                                                 class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;">user
+
+                                                                <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>danh sách người dùng
                                                                 </span></a>
                                                         </li>
+
 
                                                         </ul>
                                                 </div>
@@ -93,7 +94,7 @@ header.innerHTML =`
                                                                             class="waves-effect ">
                                                                             <span class="sv-slim"> SL </span>
                                                                             <span class="sv-normal"
-                                                                                style="font-size: 16px;">Danh sách đơn hàng
+                                                                                style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>Danh sách đơn hàng
                                                                             </span></a>
                                                                     </li>
 
@@ -112,8 +113,8 @@ header.innerHTML =`
                                                             <a href="/src/views/admin/manaimage/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;">images
-                                                                </span></a>
+                                                                <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
+                                                                    Danh sách điện thoại</span></a>
                                                         </li>
 
 
@@ -121,31 +122,25 @@ header.innerHTML =`
                                                             <a href="/src/views/admin/manacolor/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;">
-                                                                    color</span></a>
+                                                                <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
+                                                                    Màu</span></a>
                                                         </li>
 
                                                         <li>
                                                             <a href="/src/views/admin/manaspec/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;">
-                                                                    spec</span></a>
+                                                                <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
+                                                                    Thông số</span></a>
                                                         </li>
 
-                                                        <li>
-                                                            <a href="/src/views/admin/manacap/index.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal"
-                                                                    style="font-size: 16px;">cap</span></a>
-                                                        </li>
+
                                                           <li>
                                                             <a href="/src/views/admin/manapromot/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal"
-                                                                    style="font-size: 16px;">promot</span></a>
+                                                                    style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>promot</span></a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -163,6 +158,7 @@ header.innerHTML =`
                                             <span class="sv-normal" style="font-size: 16px;">review</span></a>
 
                                     </li>
+
                                     </ul>
 
                             </div>
