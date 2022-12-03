@@ -64,26 +64,18 @@ header.innerHTML =`
 
                                         <ul class="collapsible collapsible-accordion">
                                             <li>
-                                                <a class="collapsible-header text-white waves-effect arrow-r "
+                                                <a class="collapsible-header  text-white waves-effect arrow-r "
                                                     style="font-size: 16px;"><i
                                                         class=" fas fa-solid fa-users "></i>Người dùng<i
                                                         class="fas fa-angle-down rotate-icon"></i></a>
                                                 <div class="collapsible-body">
                                                     <ul class="">
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/index.html"
+                                                         <li>
+                                                            <a href="/src/views/admin/manausers/index.html"
                                                                 class="waves-effect ">
-                                                        
+
                                                                 <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>danh sách người dùng
                                                                 </span></a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="/src/views/admin/manauser/permissionuser.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal"
-                                                                    style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>Quyền</span></a>
                                                         </li>
 
 
@@ -91,36 +83,19 @@ header.innerHTML =`
                                                 </div>
                                             </li>
                                               <li>
-                                                            <a class="collapsible-header text-white waves-effect arrow-r "
+                                                            <a class="collapsible-header  text-white waves-effect arrow-r "
                                                                 style="font-size: 16px;"><i
                                                                     class=" fas fa-regular fa-pen-to-square"></i>Đơn hàng<i
                                                                     class="fas fa-angle-down rotate-icon"></i></a>
                                                             <div class="collapsible-body">
                                                                 <ul class="">
                                                                     <li>
-                                                                        <a href="/src/views/admin/manaorder/index.html"
+                                                                        <a href="/src/views/admin/manaorders/index.html"
                                                                             class="waves-effect ">
                                                                             <span class="sv-slim"> SL </span>
                                                                             <span class="sv-normal"
                                                                                 style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>Danh sách đơn hàng
                                                                             </span></a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="/src/views/admin/manaorder/orderstate.html"
-                                                                            class="waves-effect ">
-                                                                            <span class="sv-slim"> SL </span>
-                                                                            <span class="sv-normal"
-                                                                                style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>Trạng thái đơn hàng
-                                                                                </span></a>
-                                                                    </li>
-
-
-                                                                    <li>
-                                                                        <a href="/src/views/admin/manaorder/ordercode.html"
-                                                                            class="waves-effect ">
-                                                                            <span class="sv-slim"> SL </span>
-                                                                            <span class="sv-normal"
-                                                                                style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>Mã giảm giá</span></a>
                                                                     </li>
 
 
@@ -128,93 +103,59 @@ header.innerHTML =`
                                                             </div>
                                                         </li>
                                                             <li>
-                                                <a class="collapsible-header text-white waves-effect arrow-r "
+                                                <a class="collapsible-header active text-white waves-effect arrow-r "
                                                     style="font-size: 16px;"><i
                                                         class=" fas fa-solid fa-mobile-screen-button "></i>Điện thoại<i
                                                         class="fas fa-angle-down rotate-icon"></i></a>
                                                 <div class="collapsible-body">
                                                     <ul class=" ">
-                                                     <li>
-
-                                                            <a href="/src/views/admin/manaproduct/index.html"
+                                                        <li>
+                                                            <a href="/src/views/admin/manaimage/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
                                                                     Danh sách điện thoại</span></a>
                                                         </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manaphone/manastate.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
-                                                                    trạng thái</span></a>
-                                                        </li>
+
 
                                                         <li>
-                                                            <a href="/src/views/admin/manaphone/manasale.html"
-                                                                class="waves-effect ">
-                                                                <span class="giỏ sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
-                                                                    giảm giá</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manaphone/manacolor.html"
+                                                            <a href="/src/views/admin/manacolor/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
                                                                     Màu</span></a>
                                                         </li>
+
                                                         <li>
-                                                            <a href="/src/views/admin/manaphone/manatype.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
-                                                                    Kiểu điện thoại</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manaphone/manamodel.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>Dòng điện thoại
-                                                                </span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manaphone/manabrands.html"
-                                                                class="waves-effect ">
-                                                                <span class="sv-slim"> SL </span>
-                                                                <span class="sv-normal"
-                                                                    style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>các hãng điện thoại</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/src/views/admin/manaphone/manaspec.html"
+                                                            <a href="/src/views/admin/manaspec/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
                                                                     Thông số</span></a>
                                                         </li>
 
-                                                        <li>
-                                                            <a href="/src/views/admin/manaphone/manacap.html"
+
+                                                          <li>
+                                                            <a href="/src/views/admin/manapromot/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal"
-                                                                    style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>Bộ nhớ</span></a>
+                                                                    style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>promot</span></a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </li>
-
-                         <li>
-                                                <a class="collapsible-header text-white waves-effect arrow-r "
+                                              <li>
+                                                <a class="collapsible-header active text-white waves-effect arrow-r "
                                                     style="font-size: 16px;"><i
-                                                        class=" fas fa-solid fa-file-pen"></i>đánh giá <i
-                                                        class="fas  fa-angle-down rotate-icon"></i></a>
+                                                        class="sv-slim-icon fas fa-brands fa-opencart"></i>review<i
+                                                        class="fas fa-angle-down rotate-icon"></i></a>
                                                 <div class="collapsible-body">
                                                     <ul class=" ">
 <li>
                                         <a href="/src/views/admin/manareview/index.html" class="waves-effect">
                                             <span class="sv-slim"> RF </span>
-                                            <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>danh sách đánh giá</span></a>
+                                            <span class="sv-normal" style="font-size: 16px;">review</span></a>
 
                                     </li>
 

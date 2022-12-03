@@ -15,6 +15,42 @@
 		<link rel="stylesheet" type="text/css" href="/src/css/product.css">
 		<link rel="stylesheet" type="text/css" href="/src/css/custom.css">
 		<style>
+
+.my-custom-scrollbar {
+position: relative;
+height: 200px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+ .form-check:has(.form-check-input[type="radio"]:checked) {
+border: 1px solid #d70018 !important;
+
+}
+.form-check:has(.form-check-input[type="radio"]:not(:checked)) {
+border:1px solid #d7d7d7 !important;
+
+}
+.form-check-input[type="radio"]:not(:checked) +label::before{
+
+border-radius: 0;
+	background-color: transparent !important;
+	border-color: transparent;
+
+}
+.form-check-input[type="radio"]:checked +label::after{
+	background-color: transparent !important;
+	border-color: transparent;
+	content: "✓";
+	position: absolute;
+    top: -8px;
+	color: red;
+    right: 0;
+	left: 85%;
+border-radius: 0;
+}
+
 			.my-custom-scrollbar tbody tr th,
 			.my-custom-scrollbar tbody tr td {
 				max-width: 150px;
@@ -114,7 +150,7 @@
 			}
 
 			.carousel .carousel-indicators li.active img {
-				border: 1px solid red;
+				border: 1px solid red !important;
 			}
 
 			#modalSpecifications .modal-body .table tbody>tr:nth-child(even) td>div:last-child {
@@ -144,18 +180,59 @@
 						<div id="breadcrumb"></div>
 					</div>
 				</div>
-				<section class="mb-4">
+				<!-- Modal: modalAbandonedCart-->
+<div class="modal fade right" id="modalAbandonedCart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true" data-backdrop="false">
+  <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
+    <!--Content-->
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+        <p class="heading">đã thêm vào giỏ hàng
+        </p>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" class="white-text">&times;</span>
+        </button>
+      </div>
+
+      <!--Body-->
+      <div class="modal-body">
+
+        <div class="row">
+          <div class="col-3">
+            <p></p>
+            <p class="text-center"><i class="fas fa-shopping-cart fa-4x"></i></p>
+          </div>
+
+          <div class="col-9">
+            <p>Do you need more time to make a purchase decision?</p>
+            <p>No pressure, your product will be waiting for you in the cart.</p>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center">
+        <a type="button" class="btn btn-info">đến</a>
+        <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">thanh toán</a>
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+				<section class="">
 					<div class="row w-100 mx-auto">
 						<div class="col-12">
-							<div class="row w-100 mx-auto name-product py-3  bg-white ">
-								<h3 class="mb-0 col-12 col-sm-8 ">
+							<div class="row w-100 mx-auto name-product  bg-white ">
+								<h3 class="mb-0 col-12 col-sm-8 pl-0">
 									<a href="#" title="" class="text-dark name-products mb-0">iPhone 14 Pro Max 256GB
 										<span class="note border-left-0">(No.00543145)</span>
 
 									</a>
 								</h3>
 
-								<div class="media align-items-center col-12 col-sm-4 ">
+								<div class="media align-items-center col-12 col-sm-4 pl-0">
 									<ul class="nav mr-2">
 										<li class="nav-item">
 											<i class="fa fa-star font-text" aria-hidden="true"></i>
@@ -183,9 +260,10 @@
 								</div>
 
 							</div>
-							<div class="products-iphone bg-white ">
+							<hr/>
+							<div class="products-iphone bg-white  ">
 								<div class="row w-100 mx-auto">
-									<div class="col-xl-4 my-4">
+									<div class="col-xl-4 pl-0">
 										<div class="d-flex justify-content-between align-items-center">
 											<a href=""
 												class="d-flex justify-content-center align-items-center  hvr-pulse-shrink">
@@ -197,7 +275,7 @@
 												<i class="fa-regular fa-heart fa-sm mr-2"></i> yêu thích
 											</a>
 										</div>
-										<div id="carouselSlideImg" class="carousel slide pointer-event"
+										<div id="carouselSlideImg" class="carousel slide pointer-event mb-4"
 											data-ride="carousel">
 											<div class="carousel-inner">
 												<div class="carousel-item text-center ">
@@ -228,43 +306,60 @@
 												<i class="fa-solid fa-circle-chevron-right fa-lg text-black-50"></i>
 												<span class="sr-only">Next</span>
 											</a>
-											<ol class="carousel-indicators m-0">
+											<ol class="carousel-indicators m-0   " style="bottom: -100px !important;" >
 												<li data-target="#carouselSlideImg" data-slide-to="0"
-													class="w-100 h-0 text-center">
+													class="w-100 h-100 text-center" style="background-color: transparent;" >
 													<div class="d-sm-block ">
 														<br>
-														<img class="object-fit " style="width: 55px;height: auto;"
+														<img class="object-fit border border-dark rounded" style="width: 55px;height: auto;"
 															src="/src/images/mobile7.jpg">
 													</div>
 												</li>
 												<li data-target="#carouselSlideImg" data-slide-to="1"
-													class="w-100 text-center">
+													class="w-100 text-center" style="background-color: transparent;">
 													<div class="d-sm-block ">
 														<br>
-														<img class="object-fit " style="width: 55px;height: auto;"
+														<img class="object-fit border border-dark rounded " style="width: 55px;height: auto;"
 															src="/src/images/mobile8.jpg">
 													</div>
 												</li>
 												<li data-target="#carouselSlideImg" data-slide-to="2"
-													class="w-100 text-center active">
+													class="w-100 text-center active"style="background-color: transparent;">
 													<div class="d-sm-block ">
 														<br>
-														<img class="object-fit " style="width: 55px;height: auto;"
+														<img class="object-fit border border-dark rounded" style="width: 55px;height: auto;"
 															src="/src/images/mobile9.jpg">
 													</div>
 												</li>
 												<li data-target="#carouselSlideImg" data-slide-to="3"
-													class="w-100 text-center">
+													class="w-100 text-center"style="background-color: transparent;">
 													<div class="d-sm-block ">
 														<br>
-														<img class="object-fit " style="width: 55px;height: auto;"
+														<img class="object-fit border border-dark rounded" style="width: 55px;height: auto;"
 															src="/src/images/mobile10.jpg">
 													</div>
 												</li>
+												<li data-target="#carouselSlideImg" data-slide-to="4"
+													class="w-100 text-center"style="background-color: transparent;">
+													<div class="d-sm-block ">
+														<br>
+														<img class="object-fit border border-dark rounded" style="width: 55px;height: auto;"
+															src="/src/images/mobile10.jpg">
+													</div>
+												</li>
+												<li data-target="#carouselSlideImg" data-slide-to="5"
+													class="w-100 text-center"style="background-color: transparent;">
+													<div class="d-sm-block ">
+														<br>
+														<img class="object-fit border border-dark rounded" style="width: 55px;height: auto;"
+															src="/src/images/mobile10.jpg">
+													</div>
+												</li>
+
 											</ol>
 										</div>
 										<div style="height: 70px;"></div>
-										<div class="card border-0 my-4">
+										<div class="card border-0 ">
 											<div class="card-header">
 												<i class="fa fa-clock-o text-danger" aria-hidden="true"></i>
 												<span class="size">SẢN PHẨM NHẬN GIAO HÀNG TRONG 1 GIỜ</span>
@@ -318,74 +413,128 @@
 
 									</div>
 									<!--end col-xl-4-->
-									<div class="col-xl-4 bg-white my-4">
+									<div class="col-xl-4 pl-0 bg-white ">
 										<div class="mb-2">
 											<span href="" class="badge badge-danger">Trả góp 0%</span>
 										</div>
 
 										<div class="d-flex align-items-center mb-2">
-											<h3 class="prices">33.990.000 <sup>đ</sup></h3>
-											<i class="pl-2" style="text-decoration: line-through;">34.500.000đ</i>
+											<strong class="prices text-danger">33.990.000 <sup>đ</sup></strong>
+											<strong class="pl-2" style="text-decoration: line-through;">34.500.000đ</strong>
 										</div>
 
-										<div class="style-product mb-3 d-block">
+										<div class="style-product mb-3 w-100 mx-auto row  ">
 
-											<a class="d-inline-block text-dark " href="#">
-												<div class="form-check p-0  border rounded">
-													<input type="radio" class="form-check-input" id="materialChecked3"
+												<div class="p-1  col-4 ">
+													<div class="form-check p-0   rounded">
+													<input type="radio" class="form-check-input" id="cap1"
 														name="cap" checked>
-													<label class="form-check-label pr-4" for="materialChecked3">
-														<div class="d-block">
-															<span>128GB</span>
+													<label class="form-check-label  px-3 " for="cap1" style="width: 96.5%;">
+															<div class="text-center">
+															<div class=" text-center">
+															<strong class="font-weight-bold  "style="font-size: 12px;" >128GB</strong>
 														</div>
-														<span>270.990.000đ</span>
+														<span class="font-weight-light" style="font-size: 12px;">270.990.000đ</span></div>
 													</label>
 												</div>
-											</a>
-											<a class="d-inline-block text-dark" href="#">
-												<div class="form-check p-0  border rounded">
-													<input type="radio" class="form-check-input" id="materialChecked4"
-														name="cap">
-													<label class="form-check-label pr-4" for="materialChecked4">
-														<div class="d-block">
-															<span>128GB</span>
+												</div>
+													<div class="p-1  col-4 ">
+													<div class="form-check p-0   rounded">
+													<input type="radio" class="form-check-input" id="cap2"
+														name="cap" checked>
+													<label class="form-check-label  px-3 " for="cap2" style="width: 96.5%;">
+														<div class="text-center">
+															<div class=" text-center">
+															<strong class="font-weight-bold  "style="font-size: 12px;" >128GB</strong>
 														</div>
-														<span>270.990.000đ</span>
+														<span class="font-weight-light" style="font-size: 12px;">270.990.000đ</span></div>
+
 													</label>
 												</div>
-											</a>
+												</div>
+													<div class="p-1  col-4 ">
+													<div class="form-check p-0  rounded">
+													<input type="radio" class="form-check-input" id="cap3"
+														name="cap" checked>
+													<label class="form-check-label px-3" for="cap3" style="width: 96.5%;">
+														<div class="text-center ">
+															<div class=" text-center ">
+															<strong class="font-weight-bold  "style="font-size: 12px;" >128GB</strong>
+														</div>
+														<span class="font-weight-light" style="font-size: 12px;">270.990.000đ</span></div>
+
+													</label>
+												</div>
+												</div>
 										</div>
+										<strong class="font-weight-bold">Chọn màu để xem giá và chi nhánh có hàng</strong>
+	<div class="style-product mb-3 w-100 mx-auto row  ">
 
-	<div class="style-product mb-3 d-block">
-
-											<a class="d-inline-block text-dark " href="#">
-												<div class="form-check p-0  border rounded">
-													<input type="radio" class="form-check-input" id="materialChecked6"
-														name="cap2" checked>
-													<label class="form-check-label pr-4" for="materialChecked6">
-															<div class="text-center"><img src="/src/images/dienthoai.jpg"
+												<div class="p-1  col-4 ">
+													<div class="form-check p-0   rounded">
+													<input type="radio" class="form-check-input" id="color1"
+														name="color" checked>
+													<label class="form-check-label  px-1 " for="color1">
+													<div class="d-flex justify-content-center align-items-center  ">
+																<img src="/src/images/dienthoai.jpg"
 																alt="" class="img-fluid">
-															<p>xanh</p>
+																<div class="">
+																	<div class="d-block text-start">
+														<strong class="font-weight-bold  "style="font-size: 12px;" >xanh</strong>
 														</div>
+														<span class="font-weight-light" style="font-size: 12px;" >270.990.000đ</span>
+																</div>
+														</div>
+
 													</label>
 												</div>
-											</a>
-											<a class="d-inline-block text-dark" href="#">
-												<div class="form-check p-0  border rounded">
-													<input type="radio" class="form-check-input" id="materialChecked5"
-														name="cap2">
-													<label class="form-check-label pr-4" for="materialChecked5">
-															<div class="text-center"><img src="/src/images/dienthoai.jpg"
+												</div>
+												<div class="p-1  col-4 ">
+													<div class="form-check p-0   rounded">
+													<input type="radio" class="form-check-input" id="color2"
+														name="color" checked>
+													<label class="form-check-label  px-1 " for="color2">
+													<div class="d-flex justify-content-center align-items-center  ">
+																<img src="/src/images/dienthoai.jpg"
 																alt="" class="img-fluid">
-															<p>xanh</p>
+																<div class="">
+																	<div class="d-block text-start">
+														<strong class="font-weight-bold  "style="font-size: 12px;" >xanh</strong>
 														</div>
+														<span class="font-weight-light" style="font-size: 12px;" >270.990.000đ</span>
+																</div>
+														</div>
+
 													</label>
 												</div>
-											</a>
+												</div>
+
+											<div class="p-1  col-4 ">
+													<div class="form-check p-0   rounded">
+													<input type="radio" class="form-check-input" id="color3"
+														name="color" checked>
+													<label class="form-check-label  px-1 " for="color3">
+													<div class="d-flex  justify-content-center align-items-center ">
+	<img src="/src/images/dienthoai.jpg"
+																alt="" class="img-fluid">
+																<div class="">
+																	<div class=" text-end">
+														<strong class="font-weight-bold  "style="font-size: 12px;" >xanh</strong>
+														</div>
+														<span class="font-weight-light" style="font-size: 12px;" >270.990.000đ</span>
+																</div>
+
+														</div>
+
+													</label>
+												</div>
+												</div>
+
+
 										</div>
-									<div class="  ">
+									<div class="mb-4  ">
 
-											<span class="px-5">số lượng</span>
+											<strong class=" font-weight-bold  ">số lượng đặt hàng </strong>
 											<div class="def-number-input number-input safari_only ">
 
 											<button
@@ -397,15 +546,15 @@
 												class="plus"></button>
 										</div>
 									</div>
-										<div class="border p-2 my-4">
-											<div class="text-center">
-												<h5>Thông tin sản phẩm</h5>
-											</div>
-											<hr> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sequi
-											alias corporis
-											recusandae et optio, debitis dolor earum saepe veniam.
+									<div class="card mb-4 border  " style="box-shadow: unset;">
+										<div class="card-header bg-danger text-start text-white text-uppercase ">
+Thông tin sản phẩm
 										</div>
-
+										<div class="card-body">
+Mới, đầy đủ phụ kiện từ nhà sản xuất
+Bảo hành chính hãng 12 tháng tại trung tâm bảo hành ủy quyền, 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ NSX. (xem chi tiết)
+										</div>
+									</div>
 										<ul class="nav text-center mt-2 ">
 											<li class="nav-item w-100 bg-danger mb-2 hvr-round-corners">
 												<a class="nav-link text-white " href="#">
@@ -415,17 +564,26 @@
 												</a>
 											</li>
 
-											<li class="nav-item bg-primary w-100 card-shop hvr-round-corners"
+<li class="nav-item bg-primary   card-shop hvr-round-corners d-inline-block mr-auto"
 												style="width: 49%">
-												<a class="nav-link text-white " href="#">
+												<a class="nav-link text-white p-2 " href="#">
 													<h6>TRẢ GÓP QUA THẺ</h6>
 													<span class="font-text">Visa , Master card, JCB</span>
+												</a>
+											</li>
+
+
+											<li class="nav-item bg-primary ml-auto  d-inline-block card-shop hvr-round-corners"
+												style="width: 49%">
+												<a class="nav-link text-white p-2  " href=""data-toggle="modal" data-target="#modalAbandonedCart">
+													<h6>THÊM VÀO GIỎ HÀNG</h6>
+													<span class="font-text">thanh toán sau</span>
 												</a>
 											</li>
 										</ul>
 									</div>
 									<!--end col-xl-5-->
-									<div class="col-xl-4 bg-white ">
+									<div class="col-xl-4 pl-0 bg-white ">
 										<div class="card border-0 my-4">
 											<div class="card-header">
 												<i class="fa fa-clock-o text-danger" aria-hidden="true"></i>
@@ -539,9 +697,10 @@
 						</div>
 
 					</nav>
+					<hr/>
 					<div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
 						<div class="row w-100 mx-auto">
-							<div class="col-xl-8">
+							<div class="col-xl-8 pl-0">
 								<div class="card mb-4">
 									<div class="card-header red-text r text-center">
 										<h5 class="font-weight-500 my-1">Đánh giá chi tiết iPhone Xs Max 64GB</h5>
@@ -1252,106 +1411,6 @@
 										</div>
 									</div>
 								</div>
-								<div class="modal fade show" id="modalStarRating" tabindex="-1" role="dialog"
-									aria-labelledby="myModalLabel" aria-modal="true"
-									style="padding-right: 17px; display: none;">
-									<div class="modal-dialog" role="document">
-										<div class="modal-content">
-											<div class="modal-header text-center pt-1 pb-1">
-												<h4 class="modal-title w-100 font-weight-bold text-uppercase">Đánh giá
-													sản phẩm</h4>
-												<button type="button" class="close" data-dismiss="modal"
-													aria-label="Close">
-													<span aria-hidden="true">×</span>
-												</button>
-											</div>
-											<div class="modal-body mx-3 ">
-												<div class="text-center">
-													<img class="form_img-prod"
-														src="https://images.fpt.shop/unsafe/fit-in/96x96/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/19/637859778843241685_iphone-13-pro-max-vang-1.jpg"
-														alt="alt">
-													<div class="mt-2">
-														<span class="font-weight-bold">iPhone 13 Pro Max 512GB</span>
-													</div>
-													<div class="group-star">
-														<div class="custom-control custom-radio custom-control-inline">
-															<input type="radio" class="custom-control-input"
-																id="defaultInlineStar1" value="1"
-																name="inlineDefaultRadiosExampleStar">
-															<label class="custom-control-label"
-																for="defaultInlineStar1">Tệ</label>
-														</div>
-
-														<!-- Default inline 2-->
-														<div class="custom-control custom-radio custom-control-inline">
-															<input type="radio" class="custom-control-input"
-																id="defaultInlineStar2" value="2"
-																name="inlineDefaultRadiosExampleStar">
-															<label class="custom-control-label"
-																for="defaultInlineStar2">Trung bình</label>
-														</div>
-
-														<!-- Default inline 3-->
-														<div class="custom-control custom-radio custom-control-inline">
-															<input type="radio" class="custom-control-input"
-																id="defaultInlineStar3" value="3"
-																name="inlineDefaultRadiosExampleStar">
-															<label class="custom-control-label"
-																for="defaultInlineStar3">Khá
-																Tốt</label>
-														</div>
-														<div class="custom-control custom-radio custom-control-inline">
-															<input type="radio" class="custom-control-input"
-																id="defaultInlineStar4" value="4"
-																name="inlineDefaultRadiosExampleStar" checked>
-															<label class="custom-control-label"
-																for="defaultInlineStar4">Tốt</label>
-														</div>
-														<div class="custom-control custom-radio custom-control-inline">
-															<input type="radio" class="custom-control-input"
-																id="defaultInlineStar5" value="5"
-																name="inlineDefaultRadiosExampleStar">
-															<label class="custom-control-label"
-																for="defaultInlineStar5">Tuyệt vời</label>
-														</div>
-													</div>
-												</div>
-												<div class="md-form  pink-textarea active-pink-textarea mb-0">
-													<textarea id="form18"
-														class="md-textarea form-control validate mb-0 pb-0"
-														style="padding-top: 30px;" rows="3"></textarea>
-													<label for="form18">Cãm nhận của bạn về sản phẩm</label>
-												</div>
-												<div class="pr-0">
-													<div class="md-form col-12 pl-0 pr-0">
-														<input id="name-horizontal" type="text"
-															class="validate form-control m-0" required="">
-														<label id="name-label" class="" for="name-horizontal">Nhập họ
-															tên</label>
-													</div>
-												</div>
-												<div class=" pr-0">
-													<div class="md-form col-12 pl-0 pr-0">
-														<input id="phone-horizontal" type="text"
-															class="validate form-control m-0" required="">
-														<label id="phone-label" class="" for="phone-horizontal">Nhập số
-															điện thoại</label>
-													</div>
-												</div>
-												<div class="md-form mb-2 mt-2">
-													<input type="email" id="email-horizontal"
-														class="form-control validate m-0">
-													<label data-error="Vui lòng kiểm tra lại thông tin"
-														data-success="right" for="email-horizontal">Nhập email</label>
-												</div>
-											</div>
-
-											<div class="modal-footer d-flex justify-content-center pt-1 pb-1">
-												<button class="btn btn-danger ">Gửi</button>
-											</div>
-										</div>
-									</div>
-								</div>
 
 
 
@@ -1612,7 +1671,7 @@
 								</div>
 
 							</div>
-							<div class="col-xl-4 ">
+							<div class="col-xl-4 pl-0 ">
 								<div class="mb-4">
 
 									<div class="card ">
@@ -1674,7 +1733,7 @@
 											</div>
 										</div>
 										<div class="card-header red-text  text-center">
-											<a href="" class="" data-toggle="modal" data-target="#modalSpecifications">
+											<a href="" class="hvr-underline-from-center" data-toggle="modal" data-target="#modalSpecifications">
 												Xem cấu hình chi tiết</a>
 										</div>
 									</div>
@@ -1685,21 +1744,21 @@
 									aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
 									<div class="modal-dialog" role="document">
 										<div class="modal-content" style="width: 620px;">
-											<div class="modal-header text-center pt-1 pb-1">
+											<div class="modal-header bg-danger text-white text-center pt-1 pb-1">
 												<h4 class="modal-title w-100 font-weight-bold text-uppercase">Thông số
 													kỹ
 													thuật</h4>
 												<button type="button" class="close" data-dismiss="modal"
 													aria-label="Close">
-													<span aria-hidden="true">×</span>
+													<span aria-hidden="true" class="text-white">×</span>
 												</button>
 											</div>
 											<div class="modal-body p-0">
-												<div class="text-center pt-3 pb-3">
-													<img class="form_img-prod"
-														src="https://images.fpt.shop/unsafe/fit-in/96x96/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/19/637859778843241685_iphone-13-pro-max-vang-1.jpg"
-														alt="alt" style="width: 250px; height: auto;">
-												</div>
+
+							<div class="card">
+
+								<div class="card-body">
+													<div class="table-wrapper-scroll-y my-custom-scrollbar">
 												<table class="table table-bordered mb-0">
 
 													<tbody>
@@ -1719,6 +1778,23 @@
 																</div>
 															</td>
 														</tr>
+														<tr>
+															<th class="p-2 bg-light">Thiết kế & Trọng lượng</th>
+														</tr>
+														<tr>
+															<td class="p-1">
+																<div class="row ml-2 mr-2 pt-2 pb-2"
+																	style="border-bottom: 1px solid #edeeef;">
+																	<div class="col-sm-5 pl-1">
+																		Trọng
+																	</div>
+																	<div class="col-sm-7" s><span
+																			style="color: #495057; font-weight:400"> 40
+																			g</span></div>
+																</div>
+															</td>
+														</tr>
+
 														<tr>
 															<th class="p-2 bg-light">Bộ xử lý</th>
 														</tr>
@@ -1820,6 +1896,9 @@
 													</tbody>
 												</table>
 
+</div>
+								</div>
+							</div>
 
 											</div>
 

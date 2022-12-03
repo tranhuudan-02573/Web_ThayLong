@@ -390,6 +390,59 @@
 
 				</section>
 
+<!-- Modal: modalCart -->
+<div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">danh sách yêu thích của bạn</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <!--Body-->
+      <div class="modal-body">
+
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>tên</th>
+              <th>giá</th>
+			   <th>số lượng</th>
+              <th>Remove</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>iphone 14</td>
+              <td>34000000$</td>
+			  <td>2</td>
+              <td><a><i class="fas fa-times"></i></a></td>
+            </tr>
+
+            <tr class="total">
+              <th scope="row">5</th>
+              <td>Total</td>
+              <td>400$</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+      <!--Footer-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+        <button class="btn btn-danger">đến</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal: modalCart -->
 
 
 				<section class="my-5 select-event">
@@ -452,11 +505,12 @@
 																	iPhone 1
 																</h3>
 
+                                            </span>
 																<div class="mb-1">
-																	<span class="mr-2 badge badge-light">6.7 incheslor
+																	<span class="badge badge-light mr-2 "><i class="fas fa-image me-1 mr-1"></i>6.7 incheslor
 																	</span>
 
-																	<span class="mr-2 badge badge-light">128 GB</span>
+																	<span class="mr-2 badge badge-light mr-2 "><i class="fas fa-image me-1 mr-1"></i>128 GB</span>
 																</div>
 
 																<div class="mb-1">
@@ -480,12 +534,13 @@
 
 															</div>
 														</a>
+
 														<div class="mt-2  d-flex justify-content-between ">
 															<a href="" class=" d-block  align-middle" style="font-size:14px ;">
 																<i class="fa-regular fa-square-plus fa-sm"></i> so sánh
 															</a>
 
-															<a href="" class="d-block  align-middle" style="font-size:14px ;">
+															<a href="" class="d-block  align-middle" style="font-size:14px ;"data-toggle="modal" data-target="#modalCart">
 																<i class="fa-regular fa-heart fa-sm"></i> yêu thích
 															</a>
 														</div>
@@ -2209,7 +2264,9 @@
 			<li class="nav-item col-3 text-center " >
 				<a class="nav-link bg-light text-dark text-uppercase	 active " id="home-tab"
 					data-toggle="tab" href="#tragop0" role="tab" aria-controls="home"
-					aria-selected="true"> <span class="btn-floating btn-md  btn-default m-0 mr-2"style="box-shadow: none;"><i class="fas fa-bolt"></i></span>Trả góp 0%</a>
+					aria-selected="true"> <span class="btn-floating btn-md  btn-default m-0 mr-2"style="box-shadow: none;"><i class="fas fa-bolt"></i></span><strong>
+						Trả góp 0%
+					</strong></a>
 
 
 
@@ -2217,15 +2274,15 @@
 			<li class="nav-item   text-center col-3" >
 				<a class="nav-link text-dark  bg-light text-uppercase" id="profile-tab" data-toggle="tab"
 					href="#hot" role="tab" aria-controls="profile" aria-selected="false"><span class="btn-floating btn-md bg-light  btn-default m-0 mr-2"style="box-shadow: none;"><i class="fas fa-bolt"></i></span>
-					hot</a>
+					<strong>hot</strong></a>
 			</li>
 		<li class="nav-item  text-center col-3" >
 				<a class="nav-link  text-dark bg-light text-uppercase " id="profile-tab" data-toggle="tab" href="#buyest"
-					role="tab" aria-controls="profile" aria-selected="false"><span class="btn-floating btn-md  btn-default m-0 mr-2"style="box-shadow: none;"><i class="fas fa-bolt"></i></span>mua nhiều</a>
+					role="tab" aria-controls="profile" aria-selected="false"><span class="btn-floating btn-md  btn-default m-0 mr-2"style="box-shadow: none;"><i class="fas fa-bolt"></i></span><strong>mua nhiều</strong></a>
 			</li>
 			<li class="nav-item  text-center col-3"  >
 				<a class="nav-link text-dark bg-light text-uppercase" id="profile-tab" data-toggle="tab" href="#discount"
-					role="tab" aria-controls="profile" aria-selected="false"><span class="btn-floating btn-md  btn-default m-0 mr-2" style="box-shadow: none;"><i class="fas fa-bolt"></i></span> ưu đãi </a>
+					role="tab" aria-controls="profile" aria-selected="false"><span class="btn-floating btn-md  btn-default m-0 mr-2" style="box-shadow: none;"><i class="fas fa-bolt"></i></span><strong>mua nhiều</strong></a>
 			</li>
 
 
@@ -4451,10 +4508,10 @@
 
 
 	<div class="owl-carousel owl-theme my-owl-carousel">
-  	<a href="" >  <img class="owl-lazy border border-danger" style="border-width: 2px !important;" data-src="https://cdn2.cellphones.com.vn/x/https://dashboard.cellphones.com.vn/storage/uu-dai-tt-hp-2.png" data-src-retina="https://cdn2.cellphones.com.vn/x/https://dashboard.cellphones.com.vn/storage/uu-dai-tt-hp-2.png" alt=""></a>
-  	<a href="" > <img class="owl-lazy border border-danger" style="border-width: 2px !important;" data-src="https://cdn2.cellphones.com.vn/x/https://dashboard.cellphones.com.vn/storage/evo-690-300-max_189.png" data-src-retina="https://cdn2.cellphones.com.vn/x/https://dashboard.cellphones.com.vn/storage/evo-690-300-max_189.png" alt=""></a>
-	<a href="" >    <img class="owl-lazy border border-danger" style="border-width: 2px !important;" data-src="https://cdn2.cellphones.com.vn/x/https://dashboard.cellphones.com.vn/storage/690x300_uu-dai_JCB.png" data-src-retina="https://cdn2.cellphones.com.vn/x/https://dashboard.cellphones.com.vn/storage/690x300_uu-dai_JCB.png" alt=""></a>
-	<a href="" >    <img class="owl-lazy border border-danger" style="border-width: 2px !important;" data-src="https://cdn2.cellphones.com.vn/x/https://dashboard.cellphones.com.vn/storage/ban-viet-690-300-max.png" data-src-retina="https://cdn2.cellphones.com.vn/x/https://dashboard.cellphones.com.vn/storage/ban-viet-690-300-max.png" alt=""></a>
+  	<a href="" >  <img class="owl-lazy border border-danger  rounded" style="border-width: 2px !important;" data-src="https://cdn2.cellphones.com.vn/690x300,webp,q100/https://dashboard.cellphones.com.vn/storage/uu-dai-tt-hp-1.png" data-src-retina="https://cdn2.cellphones.com.vn/690x300,webp,q100/https://dashboard.cellphones.com.vn/storage/uu-dai-tt-hp-1.png" alt=""></a>
+  	<a href="" > <img class="owl-lazy border border-danger rounded" style="border-width: 2px !important;" data-src="https://cdn2.cellphones.com.vn/690x300,webp,q100/https://dashboard.cellphones.com.vn/storage/evo-690-300-max_189.png" data-src-retina="https://cdn2.cellphones.com.vn/690x300,webp,q100/https://dashboard.cellphones.com.vn/storage/evo-690-300-max_189.png" alt=""></a>
+	<a href="" >    <img class="owl-lazy border border-danger rounded" style="border-width: 2px !important;" data-src="https://cdn2.cellphones.com.vn/690x300,webp,q100/https://dashboard.cellphones.com.vn/storage/690x300_uu-dai_JCB.png" data-src-retina="https://cdn2.cellphones.com.vn/690x300,webp,q100/https://dashboard.cellphones.com.vn/storage/690x300_uu-dai_JCB.png" alt=""></a>
+	<a href="" >    <img class="owl-lazy border border-danger rounded" style="border-width: 2px !important;" data-src="https://cdn2.cellphones.com.vn/690x300,webp,q100/https://dashboard.cellphones.com.vn/storage/ban-viet-690-300-max.png" data-src-retina="https://cdn2.cellphones.com.vn/690x300,webp,q100/https://dashboard.cellphones.com.vn/storage/ban-viet-690-300-max.png" alt=""></a>
 
 
 
@@ -4486,7 +4543,7 @@
 			$(document).ready(function () {
 				$('.mdb-select').materialSelect();
 $('.my-owl-carousel').owlCarousel({
-    items:2,
+    items:3,
     lazyLoad:true,
     loop:true,
     margin:10,
