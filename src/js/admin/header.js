@@ -125,6 +125,13 @@ header.innerHTML =`
                                                                 <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
                                                                     Màu</span></a>
                                                         </li>
+                                                          <li>
+                                                            <a href="/src/views/admin/manacap/index.html"
+                                                                class="waves-effect ">
+                                                                <span class="sv-slim"> SL </span>
+                                                                <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
+                                                                    bộ nhớ</span></a>
+                                                        </li>
 
                                                         <li>
                                                             <a href="/src/views/admin/manaspec/index.html"
@@ -140,7 +147,7 @@ header.innerHTML =`
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal"
-                                                                    style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>promot</span></a>
+                                                                    style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>Khuyến mãi</span></a>
                                                         </li>
                                                     </ul>
                                                 </div>
