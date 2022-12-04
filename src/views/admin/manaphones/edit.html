@@ -1,190 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="/src/lib/fa6/fontawesome-free-6.2.0-web/css/all.css">
-        <link rel="stylesheet" href="/src/lib/mdb4/css/bootstrap.css">
-        <link rel="stylesheet" href="/src/lib/mdb4/css/mdb.css">
-        <link rel="stylesheet" href="/src/lib/mdb4/css/addons/datatables.min.css">
-        <style>
-            .double-nav .breadcrumb-dn {
-    color: #fff;
-}
-.side-nav.wide.slim .sn-ad-avatar-wrapper a span {
-  display: none;
-}
-        </style>
-    </head>
-<body class="fixed-sn mdb-skin">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/lib/fa6/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="/src/lib/mdb4/css/bootstrap.css">
+    <link rel="stylesheet" href="/src/lib/mdb4/css/mdb.css">
+    <link rel="stylesheet" href="/src/lib/mdb4/css/addons/datatables.min.css">
+    <link rel="stylesheet" href="/src/lib/mdb4/css/addons-pro/steppers.min.css">
+    <style>
+      .double-nav .breadcrumb-dn {
+        color: #fff;
+      }
 
-  <!--Double navigation-->
- <header id="header"></header>
-  <!--/.Double navigation-->
+      .side-nav.wide.slim .sn-ad-avatar-wrapper a span {
+        display: none;
+      }
 
-  <!--Main Layout-->
-  <main class="mt-1">
-    <div class="container-fluid panel-scroll">
+    </style>
+  </head>
 
-        <div id="container">
-       <!-- Table with panel -->
-<div class="card card-cascade narrower">
+  <body class="fixed-sn mdb-skin">
 
-  <!--Card image-->
-  <div
-    class="view view-cascade gradient-card-header blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+    <!--Double navigation-->
+    <header id="header"></header>
+    <!--/.Double navigation-->
 
-    <div>
-     <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
-      <i class="fa-solid fa-arrow-left-long"></i>
-      </button>
-      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
-   <i class="fa-solid fa-xmark"></i>
-      </button>
-    </div>
+    <!--Main Layout-->
+    <main class="mt-1">
+      <div class="container-fluid h-100">
 
-    <a href="" class="white-text mx-3">Table name</a>
+        <div id="container h-100">
+          <!-- Table with panel -->
+          <div class="card h-100 card-cascade narrower mb-5">
 
-    <div>
-    <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
-       <i class="fa-solid fa-rotate-left"></i>
-      </button>
-      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
-        <i class="fa-solid fa-repeat"></i>
-      </button>
-      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
-      <i class="fa-regular fa-floppy-disk"></i>
-      </button>
-    </div>
+            <!--Card image-->
+            <div
+              class="view view-cascade gradient-card-header blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
 
-  </div>
-  <!--/Card image-->
+              <div>
+                <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                  <i class="fa-solid fa-arrow-left-long"></i>
+                </button>
+                <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
 
-  <div class="px-4">
+              <a href="" class="white-text mx-3">Table name</a>
 
-    <div class="table-wrapper">
-      <!--Table-->
-     <table class="table table-hover">
-          <thead>
+              <div>
+                <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                  <i class="fa-solid fa-rotate-left"></i>
+                </button>
+                <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                  <i class="fa-solid fa-repeat"></i>
+                </button>
+                <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                  <i class="fa-regular fa-floppy-disk"></i>
+                </button>
+              </div>
 
-          </thead>
-          <tbody>
+            </div>
+            <!--/Card image-->
+            <style>
+              .ck.ck-reset.ck-editor,  .ck.ck-editor__main,.ck.ck-content
+                {
+                height: 95%;
+              }
 
-              <tr>
-              <th>phone</th>
-                 <td><!-- Material outline counter input -->
- <input id="input-char-counter1" type="text" length="10" class="form-control">
-  <label for="input-char-counter1">Input text</label>
-            </tr>
-                 <tr>
-              <th>name</th>
-               <td> <input id="input-char-counter2" type="text" length="10" class="form-control">
-  <label for="input-char-counter1">Input text</label></td>
-               </tr>
-               <tr>
-              <th>address</th>
-               <td> <input id="input-char-counter2" type="text" length="10" class="form-control">
-  <label for="input-char-counter2">Input text</label></td>
-               </tr>
-               <tr>
-              <th>gender</th>
-               <td>
-<!-- Material inline 1 -->
-<div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline1" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline1">1</label>
+            </style>
+         <div class="px-4 mt-4  ">
+             <ul class="stepper horizontal" id="horizontal-stepper"  style="height: 100vh;" >
+              <li class="step active">
+                <div class="step-title waves-effect waves-dark">Step 1</div>
+                <div class="step-new-content">
+                  <!--Table-->
+                  <div class="row">
+                    <div class="col-3">
+name
+                    </div>
+                    <div class="col-9">
+<input id="input-char-counter1" type="text" length="10" class="form-control">
+                                <label for="input-char-counter1">Input text</label>
+                    </div>
+                    <div class="col-3">typeId</div>
+<div class="col-9"><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></div>
+                                <div class="col-3">stateId</div>
+                                <div class="col-9"><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></div>
+                                <div class="col-3">saleId</div>
+                                <div class="col-9"><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></div>
+                                 <div class="col-3">brandId</div>
+                                <div class="col-9"><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></div>
+                                 <div class="col-3">modelId</div>
+                                <div class="col-9"><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></div>
+                                 <div class="col-3">author</div>
+                                <div class="col-9"><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></div>
+                                <div class="col-3">
+                                  price
+                                </div>
+                                <div class="col-9">
+                                  <input id="input-char-counter1" type="number" length="10" class="form-control">
+                                <label for="input-char-counter1">Input text</label>
+                                </div>
+                                <div class="col-3">desc</div>
+<div class="col-9"><textarea id="textarea-char-counter" class="form-control md-textarea" length="120"
+                                  rows="3"></textarea>
+                                <label for="textarea-char-counter">Type your text</label></div>
+                                 <div class="col-3">
+                                  total
+                                </div>
+                                <div class="col-9">
+                                  <input id="input-char-counter1" type="number" length="10" class="form-control">
+                                <label for="input-char-counter1">Input text</label>
+                                </div>
+                                <div class="col-3">thumbnail</div>
+<div class="col-9">
+<form class="md-form">
+                                  <div class="file-field">
+
+                                    <div class="file-path-wrapper">
+                                      <input class="file-path validate" type="text" placeholder="Upload your file">
+                                    </div>
+  <div class="btn btn-primary btn-sm float-left">
+                                      <span>Choose file</span>
+                                      <input type="file">
+                                    </div>
+                                  </div>
+                                </form>
+
 </div>
 
-<!-- Material inline 2 -->
-<div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline2" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline2">2</label>
-</div>
+                    <!--Table-->
 
-<!-- Material inline 3 -->
-<div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline3" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline3">3</label>
-</div>
+                  </div>
 
+                </div>
 
-               </td>
-               </tr>
-               <tr>
-               <th>email</th>
-                <td><input id="input-char-counter4" type="text" length="10" class="form-control">
-  <label for="input-char-counter4">Input text</label></td></td>
-                </tr>
-                <tr>
-                <th>active</th>
-                 <td><div class="custom-control custom-switch">
-  <input type="checkbox" class="custom-control-input" id="customSwitches">
-  <label class="custom-control-label" for="customSwitches">Toggle this switch element</label>
-</div></td>
-                 </tr>
-                 <tr>
-                 <th>permission</th>
-                  <td><div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline1" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline1">1</label>
-</div>
+              </li>
+              <li class="step ">
+                <div class="step-title waves-effect waves-dark">Step 2</div>
+                <div class="step-new-content">
+                  <div class="px-4 h-100">
+                  <div id="editor" class="h-100 mb-4" ></div>
 
-<!-- Material inline 2 -->
-<div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline2" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline2">2</label>
-</div>
+                  </div>
 
-<!-- Material inline 3 -->
-<div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline3" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline3">3</label>
-</div></td>
-                  </tr>
-                  <tr>
-                  <th>status</th>
-                   <td><input id="input-char-counter5" type="text" length="10" class="form-control">
-  <label for="input-char-counter5">Input text</label></td>
-                   </tr>
+                </div>
+              </li>
+               <li class="step">
+                <div class="step-title waves-effect waves-dark">Step 2</div>
+                <div class="step-new-content">
+                  <div class="px-4">
+                    <div class="row">
 
 
-          </tbody>
-        </table>
-      <!--Table-->
-    </div>
+                      <div class="col-3">
+                        desc
+                      </div>
+                      <div class="col-9"><textarea id="textarea-char-counter" class="form-control md-textarea" length="120"
+                                  rows="3"></textarea>
+                                <label for="textarea-char-counter">Type your text</label></div>
+                                   <div class="col-3">anh</div>
+                      <div class="col-9">
+                        <form class="md-form">
+                                      <div class="file-field">
 
-  </div>
+                                        <div class="file-path-wrapper">
+                                          <input class="file-path validate" type="text" placeholder="Upload your file">
+                                        </div>
+      <div class="btn btn-primary btn-sm float-left">
+                                          <span>Choose file</span>
+                                          <input type="file">
+                                        </div>
+                                      </div>
+                                    </form>
+                      </div>
+                    </div>
+                  </div>
 
-</div>
-<!-- Table with panel -->
-    </div>
+                </div>
+              </li>
+               <li class="step">
+                <div class="step-title waves-effect waves-dark">Step 2</div>
+                <div class="step-new-content">
+                  <div class="px-4">
+                    <div class="row align-items-center">
+                     <div class="col-3"><div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-9"><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></div><div class="col-3"><div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-9"><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></div>
+                                <div class="col-3"><div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-9"><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></div>
+                    </div>
+                  </div>
 
-    </div>
-  </main>
-  <script src="/src/js/admin/header.js"></script>
-  <!--Main Layout-->
-  <script src="/src/lib/mdb4/js/jquery.js"></script>
-  <script src="/src/lib/mdb4/js/popper.js"></script>
-  <script src="/src/lib/mdb4/js/mdb.js"></script>
-  <script src="/src/lib/mdb4/js/bootstrap.js"></script>
-  <script src="/src/lib/mdb4/js/addons/datatables.min.js"></script>
-  <script>
-    $(document).ready(function() {
+                </div>
+              </li>
+               <li class="step">
+                <div class="step-title waves-effect waves-dark">Step 2</div>
+                <div class="step-new-content">
+                  <div class="px-4">
+                 <div class="row align-items-center ">
+                <div class="col-3"><div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-3"><input id="input-char-counter1" type="number" length="10" class="form-control">
+                            <label for="input-char-counter1">Input text</label></div>
+<div class="col-6">  <form class="md-form">
+                              <div class="file-field">
 
-  // SideNav Initialization
-  $(".button-collapse").sideNav({
-		slim: true});
-  new WOW().init();
+                                <div class="file-path-wrapper">
+                                  <input class="file-path validate" type="text" placeholder="Upload your file">
+                                </div>
+                                <div class="btn btn-primary btn-sm float-left">
+                                  <span>Choose file</span>
+                                  <input type="file">
+                                </div>
+                              </div>
+                            </form></div>
+                              <div class="col-3"><div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-3"><input id="input-char-counter1" type="number" length="10" class="form-control">
+                            <label for="input-char-counter1">Input text</label></div>
+<div class="col-6">  <form class="md-form">
+                              <div class="file-field">
 
-$('#dtBasicExample').DataTable();
-$('.dataTables_length').addClass('bs-select');
+                                <div class="file-path-wrapper">
+                                  <input class="file-path validate" type="text" placeholder="Upload your file">
+                                </div>
+                                <div class="btn btn-primary btn-sm float-left">
+                                  <span>Choose file</span>
+                                  <input type="file">
+                                </div>
+                              </div>
+                            </form></div>
+                              <div class="col-3"><div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-3"><input id="input-char-counter1" type="number" length="10" class="form-control">
+                            <label for="input-char-counter1">Input text</label></div>
+<div class="col-6">  <form class="md-form">
+                              <div class="file-field">
+
+                                <div class="file-path-wrapper">
+                                  <input class="file-path validate" type="text" placeholder="Upload your file">
+                                </div>
+                                <div class="btn btn-primary btn-sm float-left">
+                                  <span>Choose file</span>
+                                  <input type="file">
+                                </div>
+                              </div>
+                            </form></div>
 
 
-})
-  </script>
-</body>
+                 </div>
+                  </div>
+
+                </div>
+              </li>
+               <li class="step">
+                <div class="step-title waves-effect waves-dark">Step 2</div>
+                <div class="step-new-content">
+                  <div class="px-4">
+                  <div class="row  align-items-center ">
+                      <div class="col-4"><div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-4"> <div class="md-form md-outline input-with-post-icon datepicker">
+  <input placeholder="Select date" type="date" id="example" class="form-control">
+  <label for="example">Try me...</label>
+</div></div>
+<div class="col-4"> <div class="md-form md-outline input-with-post-icon datepicker">
+  <input placeholder="Select date" type="date" id="example" class="form-control">
+  <label for="example">Try me...</label>
+</div></div>
+ <div class="col-4"><div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-4"> <div class="md-form md-outline input-with-post-icon datepicker">
+  <input placeholder="Select date" type="date" id="example" class="form-control">
+  <label for="example">Try me...</label>
+</div></div>
+<div class="col-4"> <div class="md-form md-outline input-with-post-icon datepicker">
+  <input placeholder="Select date" type="date" id="example" class="form-control">
+  <label for="example">Try me...</label>
+</div></div> <div class="col-4"><div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-4"> <div class="md-form md-outline input-with-post-icon datepicker">
+  <input placeholder="Select date" type="date" id="example" class="form-control">
+  <label for="example">Try me...</label>
+</div></div>
+<div class="col-4"> <div class="md-form md-outline input-with-post-icon datepicker">
+  <input placeholder="Select date" type="date" id="example" class="form-control">
+  <label for="example">Try me...</label>
+</div></div>
+
+
+
+                  </div>
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="step">
+                <div class="step-title waves-effect waves-dark">Step 3</div>
+                <div class="step-new-content">
+                <div class="mx-4">
+                  <div class="row  align-items-center ">
+                   <div class="col-5">
+                    <div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-7"> <input type="text" class="form-control" id="name">
+        <label for="name">Tên</label></div>
+
+  <div class="col-5">
+                    <div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-7"> <input type="text" class="form-control" id="name">
+        <label for="name">Tên</label></div>
+
+          <div class="col-5">
+                    <div class="form-check  ">
+  <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+  <label class="form-check-label" for="materialChecked2">Material checked</label>
+</div></div>
+<div class="col-7"> <input type="text" class="form-control" id="name">
+        <label for="name">Tên</label></div>
+
+                  </div>
+                </div>
+
+                </div>
+              </li>
+            </ul>
+         </div>
+          </div>
+          <!-- Table with panel -->
+        </div>
+
+      </div>
+    </main>
+    <script src="/src/js/admin/header.js"></script>
+    <!--Main Layout-->
+    <script src="/src/lib/mdb4/js/jquery.js"></script>
+    <script src="/src/lib/mdb4/js/popper.js"></script>
+    <script src="/src/lib/mdb4/js/mdb.js"></script>
+    <script src="/src/lib/mdb4/js/bootstrap.js"></script>
+    <script src="/src/lib/mdb4/js/addons/datatables.min.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.3.2/classic/ckeditor.js"></script>
+    <script src="/src/lib/mdb4/js/addons-pro/steppers.min.js"></script>
+    <script src="/src/lib/ckfinder/ckfinder.js"></script>
+    <script>
+
+      $(document).ready(function () {
+        $('.mdb-select').materialSelect({
+        });
+        // SideNav Initialization
+        $('.stepper').mdbStepper();
+
+      })
+
+      ClassicEditor
+        .create(document.querySelector('#editor'))
+        .catch(error => {
+          console.error(error);
+        });
+
+    </script>
+  </body>
 
 </html>

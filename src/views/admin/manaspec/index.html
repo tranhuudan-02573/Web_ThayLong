@@ -43,26 +43,22 @@
 
        <!--Body-->
        <div class="modal-body">
- <table class="table table-hover">
+ <table class="table table-hover border">
           <thead>
 
           </thead>
           <tbody>
-<tr>
-  <th>PhoneId</th>
-  <td>
-    <select class="mdb-select md-form" editable="true" searchable="Search and add here...">
-  <option value="" disabled selected>Choose your option</option>
-  <option value="1">Option 1</option>
-  <option value="2">Option 2</option>
-  <option value="3">Option 3</option>
-</select>
-  </td>
-</tr>
+            <tr>
+              <th>value</th>
+              <td>
+                <input id="input-char-counter1" type="text" length="10" class="form-control">
+  <label for="input-char-counter1">Input text</label>
+              </td>
+            </tr>
 <tr>
   <th>SpecId</th>
   <td>
-     <select class="mdb-select md-form" editable="true" searchable="Search and add here...">
+     <select class="mdb-select md-form" editable="true" searchable="Search and add here..." data-stop-refresh="false">
   <option value="" disabled selected>Choose your option</option>
   <option value="1">Option 1</option>
   <option value="2">Option 2</option>
@@ -73,7 +69,7 @@
 <tr>
   <th>PhoneId</th>
   <td>
-    <select class="mdb-select md-form" editable="true" searchable="Search and add here...">
+    <select class="mdb-select md-form" editable="true" searchable="Search and add here..."data-stop-refresh="false">
   <option value="" disabled selected>Choose your option</option>
   <option value="1">Option 1</option>
   <option value="2">Option 2</option>
@@ -182,7 +178,7 @@
       <!--Body-->
       <div class="modal-body">
 
-       <table  class="table border border-left table-hover" >
+       <table  class="table border  table-hover" >
           <thead>
 
           </thead>
@@ -220,7 +216,7 @@
       <!--Footer-->
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-default" data-dismiss="modal">xóa</button>
-        <a href="/src/views/admin/manausers/edit.html" class="btn btn-default">chỉnh sửa</a>
+        <a href="/src/views/admin/manaspec/edit.html" class="btn btn-default">chỉnh sửa</a>
       </div>
     </div>
   </div>
@@ -258,7 +254,7 @@
 
     <div class="table-wrapper">
       <!--Table-->
-      <table id="detail" class="table table-hover mb-0">
+      <table id="detail" class="table table-hover border mb-0">
 
         <!--Table head-->
         <thead>
@@ -307,7 +303,7 @@
             <td>256GB</td>
             <td>
               <a href=""data-toggle="modal" data-target="#modalinfo"><i class="fa-regular fa-eye"></i></a>
-              <a href="/src/views/admin/manacap/edit.html"><i class="far fa-edit"></i></a>
+              <a href="/src/views/admin/manaspec/edit.html"><i class="far fa-edit"></i></a>
 
               <a href=""data-toggle="modal" data-target="#modalConfirmDelete"><i class="far fa-trash-alt"></i></a>
             </td>

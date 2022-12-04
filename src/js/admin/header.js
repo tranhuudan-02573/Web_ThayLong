@@ -110,7 +110,7 @@ header.innerHTML =`
                                                 <div class="collapsible-body">
                                                     <ul class=" ">
                                                         <li>
-                                                            <a href="/src/views/admin/manaimage/index.html"
+                                                            <a href="/src/views/admin/manaphones/index.html"
                                                                 class="waves-effect ">
                                                                 <span class="sv-slim"> SL </span>
                                                                 <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>
@@ -162,7 +162,7 @@ header.innerHTML =`
 <li>
                                         <a href="/src/views/admin/manareview/index.html" class="waves-effect">
                                             <span class="sv-slim"> RF </span>
-                                            <span class="sv-normal" style="font-size: 16px;">review</span></a>
+                                            <span class="sv-normal" style="font-size: 16px;"><i class="fas fa-circle blue-text"></i>review</span></a>
 
                                     </li>
 
