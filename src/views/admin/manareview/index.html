@@ -58,21 +58,20 @@
                                                             <div class="form-group">
                                                                 <label for="exampleFormControlTextarea3"
                                                                     style="float: left; color: #6c757d;">câu hỏi</label>
-                                                                <textarea placeholder="Viết ở đây" class="form-control"
+                                                                <textarea placeholder="iphone 14 này có trả góp không ? " class="form-control"
                                                                     id="exampleFormControlTextarea3" rows="7"
                                                                     style="height: 80px; " readonly disabled></textarea>
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-12">
+                                                        <style>
+                                                              .ck.ck-reset.ck-editor,  .ck.ck-editor__main,.ck.ck-content
+                {
+                height: 95%;
+              }
+                                                        </style>
+                                                        <div class="col-md-12" style="height: 400px;" >
                                                             <!-- Material input -->
-                                                            <div class="form-group">
-                                                                <label for="exampleFormControlTextarea3"
-                                                                    style="float: left; color: #6c757d;">Câu trả
-                                                                    lời</label>
-                                                                <textarea placeholder="Viết ở đây" class="form-control"
-                                                                    id="exampleFormControlTextarea3" rows="7"
-                                                                    style="height: 80px; "></textarea>
-                                                            </div>
+                                                           <div id="editor"></div>
                                                         </div>
                                                         <!-- Grid column -->
                                                     </div>
@@ -146,6 +145,7 @@
     <script src="/src/lib/mdb4/js/popper.js"></script>
     <script src="/src/lib/mdb4/js/mdb.js"></script>
     <script src="/src/lib/mdb4/js/bootstrap.js"></script>
+      <script src="https://cdn.ckeditor.com/ckeditor5/35.3.2/classic/ckeditor.js"></script>
     <script src="/src/lib/mdb4/js/addons/datatables.min.js"></script>
     <script src="/src/js/admin/form.js"></script>
     <script>
@@ -162,6 +162,11 @@ $('.dataTables_length').addClass('bs-select');
 
 
         })
+          ClassicEditor
+        .create(document.querySelector('#editor'))
+        .catch(error => {
+          console.error(error);
+        });
     </script>
 </body>
 

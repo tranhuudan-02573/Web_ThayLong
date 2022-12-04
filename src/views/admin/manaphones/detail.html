@@ -46,7 +46,7 @@
       </button>
     </div>
 
-    <a href="" class="white-text mx-3">Table name</a>
+    <a href="" class="white-text mx-3 text-uppercase ">chi tiết điện thoại</a>
 
     <div>
     <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
@@ -67,92 +67,136 @@
 
     <div class="table-wrapper">
       <!--Table-->
-     <table class="table border table-hover">
-          <thead>
+       <table class="table border table-hover ">
+<tr>
+  <th>tên</th>
+  <td>
+<input id="input-char-counter1" type="text" length="10" class="form-control">
+                                <label for="input-char-counter1">tên điện thoại</label></td>
+</tr>
 
-          </thead>
-          <tbody>
+<tr>
+  <th>loại</th>
+  <td><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>chọn loại</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select>
+  </td>
+</tr>
+<tr>
+  <th>trạng thái</th>
+  <td><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>chọn trạng thái</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></td>
+</tr>
+<tr>
+  <th>giảm giá</th>
+  <td><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>chọn giảm giá</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></td>
+</tr>
 
-              <tr>
-              <th>phone</th>
-                 <td><!-- Material outline counter input -->
- <input id="input-char-counter1" type="text" length="10" class="form-control">
-  <label for="input-char-counter1">Input text</label>
-            </tr>
-                 <tr>
-              <th>name</th>
-               <td> <input id="input-char-counter2" type="text" length="10" class="form-control">
-  <label for="input-char-counter1">Input text</label></td>
-               </tr>
-               <tr>
-              <th>address</th>
-               <td> <input id="input-char-counter2" type="text" length="10" class="form-control">
-  <label for="input-char-counter2">Input text</label></td>
-               </tr>
-               <tr>
-              <th>gender</th>
-               <td>
-<!-- Material inline 1 -->
-<div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline1" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline1">1</label>
-</div>
+</tr>
+<tr>
+  <th>hãng</th>
+  <td><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>chọn hãng</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select>
 
-<!-- Material inline 2 -->
-<div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline2" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline2">2</label>
-</div>
+                                <tr>
+                                  <th>dòng</th>
+<td><select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>chọn dòng</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select></td>
+                                </tr>
+<tr>
+  <th>người tạo</th>
+  <td>
+    <select class="mdb-select md-form" editable="true" searchable="Search and add here..."
+                                  data-stop-refresh="false">
+                                  <option value="" disabled selected>chọn người tạo</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select>
+  </td>
+</tr>
+<tr>
+  <th>giá</th>
+  <td>   <input id="input-char-counter1" type="number" length="10" class="form-control">
+                                <label for="input-char-counter1">giá</label></td></td>
+</tr>
+<tr>
+  <th>
+    mô tả
+  </th>
+  <td><textarea id="textarea-char-counter" class="form-control md-textarea" length="120"
+                                  rows="3"></textarea>
+                                <label for="textarea-char-counter">mô tả</label></td>
+</tr>
+<tr>
+  <th>tổng số lượng</th>
+  <td>  <input id="input-char-counter1" type="number" length="10" class="form-control">
+                                <label for="input-char-counter1">tổng</label></td>
+</tr>
+  <tr>
+    <th>hình đại diện</th>
+<td><form class="md-form">
+                                  <div class="file-field">
 
-<!-- Material inline 3 -->
-<div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline3" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline3">3</label>
-</div>
+                                    <div class="file-path-wrapper">
+                                      <input class="file-path validate" type="text" placeholder="Upload your file">
+                                    </div>
+  <div class="btn btn-primary btn-sm float-left">
+                                      <span>chọn hình</span>
+                                      <input type="file">
+                                    </div>
+                                  </div>
+                                </form></td>
+  </tr>
+  <tr>
+    <th>hình ảnh</th>
+    <td>iphone</td>
+  </tr>
+    <tr>
+    <th>thông số</th>
+    <td>sad</td>
+  </tr>
+    <tr>
+    <th>bộ nhớ</th>
+    <td>iphone</td>
+  </tr>
+    <tr>
+    <th>khuyến mãi</th>
+    <td>iphone</td>
+  </tr>
+                              </table>
+
+</tr>
 
 
-               </td>
-               </tr>
-               <tr>
-               <th>email</th>
-                <td><input id="input-char-counter4" type="text" length="10" class="form-control">
-  <label for="input-char-counter4">Input text</label></td></td>
-                </tr>
-                <tr>
-                <th>active</th>
-                 <td><div class="custom-control custom-switch">
-  <input type="checkbox" class="custom-control-input" id="customSwitches">
-  <label class="custom-control-label" for="customSwitches">Toggle this switch element</label>
-</div></td>
-                 </tr>
-                 <tr>
-                 <th>permission</th>
-                  <td><div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline1" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline1">1</label>
-</div>
-
-<!-- Material inline 2 -->
-<div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline2" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline2">2</label>
-</div>
-
-<!-- Material inline 3 -->
-<div class="form-check form-check-inline">
-  <input type="radio" class="form-check-input" id="materialInline3" name="inlineMaterialRadiosExample">
-  <label class="form-check-label" for="materialInline3">3</label>
-</div></td>
-                  </tr>
-                  <tr>
-                  <th>status</th>
-                   <td><input id="input-char-counter5" type="text" length="10" class="form-control">
-  <label for="input-char-counter5">Input text</label></td>
-                   </tr>
 
 
-          </tbody>
-        </table>
+
       <!--Table-->
     </div>
 
@@ -173,7 +217,8 @@
   <script src="/src/lib/mdb4/js/addons/datatables.min.js"></script>
   <script>
     $(document).ready(function() {
-
+  $('.mdb-select').materialSelect({
+        });
   // SideNav Initialization
   $(".button-collapse").sideNav({
 		slim: true});
